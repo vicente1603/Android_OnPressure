@@ -1,0 +1,137 @@
+package br.com.onpressure.projeto.onpressure.Activities;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
+
+import java.util.List;
+
+import br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial.PressaoArterialAdapter;
+import br.com.onpressure.projeto.onpressure.Componentes.Usuario.UsuarioAdapter;
+import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterial;
+import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterialDAO;
+import br.com.onpressure.projeto.onpressure.Model.Usuario.UsuarioDAO;
+import br.com.onpressure.projeto.onpressure.R;
+
+public class HomeActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
+
+
+    RecyclerView recyclerView;
+    PressaoArterialAdapter adapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+//        configurarRecycler();
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+            onDestroy();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.home, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.nav_perfil) {
+            Intent intent = new Intent(HomeActivity.this, PerfilActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_imc) {
+            Intent intent = new Intent(HomeActivity.this, CalculoImcActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_pressao) {
+            Intent intent = new Intent(HomeActivity.this, PressaoArterialActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_medicamentos) {
+            Intent intent = new Intent(HomeActivity.this, MedicamentosIndicadosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_alimentos) {
+            Intent intent = new Intent(HomeActivity.this, AlimentosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_sintomas) {
+            Intent intent = new Intent(HomeActivity.this, SintomasActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_lembretes) {
+            Intent intent = new Intent(HomeActivity.this, LembretesActivity.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_historico){
+            Intent intent = new Intent(HomeActivity.this, HistoricoActivity.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_grafico){
+            Intent intent = new Intent(HomeActivity.this, GraficosActivity.class);
+            startActivity(intent);
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+    private void configurarRecycler(){
+        recyclerView = (RecyclerView)findViewById(R.id.recyclerViewPressao);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+
+        PressaoArterialDAO dao = new PressaoArterialDAO(this);
+        adapter = new PressaoArterialAdapter( dao.retornarTodas());
+        recyclerView.setAdapter(adapter);
+        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+    }
+
+}

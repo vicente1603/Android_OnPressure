@@ -63,7 +63,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="56dp"
-                    android:text="Almeida da Silva"
+                    android:text="Nome"
                     android:textColor="@color/colorPrimary"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -75,7 +75,7 @@
                     android:layout_below="@+id/txtIdade"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:text="Hipertensão Grau 1"
+                    android:text=" Grau "
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
 
@@ -232,7 +232,7 @@
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="4dp"
                     android:clickable="true"
-                    android:textSize="15sp"
+                    android:textSize="20sp"
                     android:gravity="center_vertical"
                     android:textAlignment="gravity"
                     app:layout_constraintLeft_toRightOf="@+id/textView27"

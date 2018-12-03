@@ -5,20 +5,21 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="225dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="13dp"
-        android:src="@drawable/imagem_alimentos" />
-
     <LinearLayout
+        android:id="@+id/superior"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
         android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/imagem_alimentos" />
 
         <TextView
             android:layout_width="match_parent"
@@ -30,12 +31,34 @@
             android:textColor="@color/preto"
             android:textSize="25sp" />
 
-        <TextView
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/superior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16sp"
-            android:text="Para hipertensos:" />
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabGravity="fill"
+                app:tabMode="fixed" />
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
 
     </LinearLayout>
+
 
 </RelativeLayout>

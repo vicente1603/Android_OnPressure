@@ -40,8 +40,8 @@ public class AlimentosActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(), "ONE");
-        adapter.addFragment(new SecondFragment(), "TWO");
+        adapter.addFragment(new OneFragment(), "Consumir");
+        adapter.addFragment(new SecondFragment(), "Evitar");
         viewPager.setAdapter(adapter);
     }
 

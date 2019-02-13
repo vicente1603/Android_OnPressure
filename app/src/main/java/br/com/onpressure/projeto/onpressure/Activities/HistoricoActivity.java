@@ -33,6 +33,7 @@ public class HistoricoActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+        
     }
 
     private void configurarRecycler(){

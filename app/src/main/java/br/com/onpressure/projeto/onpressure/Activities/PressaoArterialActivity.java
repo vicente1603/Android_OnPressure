@@ -32,6 +32,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
     private EditText txtPressaoDiastolica;
     private EditText txtPressaoSistolica;
     private EditText txtFrequenciaCardiaca;
+    private TextView txtInfoPressao;
 
     RecyclerView recyclerView;
     PressaoArterialAdapter adapter;
@@ -50,12 +51,11 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
         txtFrequenciaCardiaca = findViewById(R.id.txtFrequenciaCardiaca);
         txtPressaoDiastolica = findViewById(R.id.txtPressaoDiastolica);
         txtPressaoSistolica = findViewById(R.id.txtPressaoSistolica);
+        txtInfoPressao = findViewById(R.id.txtInfoPressao);
 
         btnRegistrar.setOnClickListener(this);
 
-    }
-
-    ;
+    };
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -71,6 +71,31 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
         try {
 
+            double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString());
+            double pas = Double.parseDouble(txtPressaoSistolica.getText().toString());
+            String informacao = "Ainda não calculado";
+
+            if ( pas < 120 && pad < 80){
+                informacao = "Sua classificação de risco é: Ótima.";
+            }
+            if ( (pas >= 120 && pas <= 129) && (pad >= 80 && pad <= 84)){
+                informacao = "Sua classificação de risco é: Normal.";
+            }
+            if ( (pas >= 130 && pas <= 139) && (pad >= 85 && pad <= 89)){
+                informacao = "Sua classificação de risco é: Normal-Alta.";
+            }
+            if ((pas >= 140 && pas <= 159) && (pad >= 90 && pad <= 99)){
+                informacao = "Sua classificação de risco é: Estágio 1";
+            }
+            if ((pas >= 160 && pas <= 179) && (pad >= 100 && pad <= 109)){
+                informacao = "Sua classificação de risco é: Estágio 2";
+            }
+            if ((pas >= 180) && (pad >= 110)){
+                informacao = "Sua classificação de risco é: Estágio 3";
+            }
+
+            txtInfoPressao.setText(String.valueOf(informacao));
+
             SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");//formating according to my need
 
             if (TextUtils.isEmpty(txtFrequenciaCardiaca.getText())) {
@@ -79,21 +104,25 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
                 txtPressaoDiastolica.setError("Campo obrigatório");
             } else if (TextUtils.isEmpty(txtPressaoSistolica.getText())) {
                 txtPressaoSistolica.setError("Campo obrigatório");
-            } else {
+            } else if (TextUtils.isEmpty((txtInfoPressao.getText()))) {
+                txtInfoPressao.setError("Campo Obrigatório");
+            }else {
 
                 float pressaoDiastolica = Float.parseFloat(txtPressaoDiastolica.getText().toString());
                 float pressaoSistolica = Float.parseFloat(txtPressaoSistolica.getText().toString());
                 float frequenciaCardiaca = Float.parseFloat(txtFrequenciaCardiaca.getText().toString());
+                String infoPressao = informacao;
                 String data = formatter.format(Calendar.getInstance().getTime());
 
                 PressaoArterialDAO dao = new PressaoArterialDAO(getBaseContext());
-                boolean sucesso = dao.salvar(pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, data);
+                boolean sucesso = dao.salvar(pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, infoPressao, data);
 
                 if (sucesso) {
 
                     txtFrequenciaCardiaca.setText("");
                     txtPressaoSistolica.setText("");
                     txtPressaoDiastolica.setText("");
+                    txtInfoPressao.setText("");
 
                     Toast.makeText(PressaoArterialActivity.this, "Dados Salvos com sucesso!", Toast.LENGTH_LONG).show();
 
@@ -104,6 +133,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
         } catch (Exception e) {
             e.printStackTrace();
+
         }
     }
 

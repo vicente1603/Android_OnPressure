@@ -33,6 +33,7 @@ public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterial
         holder.txtPressaoDiastolica.setText(String.valueOf(pressoesArterial.get(position).getPressaoDiastolica()));
         holder.txtPressaoSistolica.setText(String.valueOf(pressoesArterial.get(position).getPressaoSistolica()));
         holder.txtFrequenciaCardiaca.setText(String.valueOf(pressoesArterial.get(position).getFrequenciaCardiaca()));
+        holder.txtInfoPressao.setText(pressoesArterial.get(position).getInfoPressao());
         holder.txtData.setText(pressoesArterial.get(position).getData());
     }
 

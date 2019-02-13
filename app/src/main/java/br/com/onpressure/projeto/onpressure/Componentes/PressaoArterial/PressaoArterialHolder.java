@@ -19,6 +19,7 @@ public class PressaoArterialHolder extends RecyclerView.ViewHolder{
     public TextView txtPressaoDiastolica;
     public TextView txtPressaoSistolica;
     public TextView txtFrequenciaCardiaca;
+    public TextView txtInfoPressao;
     public TextView txtData;
 
 
@@ -28,6 +29,7 @@ public class PressaoArterialHolder extends RecyclerView.ViewHolder{
         txtPressaoDiastolica = (TextView) itemView.findViewById(R.id.txtPressaoDiastolica);
         txtPressaoSistolica = (TextView) itemView.findViewById(R.id.txtPressaoSistolica);
         txtFrequenciaCardiaca = itemView.findViewById(R.id.txtFrequenciaCardiaca);
+        txtInfoPressao = itemView.findViewById(R.id.txtInfoPressao);
         txtData = itemView.findViewById(R.id.data);
     }
 }

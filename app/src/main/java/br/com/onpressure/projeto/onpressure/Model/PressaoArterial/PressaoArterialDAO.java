@@ -19,11 +19,12 @@ public class PressaoArterialDAO {
         gw = DbGateway.getInstance(ctx);
     }
 
-    public boolean salvar(float pressaoDiastolica, float pressaoSistolica, float frequenciaCardiaca, String data){
+    public boolean salvar(float pressaoDiastolica, float pressaoSistolica, float frequenciaCardiaca, String infoPressao, String data){
         ContentValues cv = new ContentValues();
         cv.put("PressaoDiastolica", pressaoDiastolica);
         cv.put("PressaoSistolica", pressaoSistolica);
         cv.put("FrequenciaCardiaca", frequenciaCardiaca);
+        cv.put("InfoPressao", String.valueOf(infoPressao));
         cv.put("Data", String.valueOf(data));
 
         return gw.getDatabase().insert(TABLE_PRESSAO_ARTERIAL, null, cv) > 0;
@@ -37,9 +38,10 @@ public class PressaoArterialDAO {
             float pressaoDiastolica = cursor.getFloat(cursor.getColumnIndex("PressaoDiastolica"));
             float pressaoSistolica = cursor.getFloat(cursor.getColumnIndex("PressaoSistolica"));
             float frequenciaCardiaca = cursor.getFloat(cursor.getColumnIndex("FrequenciaCardiaca"));
+            String infoPressao = cursor.getString(cursor.getColumnIndex("InfoPressao"));
             String data = cursor.getString(cursor.getColumnIndex("Data"));
 
-            pressoesArterial.add(new PressaoArterial(id, pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, data));
+            pressoesArterial.add(new PressaoArterial(id, pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, infoPressao, data));
         }
 
         cursor.close();
@@ -53,9 +55,10 @@ public class PressaoArterialDAO {
             float pressaoDiastolica = cursor.getFloat(cursor.getColumnIndex("PressaoDiastolica"));
             float pressaoSistolica = cursor.getFloat(cursor.getColumnIndex("PressaoSistolica"));
             float frequenciaCardiaca = cursor.getFloat(cursor.getColumnIndex("FrequenciaCardiaca"));
+            String infoPressao = cursor.getString(cursor.getColumnIndex("InfoPressao"));
             String data = cursor.getString(cursor.getColumnIndex("Data"));
             cursor.close();
-            return new PressaoArterial(id, pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, data);
+            return new PressaoArterial(id, pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, infoPressao, data);
         }
 
         return null;

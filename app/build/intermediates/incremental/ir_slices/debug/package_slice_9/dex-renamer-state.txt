@@ -1,4 +1,4 @@
-#Tue Dec 04 10:01:59 GFT 2018
-base.0=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+#Wed Feb 13 10:18:51 GFT 2019
+base.0=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\47
 path.0=classes.dex
 renamed.0=classes.dex

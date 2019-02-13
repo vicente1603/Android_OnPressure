@@ -22,6 +22,7 @@ public class DbHelper extends SQLiteOpenHelper {
             " PressaoDiastolica REAL NOT NULL, " +
             " PressaoSistolica REAL NOT NULL, " +
             " FrequenciaCardiaca REAL NOT NULL, " +
+            " InfoPressao TEXT NOT NULL, " +
             " Data TEXT NOT NULL);";
 
     public DbHelper(Context context) {

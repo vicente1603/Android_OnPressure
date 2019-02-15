@@ -52,10 +52,9 @@
             android:layout_height="51dp"
             android:layout_alignBottom="@+id/txtNomeCompleto"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="21dp"
-            android:background="@color/branco"
+            android:layout_marginEnd="23dp"
+            android:background="@color/preto"
             android:src="@android:drawable/ic_menu_edit"
-            app:layout_constraintRight_toLeftOf="@+id/btnDelete"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView

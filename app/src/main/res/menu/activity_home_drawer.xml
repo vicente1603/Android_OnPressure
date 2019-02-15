@@ -14,6 +14,9 @@
             android:id="@+id/nav_pressao"
             android:title="Registrar Pressão Arterial" />
         <item
+            android:id="@+id/nav_menu_historico"
+            android:title="Histórico" />
+        <item
             android:id="@+id/nav_medicamentos"
             android:title="Medicamentos Indicados" />
         <item
@@ -25,9 +28,6 @@
         <item
             android:id="@+id/nav_lembretes"
             android:title="Lembretes" />
-        <item
-            android:id="@+id/nav_historico"
-            android:title="Histórico" />
         <item
             android:id="@+id/nav_grafico"
             android:title="Gráficos" />

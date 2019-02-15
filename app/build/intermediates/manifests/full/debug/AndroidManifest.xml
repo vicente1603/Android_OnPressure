@@ -15,10 +15,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="br.com.onpressure.projeto.onpressure.Activities.MainActivity"
-            android:label="Seu Cadastro"
+            android:name="br.com.onpressure.projeto.onpressure.Activities.CadastroActivity"
+            android:label="SobPressão"
             android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,11 +61,17 @@
             android:label="@string/app_name" />
         />
         <activity
-            android:name="br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity"
+            android:name="br.com.onpressure.projeto.onpressure.Activities.HistoricoPressaoArterialActivity"
             android:label="@string/app_name" />
         />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.GraficosActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.com.onpressure.projeto.onpressure.Activities.HistoricoIMCActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity"
             android:label="@string/app_name" />
 <![CDATA[
         />

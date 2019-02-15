@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Activities.MainActivity"
-            android:label="Seu Cadastro"
+            android:name=".Activities.CadastroActivity"
+            android:label="SobPressão"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,12 +52,20 @@
             android:label="@string/app_name" />
         />
         <activity
-            android:name=".Activities.HistoricoActivity"
+            android:name=".Activities.HistoricoPressaoArterialActivity"
             android:label="@string/app_name" />
         />
         <activity
             android:name=".Activities.GraficosActivity"
-            android:label="@string/app_name" /><![CDATA[
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Activities.HistoricoIMCActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Activities.HistoricoActivity"
+            android:label="@string/app_name" />
+
+        <![CDATA[
         />
         />
     ]]>

@@ -1,19 +1,13 @@
-#Wed Feb 13 09:19:30 GFT 2019
+#Fri Feb 15 20:17:35 BRST 2019
+path.3=classes.dex
+path.2=classes.dex
 path.1=classes.dex
 path.0=classes.dex
-renamed.5=classes6.dex
-renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\50
-base.4=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\53
-base.3=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\49
-base.2=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\52
-base.1=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\54
-base.0=C\:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\51
-path.5=classes.dex
-path.4=classes.dex
-path.3=classes.dex
-path.2=classes.dex
+base.3=D\:\\Documents\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+base.2=D\:\\Documents\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.1=D\:\\Documents\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+base.0=D\:\\Documents\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13

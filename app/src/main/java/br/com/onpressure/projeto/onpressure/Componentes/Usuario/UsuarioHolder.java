@@ -5,6 +5,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
+import java.security.PublicKey;
+
 import br.com.onpressure.projeto.onpressure.R;
 
 public class UsuarioHolder extends RecyclerView.ViewHolder{
@@ -18,6 +22,10 @@ public class UsuarioHolder extends RecyclerView.ViewHolder{
     public TextView txtGenero;
     public TextView txtNumeroTelefone;
     public TextView txtGrauHipertensao;
+    public TextView txtNomeContato;
+    public TextView txtTelefoneContato;
+    public ImageButton btnEditar;
+
 
     public UsuarioHolder(View itemView) {
         super(itemView);
@@ -29,5 +37,9 @@ public class UsuarioHolder extends RecyclerView.ViewHolder{
         txtGenero = (TextView) itemView.findViewById(R.id.txtGenero);
         txtNumeroTelefone = (TextView) itemView.findViewById(R.id.txtNumeroTelefone);
         txtGrauHipertensao = (TextView) itemView.findViewById(R.id.txtGrauHipertensao);
+        txtNomeContato = (TextView) itemView.findViewById(R.id.txtNomeContato);
+        txtTelefoneContato =(TextView) itemView.findViewById(R.id.txtTelefoneContato);
+        btnEditar = (ImageButton) itemView.findViewById(R.id.btnEditar);
+
     }
 }

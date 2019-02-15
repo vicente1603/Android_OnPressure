@@ -3,9 +3,6 @@ package br.com.onpressure.projeto.onpressure.Activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,13 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import java.util.List;
-
 import br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial.PressaoArterialAdapter;
-import br.com.onpressure.projeto.onpressure.Componentes.Usuario.UsuarioAdapter;
-import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterial;
-import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterialDAO;
-import br.com.onpressure.projeto.onpressure.Model.Usuario.UsuarioDAO;
 import br.com.onpressure.projeto.onpressure.R;
 
 public class HomeActivity extends AppCompatActivity
@@ -119,12 +110,12 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_lembretes) {
             Intent intent = new Intent(HomeActivity.this, LembretesActivity.class);
             startActivity(intent);
-        }else if (id == R.id.nav_historico){
-            Intent intent = new Intent(HomeActivity.this, HistoricoActivity.class);
-            startActivity(intent);
-        }else if (id == R.id.nav_grafico){
+        } else if (id == R.id.nav_grafico){
             Intent intent = new Intent(HomeActivity.this, GraficosActivity.class);
             startActivity(intent);
+        } else if (id == R.id.nav_menu_historico){
+            Intent it = new Intent(HomeActivity.this, HistoricoActivity.class);
+            startActivity(it);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

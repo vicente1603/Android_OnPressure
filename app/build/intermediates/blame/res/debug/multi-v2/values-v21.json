@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\Documents\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\12221186a6601dcfc4ac70c8c0bdb843\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1f185d522539c67680094b21dcefc280\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247,259,260,261,264,267,268,271,272",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\335d591eaf7f5df73806b25c5ae95451\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\7e46bdb4b3eba268eae24dafccb9cffe\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\ef46e28556b0be4551ed1820f5d93b13\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "291,294,298,302",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "21230,21398,21687,21983",
-                        "endLines": "293,296,300,304",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "21393,21556,21850,22145"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\512dbf0debc3a8d9c53baf2c1fa6309d\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f1d4a634f0cc5a6e026aaadb8e99e3c2\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "4,4",
@@ -80,7 +61,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vjscoliveira\\AndroidStudioProjects\\OnPressure\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\356b18a060a237ab31663557d4acf275\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "291,294,298,302",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "21230,21398,21687,21983",
+                        "endLines": "293,296,300,304",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "21393,21556,21850,22145"
+                    }
+                },
+                {
+                    "source": "D:\\Documents\\AndroidStudioProjects\\OnPressure\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

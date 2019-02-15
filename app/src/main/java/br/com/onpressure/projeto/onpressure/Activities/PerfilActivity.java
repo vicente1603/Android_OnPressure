@@ -1,5 +1,6 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
@@ -12,10 +13,13 @@ import android.widget.TextView;
 import java.util.Calendar;
 
 import br.com.onpressure.projeto.onpressure.Componentes.Usuario.UsuarioAdapter;
+import br.com.onpressure.projeto.onpressure.Model.Usuario.Usuario;
 import br.com.onpressure.projeto.onpressure.Model.Usuario.UsuarioDAO;
 import br.com.onpressure.projeto.onpressure.R;
 
 public class PerfilActivity extends AppCompatActivity {
+
+    Usuario usuarioEditado = null;
 
     RecyclerView recyclerView;
     UsuarioAdapter adapter;

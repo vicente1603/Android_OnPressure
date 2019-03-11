@@ -2,6 +2,7 @@ package br.com.onpressure.projeto.onpressure.Componentes.Usuario;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -25,6 +26,7 @@ public class UsuarioHolder extends RecyclerView.ViewHolder{
     public TextView txtNomeContato;
     public TextView txtTelefoneContato;
     public ImageButton btnEditar;
+    public TextView txtTratamento;
 
 
     public UsuarioHolder(View itemView) {
@@ -40,6 +42,7 @@ public class UsuarioHolder extends RecyclerView.ViewHolder{
         txtNomeContato = (TextView) itemView.findViewById(R.id.txtNomeContato);
         txtTelefoneContato =(TextView) itemView.findViewById(R.id.txtTelefoneContato);
         btnEditar = (ImageButton) itemView.findViewById(R.id.btnEditar);
+        txtTratamento = itemView.findViewById(R.id.txtTratamento);
 
     }
 }

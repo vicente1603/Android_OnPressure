@@ -42,12 +42,12 @@
                 android:padding="10dp">
 
                 <EditText
-                    android:id="@+id/txtPressaoDiastolica"
+                    android:id="@+id/txtPressaoSistolica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
-                    android:hint="Diastólica"
+                    android:hint="Sistólica (Nº Maior)"
                     android:inputType="numberDecimal"
                     android:textAlignment="center"
                     android:layout_marginTop="50dp"
@@ -62,12 +62,12 @@
                     android:text="mmHg" />
 
                 <EditText
-                    android:id="@+id/txtPressaoSistolica"
+                    android:id="@+id/txtPressaoDiastolica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
-                    android:hint="Sistólica"
+                    android:hint="Diastólica (Nº Menor)"
                     android:inputType="numberDecimal"
                     android:textAlignment="center"
                     android:textSize="25sp" />

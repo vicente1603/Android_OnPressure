@@ -1,8 +1,14 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.RecyclerView;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -45,6 +51,23 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(HomeActivity.this, PressaoArterialActivity.class));
+            }
+        });
+
+        FloatingActionButton fab_emergencia = findViewById(R.id.fab_emergencia);
+        fab_emergencia.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("MissingPermission")
+            @Override
+            public void onClick(View view) {
+                String telefone_emergencia = "192";
+                Uri uri = Uri.parse("tel:" + telefone_emergencia);
+
+                Intent intent = new Intent(Intent.ACTION_CALL, uri);
+                if (ActivityCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(HomeActivity.this, new String[]{Manifest.permission.CALL_PHONE}, 1);
+                    return;
+                }
+                startActivity(intent);
             }
         });
 

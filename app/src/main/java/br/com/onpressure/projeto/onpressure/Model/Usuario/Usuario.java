@@ -15,9 +15,10 @@ public class Usuario implements Serializable {
     private String telefone;
     private String nomeContato;
     private String telefoneContato;
+    private String tratamento;
 
 
-    public Usuario(int id, String email, String nome, String dataNascimento, String ocupacao, String tipoSanguineo, String grauHipertensao, String sexo, String telefone, String nomeContato, String telefoneContato){
+    public Usuario(int id, String email, String nome, String dataNascimento, String ocupacao, String tipoSanguineo, String grauHipertensao, String sexo, String telefone, String nomeContato, String telefoneContato, String tratamento){
         this.id = id;
         this.email = email;
         this.nome = nome;
@@ -29,6 +30,7 @@ public class Usuario implements Serializable {
         this.telefone = telefone;
         this.nomeContato = nomeContato;
         this.telefoneContato = telefoneContato;
+        this.tratamento = tratamento;
 
     }
 
@@ -43,6 +45,7 @@ public class Usuario implements Serializable {
     public String getSexo(){ return this.sexo; }
     public String getNomeContato() { return nomeContato; }
     public String getTelefoneContato() { return telefoneContato; }
+    public String getTratamento() {return this.tratamento;}
 
     @Override
     public boolean equals(Object o){

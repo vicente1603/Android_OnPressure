@@ -1,6 +1,8 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -73,25 +75,33 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
             double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString());
             double pas = Double.parseDouble(txtPressaoSistolica.getText().toString());
-            String informacao = "Ainda não calculado";
+            String informacao = "Sem informação";
+            String dica = "";
+
 
             if ( pas < 120 && pad < 80){
                 informacao = "Sua classificação de risco é: Ótima.";
+                dica = "Dica 1";
             }
             if ( (pas >= 120 && pas <= 129) && (pad >= 80 && pad <= 84)){
                 informacao = "Sua classificação de risco é: Normal.";
+                dica = "Dica 2";
             }
             if ( (pas >= 130 && pas <= 139) && (pad >= 85 && pad <= 89)){
                 informacao = "Sua classificação de risco é: Normal-Alta.";
+                dica = "Dica 2";
             }
             if ((pas >= 140 && pas <= 159) && (pad >= 90 && pad <= 99)){
                 informacao = "Sua classificação de risco é: Estágio 1";
+                dica = "Dica 3";
             }
             if ((pas >= 160 && pas <= 179) && (pad >= 100 && pad <= 109)){
                 informacao = "Sua classificação de risco é: Estágio 2";
+                dica = "Dica 4";
             }
             if ((pas >= 180) && (pad >= 110)){
                 informacao = "Sua classificação de risco é: Estágio 3";
+                dica = "Dica 5";
             }
 
             txtInfoPressao.setText(String.valueOf(informacao));
@@ -126,8 +136,19 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
                     Toast.makeText(PressaoArterialActivity.this, "Dados Salvos com sucesso!", Toast.LENGTH_LONG).show();
 
-                    Intent it = new Intent(PressaoArterialActivity.this, HomeActivity.class);
-                    startActivity(it);
+                    AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
+                    alertDialog.setTitle("Informação:");
+                    alertDialog.setMessage(informacao + " - " + dica);
+                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.dismiss();
+                                }
+                            });
+                    alertDialog.show();
+
+//                    Intent it = new Intent(PressaoArterialActivity.this, HomeActivity.class);
+//                    startActivity(it);
                 }
             }
 

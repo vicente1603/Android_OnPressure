@@ -1,0 +1,52 @@
+package br.com.onpressure.projeto.onpressure.Helper;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class ExpandableListDataPump {
+    public static HashMap<String, List<String>> getData() {
+        HashMap<String, List<String>> expandableListDetail = new HashMap<String, List<String>>();
+
+        List<String> sintoma_1 = new ArrayList<String>();
+        sintoma_1.add("Em geral, a pressão arterial elevada não tem sintomas. " +
+                "Ao longo do tempo, se não for tratada, poderá causar problemas de saúde, " +
+                "como doenças cardíacas e acidente vascular cerebral.");
+
+        List<String> sintoma_2 = new ArrayList<String>();
+        sintoma_2.add("Dores locais: peito");
+        sintoma_2.add("Tosse: com catarro");
+        sintoma_2.add("No corpo: fadiga, incapacidade de praticar atividade física, perda de apetite ou tontura");
+        sintoma_2.add("No sistema respiratório: falta de ar ao deitar-se, falta de ar durante a atividade física, falta de ar durante a noite ou respiração rápida");
+        sintoma_2.add("No aparelho gastrointestinal: inchaço ou retenção de líquido");
+        sintoma_2.add("Também é comum: ganho de peso, micção excessiva à noite, palpitações, pernas inchadas ou pés inchados");
+
+        List<String> sintoma_3 = new ArrayList<String>();
+        sintoma_3.add("Sintomas");
+
+        List<String> sintoma_4 = new ArrayList<String>();
+        sintoma_4.add("Sintomas");
+
+        List<String> sintoma_5 = new ArrayList<String>();
+        sintoma_5.add("Sintomas");
+
+        List<String> sintoma_6 = new ArrayList<String>();
+        sintoma_6.add("Sintomas");
+
+        List<String> sintoma_7 = new ArrayList<String>();
+        sintoma_7.add("Sintomas");
+
+        List<String> sintoma_8 = new ArrayList<String>();
+        sintoma_8.add("Sintomas");
+
+        expandableListDetail.put("Pressão alta", sintoma_1);
+        expandableListDetail.put("Insuficiência cardíaca", sintoma_2);
+        expandableListDetail.put("Doença arterial coronariana", sintoma_3);
+        expandableListDetail.put("Parada cardíaca", sintoma_4);
+        expandableListDetail.put("Arritmia cardíaca", sintoma_5);
+        expandableListDetail.put("Doença arterial periférica", sintoma_6);
+        expandableListDetail.put("Derrame cerebral", sintoma_7);
+        expandableListDetail.put("Cardiopatia congênita", sintoma_8);
+        return expandableListDetail;
+    }
+}

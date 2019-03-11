@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/superior"
@@ -33,17 +33,27 @@
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
                 android:padding="16sp"
-                android:textAlignment="center"
                 android:text="Nutrição Básica"
+                android:textAlignment="center"
                 android:textColor="@color/preto"
                 android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_tabela_sodio"
+                android:layout_width="240dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Lista de sódio dos alimentos"
+                android:textColor="@color/branco"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_below="@+id/superior"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/superior"
             android:orientation="vertical">
 
             <android.support.design.widget.AppBarLayout
@@ -55,8 +65,8 @@
                     android:id="@+id/tabs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:tabGravity="fill"
                     app:tabBackground="@color/branco"
+                    app:tabGravity="fill"
                     app:tabMode="fixed" />
             </android.support.design.widget.AppBarLayout>
 
@@ -64,7 +74,7 @@
                 android:id="@+id/viewpager"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
         </LinearLayout>
 

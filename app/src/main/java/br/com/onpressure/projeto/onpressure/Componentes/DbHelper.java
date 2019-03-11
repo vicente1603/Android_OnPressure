@@ -18,7 +18,8 @@ public class DbHelper extends SQLiteOpenHelper {
             "Telefone INTEGER NOT NULL, " +
             "Sexo TEXT NOT NULL, " +
             "NomeContato TEXT," +
-            "TelefoneContato INTEGER);";
+            "TelefoneContato INTEGER,"+
+            "Tratamento TEXT);";
 
     private final String CREATE_TABLE_PRESSAO_ARTERIAL = "CREATE TABLE PressoesArterial (ID INTEGER PRIMARY KEY AUTOINCREMENT, " +
             " PressaoDiastolica REAL NOT NULL, " +

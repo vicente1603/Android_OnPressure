@@ -54,6 +54,7 @@ public class UsuarioAdapter extends RecyclerView.Adapter<UsuarioHolder> {
         holder.txtGrauHipertensao.setText(String.valueOf(usuarios.get(position).getGrauHipertensao()));
         holder.txtNomeContato.setText(String.valueOf(usuarios.get(position).getNomeContato()));
         holder.txtTelefoneContato.setText(String.valueOf(usuarios.get(position).getTelefoneContato()));
+        holder.txtTratamento.setText(usuarios.get(position).getTratamento());
         final Usuario usuario = usuarios.get(position);
 
         holder.btnEditar.setOnClickListener(new Button.OnClickListener(){

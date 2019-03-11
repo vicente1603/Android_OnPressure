@@ -1,10 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Activities.CadastroActivity"
-    >
+    tools:context=".Activities.CadastroActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,8 +26,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/preto"
                     android:text="Cadastre-se"
+                    android:textColor="@color/preto"
                     android:textSize="40sp" />
             </LinearLayout>
 
@@ -74,10 +73,10 @@
                         android:id="@+id/txtDataNascimento"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Data de Nascimento:"
                         android:ems="10"
-                        app:mask="##/##/####"
-                        android:inputType="date" />
+                        android:hint="Data de Nascimento:"
+                        android:inputType="date"
+                        app:mask="##/##/####" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -97,9 +96,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
                     android:layout_marginTop="10dp"
-                    android:text="Tipo Sanguíneo:"/>
+                    android:text="Tipo Sanguíneo:"
+                    android:textSize="18sp" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
@@ -118,21 +117,21 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
                     android:layout_marginTop="10dp"
-                    android:text="Grau de Hipertensão:"/>
+                    android:text="Possui Hipertensão?"
+                    android:textSize="18sp" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                <Spinner
-                    android:id="@+id/spnGrauHipertensao"
-                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:entries="@array/tipo_grau_hipertensao"
-                    android:spinnerMode="dropdown" />
+                    <Spinner
+                        android:id="@+id/spnGrauHipertensao"
+                        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/tipo_grau_hipertensao"
+                        android:spinnerMode="dropdown" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -153,14 +152,14 @@
                 <RadioGroup
                     android:id="@+id/radioSex"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <RadioButton
                         android:id="@+id/radioMale"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Masculino"
-                        android:checked="true" />
+                        android:checked="true"
+                        android:text="Masculino" />
 
                     <RadioButton
                         android:id="@+id/radioFemale"
@@ -170,23 +169,59 @@
 
                 </RadioGroup>
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Em tratamento?"
+                        android:textSize="18sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioTratamento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioSim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Sim"/>
+
+                        <RadioButton
+                            android:id="@+id/radioNão"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Não"/>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_weight="1"
+                android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/preto"
-                    android:textAlignment="center"
-                    android:textSize="20dp"
                     android:layout_gravity="center_horizontal"
-                    android:text="Informações de algum familiar ou pessoa conhecida"/>
+                    android:text="Informações de algum familiar ou pessoa conhecida"
+                    android:textAlignment="center"
+                    android:textColor="@color/preto"
+                    android:textSize="20dp" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"

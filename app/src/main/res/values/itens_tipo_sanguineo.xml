@@ -2,6 +2,7 @@
 <resources>
     <string-array name="tipo__sanguineo">
         <item>Selecione</item>
+        <item>Não sei</item>
         <item>A+</item>
         <item>A-</item>
         <item>B+</item>

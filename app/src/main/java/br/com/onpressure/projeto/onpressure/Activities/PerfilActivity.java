@@ -23,6 +23,7 @@ public class PerfilActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     UsuarioAdapter adapter;
+
     TextView txtIdade;
 
     @Override

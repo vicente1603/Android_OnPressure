@@ -1,18 +1,20 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.MenuItem;
 
-import br.com.onpressure.projeto.onpressure.Fragmentos.OneFragment;
-import br.com.onpressure.projeto.onpressure.Fragmentos.SecondFragment;
+import br.com.onpressure.projeto.onpressure.Fragmentos.Alimentos_Consumir_Frag;
+import br.com.onpressure.projeto.onpressure.Fragmentos.Alimentos_Evitar_Frag;
 import br.com.onpressure.projeto.onpressure.R;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toolbar;
 
 import java.util.ArrayList;
@@ -23,6 +25,7 @@ public class AlimentosActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    private Button btnTabelaSodio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,15 +36,24 @@ public class AlimentosActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
 
+        btnTabelaSodio = findViewById(R.id.btn_tabela_sodio);
+
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
+        btnTabelaSodio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(AlimentosActivity.this, TabelaSodioActivity.class);
+                startActivity(it);
+            }
+        });
     }
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(), "Consumir");
-        adapter.addFragment(new SecondFragment(), "Evitar");
+        adapter.addFragment(new Alimentos_Consumir_Frag(), "Consumir");
+        adapter.addFragment(new Alimentos_Evitar_Frag(), "Evitar");
         viewPager.setAdapter(adapter);
     }
 

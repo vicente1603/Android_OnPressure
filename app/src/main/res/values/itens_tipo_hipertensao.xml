@@ -2,6 +2,7 @@
 <resources>
     <string-array name="tipo_grau_hipertensao">
         <item>Selecione</item>
+        <item>Não sei</item>
         <item>Hipertensão Grau 1</item>
         <item>Hipertensão Grau 2</item>
         <item>Hipertensão Grau 3</item>

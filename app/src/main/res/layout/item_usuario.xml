@@ -48,12 +48,13 @@
 
         <ImageButton
             android:id="@+id/btnEditar"
-            android:layout_width="53dp"
-            android:layout_height="51dp"
-            android:layout_alignBottom="@+id/txtNomeCompleto"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="23dp"
-            android:background="@color/preto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/transparente"
             android:src="@android:drawable/ic_menu_edit"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -69,230 +70,271 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/txtGrauHipertensao"
+        <LinearLayout
+            android:id="@+id/layoutGrauHipertensao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txtNomeCompleto"
+            android:layout_below="@id/txtNomeCompleto"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:text=" Grau "
-            android:textColor="@color/colorPrimary"
-            android:textSize="16sp" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grau:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txtGrauHipertensao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimary"
+                android:text="teste"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutGrauHipertensao"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em tratamento:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtTratamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+        </LinearLayout>
 
     </RelativeLayout>
 
 
-            <android.support.constraint.ConstraintLayout
-                android:layout_below="@+id/profile_layout"
-                android:layout_margin="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentLeft="true"
-                android:layout_marginBottom="38dp"
-                android:elevation="4dp"
-                android:orientation="vertical"
-                android:paddingBottom="20dp"
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
-                android:paddingTop="20dp"
-                android:textColor="@color/colorPrimary">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/profile_layout"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="38dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/colorPrimary">
 
-                <TextView
-                    android:id="@+id/ocupacao"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:text="Ocupação: "
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        <TextView
+            android:id="@+id/ocupacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:text="Ocupação: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-                <TextView
-                    android:id="@+id/txtOcupacao"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="20sp"
-                    app:layout_constraintLeft_toRightOf="@+id/ocupacao"
-                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        <TextView
+            android:id="@+id/txtOcupacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/ocupacao"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-                <TextView
-                    android:id="@+id/genero"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:text="Gênero: "
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ocupacao" />
+        <TextView
+            android:id="@+id/genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:text="Gênero: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ocupacao" />
 
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="5dp"
-                    android:clickable="true"
-                    android:text="Data de nascimento: "
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
-
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:text="Tipo Sanguíneo: "
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/txtTipoSanguineo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="20sp"
-                    app:layout_constraintLeft_toRightOf="@+id/textView10"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/txtDataNascimento"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="20sp"
-                    app:layout_constraintLeft_toRightOf="@+id/textView16"
-                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
-
-                <TextView
-                    android:id="@+id/txtGenero"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="20sp"
-                    app:layout_constraintLeft_toRightOf="@+id/genero"
-                    app:layout_constraintTop_toBottomOf="@+id/ocupacao" />
-
-                <TextView
-                    android:id="@+id/txtNumeroTelefone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="20sp"
-                    app:layout_constraintLeft_toRightOf="@+id/textView22"
-                    app:layout_constraintTop_toBottomOf="@+id/txtGenero" />
-
-                <TextView
-                    android:id="@+id/textView27"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="5dp"
-                    android:clickable="true"
-                    android:text="Email: "
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
-                <TextView
-                    android:id="@+id/txtEmail"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="17sp"
-                    app:layout_constraintLeft_toRightOf="@+id/textView27"
-                    app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
-                <TextView
-                    android:id="@+id/textView28"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="5dp"
-                    android:clickable="true"
-                    android:text="Contato: "
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
-                <TextView
-                    android:id="@+id/txtNomeContato"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="20sp"
-                    app:layout_constraintLeft_toRightOf="@+id/textView28"
-                    app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
-                <TextView
-                    android:id="@+id/txtTelefoneContato"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:clickable="true"
-                    android:textSize="20sp"
-                    app:layout_constraintLeft_toRightOf="@+id/txtNomeContato"
-                    app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
-                <TextView
-                    android:id="@+id/textView22"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="5dp"
-                    android:clickable="true"
-                    android:text="Celular: "
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/genero" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:text="Data de nascimento: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
 
-            </android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:text="Tipo Sanguíneo: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        </RelativeLayout>
+        <TextView
+            android:id="@+id/txtTipoSanguineo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/textView10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtDataNascimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/txtGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/genero"
+            app:layout_constraintTop_toBottomOf="@+id/ocupacao" />
+
+        <TextView
+            android:id="@+id/txtNumeroTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/txtGenero" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:text="Email: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toRightOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:text="Contato: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/txtNomeContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/txtTelefoneContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/txtNomeContato"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:text="Celular: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/genero" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

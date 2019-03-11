@@ -33,9 +33,10 @@ public class UsuarioDAO {
             String telefone = cursor.getString(cursor.getColumnIndex("Telefone"));
             String nomeContato = cursor.getString(cursor.getColumnIndex("NomeContato"));
             String telefoneContato = cursor.getString(cursor.getColumnIndex("TelefoneContato"));
+            String tratamento = cursor.getString(cursor.getColumnIndex("Tratamento"));
 
 
-            usuarios.add(new Usuario(id, email, nome, dataNascimento, ocupacao, tipoSanguineo, grauHipertensao, sexo, telefone, nomeContato, telefoneContato));
+            usuarios.add(new Usuario(id, email, nome, dataNascimento, ocupacao, tipoSanguineo, grauHipertensao, sexo, telefone, nomeContato, telefoneContato, tratamento));
         }
         cursor.close();
         return usuarios;
@@ -55,21 +56,22 @@ public class UsuarioDAO {
             String telefone = cursor.getString(cursor.getColumnIndex("Telefone"));
             String nomeContato = cursor.getString(cursor.getColumnIndex("NomeContato"));
             String telefoneContato = cursor.getString(cursor.getColumnIndex("TelefoneContato"));
+            String tratamento = cursor.getString(cursor.getColumnIndex("Tratamento"));
             cursor.close();
-            return new Usuario(id, email, nome, dataNascimento, ocupacao, tipoSanguineo, grauHipertensao, sexo, telefone, nomeContato, telefoneContato);
+            return new Usuario(id, email, nome, dataNascimento, ocupacao, tipoSanguineo, grauHipertensao, sexo, telefone, nomeContato, telefoneContato, tratamento);
         }
 
         return null;
     }
 
     public boolean salvar(String email, String nome, String dataNascimento, String ocupacao, String grauHipertensao,
-                          String tipoSanguineo, String telefone, String sexo, String nomeContato, String telefoneContato){
-        return salvar(0, email, nome, dataNascimento, ocupacao, grauHipertensao, tipoSanguineo, telefone, sexo, nomeContato, telefoneContato);
+                          String tipoSanguineo, String telefone, String sexo, String nomeContato, String telefoneContato, String tratamento){
+        return salvar(0, email, nome, dataNascimento, ocupacao, grauHipertensao, tipoSanguineo, telefone, sexo, nomeContato, telefoneContato, tratamento);
     }
 
 
     public boolean salvar(int id, String email, String nome, String dataNascimento, String ocupacao, String grauHipertensao,
-                          String tipoSanguineo, String telefone, String sexo, String nomeContato, String telefoneContato){
+                          String tipoSanguineo, String telefone, String sexo, String nomeContato, String telefoneContato, String tratamento){
         ContentValues cv = new ContentValues();
         cv.put("Email", email);
         cv.put("Nome", nome);
@@ -81,6 +83,7 @@ public class UsuarioDAO {
         cv.put("Sexo", sexo);
         cv.put("NomeContato", nomeContato);
         cv.put("TelefoneContato", telefoneContato);
+        cv.put("Tratamento", tratamento);
 
         if(id > 0)
             return gw.getDatabase().update(TABLE_USUARIOS, cv, "ID=?", new String[]{ id + "" }) > 0;

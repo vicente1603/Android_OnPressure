@@ -11,11 +11,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
@@ -53,7 +55,7 @@ public class CadastroActivity extends AppCompatActivity {
     private RadioGroup radioSexo;
     private EditText txtNomeContato;
     private EditText txtTelefoneContato;
-
+    private RadioGroup radioTratamento;
     private Button btnEntrar;
     private Button btnSair;
 
@@ -79,6 +81,7 @@ public class CadastroActivity extends AppCompatActivity {
             txtOcupacao = findViewById(R.id.txtOcupacao);
             txtTelefone = findViewById(R.id.txtNumeroTelefone);
             radioSexo = findViewById(R.id.radioSex);
+            radioTratamento = findViewById(R.id.radioTratamento);
             txtNomeContato = findViewById(R.id.txtNomeContato);
             txtTelefoneContato = findViewById(R.id.txtTelefoneContato);
 
@@ -91,6 +94,19 @@ public class CadastroActivity extends AppCompatActivity {
             txtTelefone.setText(usuarioEditado.getTelefone());
             txtNomeContato.setText(usuarioEditado.getNomeContato());
             txtTelefoneContato.setText(usuarioEditado.getTelefoneContato());
+
+            if(usuarioEditado.getTratamento() != null){
+                RadioButton rb;
+                if (usuarioEditado.getTratamento().equals("Sim")){
+                    rb = findViewById(R.id.radioSim);
+                    rb.setChecked(true);
+                }
+                else{
+                    rb = findViewById(R.id.radioNão);
+                    rb.setChecked(true);
+                }
+            }
+
             if(usuarioEditado.getSexo() != null){
                 RadioButton rb;
                 if (usuarioEditado.getSexo().equals("Masculino")){
@@ -115,6 +131,7 @@ public class CadastroActivity extends AppCompatActivity {
         txtOcupacao = findViewById(R.id.txtOcupacao);
         txtTelefone = findViewById(R.id.txtNumeroTelefone);
         radioSexo = findViewById(R.id.radioSex);
+        radioTratamento = findViewById(R.id.radioTratamento);
         txtNomeContato = findViewById(R.id.txtNomeContato);
         txtTelefoneContato = findViewById(R.id.txtTelefoneContato);
 
@@ -169,15 +186,16 @@ public class CadastroActivity extends AppCompatActivity {
                             String tipoSanguineo = spnTipoSanguineo.getSelectedItem().toString();
                             String grauHipertensao = spnGrauHipertensao.getSelectedItem().toString();
                             String sexo = radioSexo.getCheckedRadioButtonId() == R.id.radioMale ? "Masculino" : "Feminino";
+                            String tratamento = radioTratamento.getCheckedRadioButtonId() == R.id.radioSim ? "Sim" : "Não";
                             String nomeContato = txtNomeContato.getText().toString();
                             String telefoneContato = txtTelefoneContato.getText().toString();
 
                             UsuarioDAO dao = new UsuarioDAO(getBaseContext());
                             boolean sucesso;
                             if(usuarioEditado != null)
-                                sucesso = dao.salvar(usuarioEditado.getId(), email, nome, dataNascimento, ocupacao, grauHipertensao, tipoSanguineo, telefone, sexo, nomeContato, telefoneContato);
+                                sucesso = dao.salvar(usuarioEditado.getId(), email, nome, dataNascimento, ocupacao, grauHipertensao, tipoSanguineo, telefone, sexo, nomeContato, telefoneContato, tratamento);
                             else
-                                sucesso = dao.salvar(email, nome, dataNascimento, ocupacao, grauHipertensao, tipoSanguineo, telefone, sexo, nomeContato, telefoneContato);
+                                sucesso = dao.salvar(email, nome, dataNascimento, ocupacao, grauHipertensao, tipoSanguineo, telefone, sexo, nomeContato, telefoneContato, tratamento);
 
                             if (sucesso) {
 
@@ -193,6 +211,7 @@ public class CadastroActivity extends AppCompatActivity {
                                 radioSexo.setSelected(false);
                                 txtNomeContato.setText("");
                                 txtTelefoneContato.setText("");
+                                radioTratamento.setSelected(false);
 
                                 Toast.makeText(CadastroActivity.this, "Salvou!!!!!", Toast.LENGTH_SHORT).show();
                                 Snackbar.make(view, "Salvou!", Snackbar.LENGTH_LONG).setAction("Action", null).show();

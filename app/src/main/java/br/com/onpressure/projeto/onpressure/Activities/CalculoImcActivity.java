@@ -1,5 +1,7 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Message;
 import android.support.design.widget.FloatingActionButton;
@@ -58,25 +60,32 @@ public class CalculoImcActivity extends AppCompatActivity {
                 double alturaImc = Double.parseDouble(txtAltura.getText().toString());
                 double res = (pesoImc / (alturaImc * alturaImc));
 
-                String informacao = "Ainda não calculado";
+                String informacao = "Sem informação";
+                String dica = "";
 
                 if (res < 15) {
-                    informacao = "Abaixo do Peso I.";
+                    informacao = "Abaixo do Peso I";
+                    dica = "Dica 1";
                 }
                 if ((res >= 15) && (res < 18.5)) {
-                    informacao = "Abaixo do Peso.";
+                    informacao = "Abaixo do Peso";
+                    dica = "Dica 2";
                 }
                 if ((res >= 18.6) && (res < 24.9)) {
-                    informacao = "Peso Normal.";
+                    informacao = "Peso Normal";
+                    dica = "Dica 3";
                 }
                 if ((res >= 25) && (res < 29.4)) {
-                    informacao = "Acima do Peso.";
+                    informacao = "Acima do Peso";
+                    dica = "Dica 4";
                 }
                 if ((res >= 30) && (res < 39.4)) {
-                    informacao = "Obesidade I.";
+                    informacao = "Obesidade I";
+                    dica = "Dica 5";
                 }
                 if (res >= 40) {
-                    informacao = "Obesidade II.";
+                    informacao = "Obesidade II";
+                    dica = "Dica 6";
                 }
 
                 BigDecimal bd = new BigDecimal(res).setScale(2, RoundingMode.CEILING.HALF_EVEN);
@@ -111,8 +120,19 @@ public class CalculoImcActivity extends AppCompatActivity {
 
                         Toast.makeText(CalculoImcActivity.this, "Dados salvos com sucesso!", Toast.LENGTH_LONG).show();
 
-                        Intent it = new Intent(CalculoImcActivity.this, HomeActivity.class);
-                        startActivity(it);
+                        AlertDialog alertDialog = new AlertDialog.Builder(CalculoImcActivity.this).create();
+                        alertDialog.setTitle("Informação:");
+                        alertDialog.setMessage(informacao + " - " + dica);
+                        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.dismiss();
+                                    }
+                                });
+                        alertDialog.show();
+
+                        //Intent it = new Intent(CalculoImcActivity.this, HomeActivity.class);
+                        //startActivity(it);
                     }
                 }
 

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.onpressure.projeto.onpressure">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,13 +14,7 @@
         <activity
             android:name=".Activities.CadastroActivity"
             android:label="SobPressão"
-            android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".Activities.HomeActivity"
             android:label="@string/app_name"
@@ -35,7 +31,8 @@
         />
         <activity
             android:name=".Activities.MedicamentosIndicadosActivity"
-            android:label="@string/app_name" /><![CDATA[
+            android:label="@string/app_name" />
+        <![CDATA[
         />
         />
         ]]>
@@ -52,23 +49,27 @@
             android:label="@string/app_name" />
         />
         <activity
-            android:name=".Activities.HistoricoPressaoArterialActivity"
-            android:label="@string/app_name" />
+            android:name=".Activities.AberturaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppCompat.TelaCheia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         />
         <activity
             android:name=".Activities.GraficosActivity"
             android:label="@string/app_name" />
         <activity
-            android:name=".Activities.HistoricoIMCActivity"
-            android:label="@string/app_name" />
-        <activity
             android:name=".Activities.HistoricoActivity"
             android:label="@string/app_name" />
-
         <![CDATA[
         />
         />
     ]]>
+        <activity android:name=".Activities.TabelaSodioActivity"></activity>
     </application>
 
 </manifest>

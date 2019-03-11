@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Documents\\AndroidStudioProjects\\OnPressure\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "D:\\Documents\\Desenvolvimento\\AndroidStudioProjects\\SobPressao\\SobPressao\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\7e46bdb4b3eba268eae24dafccb9cffe\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\7a35a5db736317ac4d825ff75bc8dd2a\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1f185d522539c67680094b21dcefc280\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\caad25bab3992a3f2012c21def40401a\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

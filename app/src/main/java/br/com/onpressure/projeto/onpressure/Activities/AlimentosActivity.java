@@ -44,16 +44,15 @@ public class AlimentosActivity extends AppCompatActivity {
         btnTabelaSodio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(AlimentosActivity.this, TabelaSodioActivity.class);
-                startActivity(it);
+
             }
         });
     }
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Alimentos_Consumir_Frag(), "Consumir");
-        adapter.addFragment(new Alimentos_Evitar_Frag(), "Evitar");
+        adapter.addFragment(new Alimentos_Consumir_Frag(), "Dar Preferência");
+        adapter.addFragment(new Alimentos_Evitar_Frag(), "Reduzir Consumo");
         viewPager.setAdapter(adapter);
     }
 

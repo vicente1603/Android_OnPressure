@@ -3,6 +3,8 @@ package br.com.onpressure.projeto.onpressure.Activities;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -20,6 +22,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import java.util.Random;
+
 import br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial.PressaoArterialAdapter;
 import br.com.onpressure.projeto.onpressure.R;
 
@@ -36,6 +40,8 @@ public class HomeActivity extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        listarDicas();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -133,10 +139,10 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_lembretes) {
             Intent intent = new Intent(HomeActivity.this, LembretesActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_grafico){
+        } else if (id == R.id.nav_grafico) {
             Intent intent = new Intent(HomeActivity.this, GraficosActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_menu_historico){
+        } else if (id == R.id.nav_menu_historico) {
             Intent it = new Intent(HomeActivity.this, HistoricoActivity.class);
             startActivity(it);
         }
@@ -145,5 +151,60 @@ public class HomeActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    public void listarDicas() {
+        String[] dicas = {"A Sociedade Brasileira de Cardiologia recomenda o máximo de 5g de Sal por dia!",
+                "1g Sal: 400mg de Sódio ou seja, o máximo de sódio por dia é 2.000mg",
+                "Pratique 30 minutos de qualquer exercício, 3X na semana! Sua saúde agradece!",
+                "Observe as porções de alimentos, prato colorido sempre é mais saudável!",
+                "Observe a tabela de alimentos, vegetais e frutas também tem sódio! Consulte a tabela e consuma menos sódio na dieta!",
+                "Evite alimentos industrializados, pois o sódio é usado como conservante!",
+                "Leia o rótulo, onde diz sódio! Adoçantes e conservantes tem sódio!",
+                "Verifique sua pressão, no mínimo ao acordar e ao dormir!",
+                "Mantenha sua pressão normal! Cuide a dieta e a medicação!",
+                "Anote no aplicativo os valores da pressão e mostre ao seu médico ou farmacêutico!",
+                "Não existe Sal bom, sal tem sódio! Leia o rótulo!",
+                "Cuide o sódio dos alimentos doces!",
+                "Pressão alta pode lhe adoecer! Cuide da sua!",
+                "Beba água! Sua pressão agradece!",
+                "Pernas inchadas podem indicar alterações na pressão! Verifique a mesma e procure seu médico!",
+                "Dor de cabeça pode indicar pressão alta há 2 semanas! Não espere doer pra tratar!",
+                "Urinando pouco? Verifique sua pressão!",
+                "Tomou seu medicamento hoje? Lembre-se de usar todo dia, no horário recomendado!",
+                "Não use medicamentos sem receita! Procure seu farmacêutico ou médico!",
+                "76% dos hipertensos não se cuidam! Saia desta estatística! A vida vale mais!",
+                "Pressão alta pode matar ou diminuir a qualidade de vida! Viva bem e cuide-se!",
+                "O medicamento para pressão pode aumentar sua vontade de ir ao banheiro, sinal que sua pressão está baixando!",
+                "Evite alimentos com muito sódio! Sua saúde agradece!",
+                "Compre saches de sal nos atacados! Use 5 saches por dia! Veja o sal nos rótulos!",
+                "Bolacha doce ou chocolate tem sódio! Leia o rótulo!",
+                "Não use sal no preparo do alimento! Use 5 saches de sal por dia e use o sal no prato já pronto!",
+                "Prefira temperos naturais e reduza o sal aos poucos!",
+                "O paladar se acostuma ao pouco sal! Tente e aos poucos irá reduzir!",
+                "Só o remédio não adianta! Exercício e dieta ajudam muito!",
+                "Cafeína e energéticos aumentam a pressão! Não misture com bebida alcoólica!",
+                "Bebida alcoólica pode diminuir a ação do medicamento!",
+                "Não troque ou pare de usar o remédio por conta! Procure seu médico ou farmacêutico!",
+                "O medicamento por gerar efeitos no organismo que você não gosta, fale com seu farmacêutico para lhe orientar o que fazer!",
+                "Quantos comprimidos ainda restam, não deixe acabar para pegar!",
+                "Pressão em Dia! Vida saudável!",
+                "Você é o que come! Coma alimentos saudáveis!",
+                "Movimente-se, seu corpo agradece!",};
+
+        Random randomico = new Random();
+        int numeroAleatorio = randomico.nextInt(dicas.length);
+
+        AlertDialog alertDialog = new AlertDialog.Builder(HomeActivity.this).create();
+        alertDialog.setTitle("Dicas:");
+        alertDialog.setMessage(dicas[numeroAleatorio]);
+        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Fechar",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+    }
+
 
 }

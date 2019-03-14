@@ -22,4 +22,7 @@
     <dimen name="padding.list.item">15dp</dimen>
     <dimen name="padding.button.footer.filtro">3dp</dimen>
     <dimen name="margin.button.footer.filtro">2dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
 </resources>

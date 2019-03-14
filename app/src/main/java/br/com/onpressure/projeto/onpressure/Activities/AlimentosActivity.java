@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import br.com.onpressure.projeto.onpressure.Fragmentos.Alimentos_Consumir_Frag;
 import br.com.onpressure.projeto.onpressure.Fragmentos.Alimentos_Evitar_Frag;
+import br.com.onpressure.projeto.onpressure.Fragmentos.Ricos_Potassio_Frag;
 import br.com.onpressure.projeto.onpressure.R;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -25,7 +26,6 @@ public class AlimentosActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private Button btnTabelaSodio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,23 +36,16 @@ public class AlimentosActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
 
-        btnTabelaSodio = findViewById(R.id.btn_tabela_sodio);
-
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
-
-        btnTabelaSodio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
     }
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new Alimentos_Consumir_Frag(), "Dar Preferência");
         adapter.addFragment(new Alimentos_Evitar_Frag(), "Reduzir Consumo");
+        adapter.addFragment(new Ricos_Potassio_Frag(), "Ricos em Potássio");
+
         viewPager.setAdapter(adapter);
     }
 

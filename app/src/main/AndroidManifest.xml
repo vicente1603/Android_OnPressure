@@ -3,6 +3,7 @@
     package="br.com.onpressure.projeto.onpressure">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name='android.permission.WAKE_LOCK'/>
 
     <application
         android:allowBackup="true"
@@ -65,11 +66,10 @@
         <activity
             android:name=".Activities.HistoricoActivity"
             android:label="@string/app_name" />
-        <![CDATA[
-        />
-        />
-    ]]>
+        <![CDATA[/>/>]]>
         <activity android:name=".Activities.TabelaSodioActivity"></activity>
+        <receiver android:name=".Activities.AlarmReceiver">
+        </receiver>
     </application>
 
 </manifest>

@@ -7,41 +7,13 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <ImageView
-        android:id="@+id/imagem_capa"
-        android:layout_width="match_parent"
-        android:layout_height="114dp"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:scaleType="centerCrop"
-
-        android:src="@color/colorPrimaryDark"
-        app:srcCompat="@color/colorPrimaryDark" />
-
-    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-
-        android:id="@+id/imagem_perfil"
-        android:layout_width="172dp"
-        android:layout_height="166dp"
-
-        android:layout_below="@+id/imagem_capa"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-130dp"
-        android:clickable="true"
-        android:elevation="5dp"
-        android:padding="20dp"
-        android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher_round"
-        app:civ_border_color="#FFFFFFFF"
-        app:civ_border_width="3dp" />
-
     <RelativeLayout
         android:id="@+id/profile_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="103dp"
-        android:background="@color/branco"
+        android:background="@color/colorPrimary"
         android:elevation="4dp"
         android:paddingBottom="24dp">
 
@@ -64,9 +36,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="28dp"
             android:text="Nome"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/branco"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -83,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Grau:"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/branco"
                 android:textSize="16dp" />
 
             <TextView
@@ -91,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/branco"
                 android:text="teste"
                 android:textSize="16sp" />
 
@@ -103,13 +75,14 @@
             android:layout_below="@id/layoutGrauHipertensao"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
+            android:textColor="@color/branco"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Em tratamento:"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/branco"
                 android:textSize="16sp" />
 
             <TextView
@@ -117,16 +90,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/branco"
                 android:textSize="16sp" />
 
         </LinearLayout>
 
     </RelativeLayout>
 
-
     <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -230,7 +202,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:clickable="true"
-            android:textSize="20sp"
+            android:textSize="17sp"
             app:layout_constraintLeft_toRightOf="@+id/textView16"
             app:layout_constraintTop_toBottomOf="@+id/textView22" />
 

@@ -20,32 +20,45 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
 
-        <ImageView
-            android:layout_width="259dp"
-            android:layout_height="193dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="79dp"
-            android:src="@drawable/home" />
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:gravity="center_vertical"
+            android:padding="16dp">
 
-        <TextView
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/home" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="171dp"
-            android:text="Como está se sentindo hoje?"
-            android:textAlignment="center"
-            android:textColor="@color/preto"
-            android:textSize="30dp" />
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp">
 
-    </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/preto"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="Como está se sentindo hoje?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -63,8 +76,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/fab_margin"
-                app:backgroundTint="@color/vermelho"
-                android:src="@android:color/transparent" />
+                android:src="@android:color/transparent"
+                app:backgroundTint="@color/vermelho" />
 
             <TextView
                 android:layout_width="wrap_content"

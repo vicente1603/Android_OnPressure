@@ -124,7 +124,6 @@ public class LembretesActivity extends AppCompatActivity {
         }
     };
 
-    @TargetApi(Build.VERSION_CODES.N)
     private void agendarNotificacao(Notification notification, Date dataAgendada){
 
         Intent intentNotificacao = new Intent(this, AlarmReceiver.class);
@@ -138,17 +137,14 @@ public class LembretesActivity extends AppCompatActivity {
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, id, intentNotificacao,
                 PendingIntent.FLAG_UPDATE_CURRENT);
 
-        // long tempodedisparo =  calendar.getTimeInMillis() + segundosAgendado * 60000 ;
-
         //disparo de notificacao
         AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
-        alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
+        alarmManager.set(AlarmManager.RTC , calendar.getTimeInMillis(),
                 pendingIntent);
 
         Log.d("AgendarNOtificacao", "agendarnotificacao");
     }
 
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     private Notification getNotification(String content) {
         Notification.Builder builder = new Notification.Builder(this);
         builder.setContentTitle("Lembrete: Tomar o medicamento");

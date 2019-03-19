@@ -616,10 +616,6 @@
         "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\drawable\\sintomas.PNG"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\4750382c35432b25f958b8c73754b69c\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/id_buttons"
         android:orientation="horizontal"
         android:paddingLeft="@dimen/margin.button.footer.filtro"
         android:paddingRight="@dimen/margin.button.footer.filtro"
@@ -36,12 +38,9 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerViewImc"
-        android:layout_width="0dp"
-        android:layout_height="479dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -53,12 +52,9 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerViewPressao"
-        android:layout_width="0dp"
-        android:layout_height="487dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -71,4 +67,4 @@
 
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

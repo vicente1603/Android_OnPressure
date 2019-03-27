@@ -44,9 +44,8 @@
             android:id="@+id/layout_diastolica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
             android:orientation="vertical"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -93,12 +92,14 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data de cadastro:"
+                android:text="Data de Cadastro:"
                 android:textColor="@color/preto" />
 
             <TextView

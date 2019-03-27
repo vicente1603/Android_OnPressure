@@ -76,7 +76,7 @@
             android:label="@string/app_name" />
 <![CDATA[/>/>]]>        <activity android:name="br.com.onpressure.projeto.onpressure.Activities.TabelaSodioActivity" />
 
-        <receiver android:name="br.com.onpressure.projeto.onpressure.Activities.AlarmReceiver" >
+        <receiver android:name="br.com.onpressure.projeto.onpressure.Componentes.AlarmReceiver" >
         </receiver>
     </application>
 

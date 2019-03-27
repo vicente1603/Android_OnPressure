@@ -54,14 +54,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pressão Diastolica:"
+                android:text="Pressão Diastólica:"
                 android:textColor="@color/preto" />
 
             <TextView
                 android:id="@+id/txtPressaoDiastolica"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Diastolica"
+                android:text="Diastólica"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
         </LinearLayout>
@@ -78,14 +78,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pressão Sistolica:"
+                android:text="Pressão Sistólica:"
                 android:textColor="@color/preto" />
 
             <TextView
                 android:id="@+id/txtPressaoSistolica"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sistolica"
+                android:text="Sistólica"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
         </LinearLayout>
@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data de cadastro:"
+                android:text="Data de Cadastro:"
                 android:textColor="@color/preto" />
 
             <TextView
@@ -119,9 +119,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textAlignment="center"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:textAlignment="center">
 
         <TextView
             android:layout_width="wrap_content"

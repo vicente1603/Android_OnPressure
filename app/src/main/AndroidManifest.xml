@@ -68,7 +68,7 @@
             android:label="@string/app_name" />
         <![CDATA[/>/>]]>
         <activity android:name=".Activities.TabelaSodioActivity"></activity>
-        <receiver android:name=".Activities.AlarmReceiver">
+        <receiver android:name=".Componentes.AlarmReceiver">
         </receiver>
     </application>
 

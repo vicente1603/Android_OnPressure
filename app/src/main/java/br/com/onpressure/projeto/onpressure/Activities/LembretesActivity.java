@@ -1,17 +1,16 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
-import android.annotation.TargetApi;
 import android.app.AlarmManager;
 import android.app.DatePickerDialog;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -26,6 +25,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
+import br.com.onpressure.projeto.onpressure.Componentes.AlarmReceiver;
 import br.com.onpressure.projeto.onpressure.R;
 
 public class LembretesActivity extends AppCompatActivity {
@@ -44,6 +44,8 @@ public class LembretesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lembretes);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         dataEscolhida = (EditText) findViewById(R.id.edt_dataEscolhida);
         materia = (EditText) findViewById(R.id.edt_medicamentos);
@@ -157,6 +159,15 @@ public class LembretesActivity extends AppCompatActivity {
 
         return builder.build();
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 }

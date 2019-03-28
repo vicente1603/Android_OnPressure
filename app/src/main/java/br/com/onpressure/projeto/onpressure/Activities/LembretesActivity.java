@@ -31,13 +31,12 @@ import br.com.onpressure.projeto.onpressure.R;
 public class LembretesActivity extends AppCompatActivity {
 
     private EditText dataEscolhida;
-    private EditText materia;
-   // private EditText horarioEscolhido;
+    private EditText medicamento;
+    private EditText posologia;
     private ImageButton calendarioData;
     private Button botaoAgendar;
 
-    SimpleDateFormat formatarData = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-    SimpleDateFormat formatarHora = new SimpleDateFormat("HH:mm", Locale.getDefault());
+    SimpleDateFormat formatarData = new SimpleDateFormat("dd/MM/yyyy HH:mm");
     Calendar calendar = Calendar.getInstance();
 
     @Override
@@ -47,26 +46,21 @@ public class LembretesActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        dataEscolhida = (EditText) findViewById(R.id.edt_dataEscolhida);
-        materia = (EditText) findViewById(R.id.edt_medicamentos);
-        botaoAgendar = (Button) findViewById(R.id.btn_agendarNotificacao);
+        dataEscolhida = findViewById(R.id.edt_dataEscolhida);
+        medicamento = findViewById(R.id.edt_medicamentos);
+        posologia = findViewById(R.id.edt_posologia);
+        botaoAgendar = findViewById(R.id.btn_agendarNotificacao);
         calendarioData = findViewById(R.id.btn_calendárioDatePicker);
-       // horarioEscolhido = (EditText) findViewById(R.id.edt_horario);
-
 
         botaoAgendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 String dataAgendada = dataEscolhida.getText().toString();
-                Log.d("Data agendada", String.valueOf(dataAgendada));
-                //String horarioAgendado = horarioEscolhido.getText().toString();
-                //Log.d("Horário agendado", String.valueOf(horarioAgendado));
-                String materiaAgendada = materia.getText().toString();
+                String medicamentoAgendado = medicamento.getText().toString();
+                String posologiaAgendada = posologia.getText().toString();
+                agendarNotificacao(getNotification(medicamentoAgendado, posologiaAgendada), formatarData.parse(dataAgendada, new ParsePosition(0)));
 
-                agendarNotificacao(getNotification(materiaAgendada),formatarData.parse(dataAgendada, new ParsePosition(0)));
-
-                Log.d("Agendamento", "Agendou");
 
             }
         });
@@ -74,7 +68,6 @@ public class LembretesActivity extends AppCompatActivity {
         calendarioData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                atualizaHorario();
                 atualizarData();
             }
         });
@@ -82,20 +75,14 @@ public class LembretesActivity extends AppCompatActivity {
 
     private void exibeDataNoCampo() {
         dataEscolhida.setText(formatarData.format(calendar.getTime()));
-        Log.d("Data escolhida: ", String.valueOf(dataEscolhida));
     }
-
-//    private void exibeHorarioNoCampo() {
-//
-//        horarioEscolhido.setText(formatarHora.format(calendar.getTime()));
-//
-//        Log.d("Hora escolhida: ", String.valueOf(horarioEscolhido));
-//    }
 
     private void atualizarData() {
 
         new DatePickerDialog(this, data, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
                 calendar.get(Calendar.DAY_OF_MONTH)).show();
+        new TimePickerDialog(this, horario, calendar.get(Calendar.HOUR_OF_DAY),
+                calendar.get(Calendar.MINUTE), true).show();
     }
 
     //Salva a data que o usuário configurou
@@ -121,12 +108,11 @@ public class LembretesActivity extends AppCompatActivity {
 
             calendar.set(Calendar.HOUR_OF_DAY, hourOfDay);
             calendar.set(Calendar.MINUTE, minute);
-            //exibeHorarioNoCampo();
 
         }
     };
 
-    private void agendarNotificacao(Notification notification, Date dataAgendada){
+    private void agendarNotificacao(Notification notification, Date dataAgendada) {
 
         Intent intentNotificacao = new Intent(this, AlarmReceiver.class);
         calendar.setTime(dataAgendada);
@@ -141,21 +127,17 @@ public class LembretesActivity extends AppCompatActivity {
 
         //disparo de notificacao
         AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
-        alarmManager.set(AlarmManager.RTC , calendar.getTimeInMillis(),
+        alarmManager.set(AlarmManager.RTC, calendar.getTimeInMillis(),
                 pendingIntent);
-
-        Log.d("AgendarNOtificacao", "agendarnotificacao");
     }
 
-    private Notification getNotification(String content) {
+    private Notification getNotification(String medicamento, String posologia) {
         Notification.Builder builder = new Notification.Builder(this);
         builder.setContentTitle("Lembrete: Tomar o medicamento");
-        builder.setContentText(content);
+        builder.setContentText(medicamento + " - " +posologia);
         builder.setSmallIcon(R.mipmap.ic_launcher);
 
-        Toast.makeText(LembretesActivity.this, "Medicamento "+content+" adicionado!", Toast.LENGTH_LONG).show();
-
-        Log.d("Construindo Notificacao", "Construindo Notificacao");
+        Toast.makeText(LembretesActivity.this, "Medicamento " + medicamento + " adicionado!", Toast.LENGTH_LONG).show();
 
         return builder.build();
 

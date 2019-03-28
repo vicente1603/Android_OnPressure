@@ -17,9 +17,6 @@
             android:id="@+id/nav_menu_historico"
             android:title="Histórico" />
         <item
-            android:id="@+id/nav_medicamentos"
-            android:title="Medicamentos Indicados" />
-        <item
             android:id="@+id/nav_sintomas"
             android:title="Sintomas" />
         <item
@@ -36,11 +33,7 @@
     <item android:title="Comunicação">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Configurações" />
-            <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_fale_conosco"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Fale Conosco" />
         </menu>

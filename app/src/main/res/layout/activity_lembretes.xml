@@ -54,6 +54,16 @@
                     android:textSize="25sp"
                     android:inputType="textCapCharacters"
                     android:textAlignment="center" />
+                <EditText
+                    android:id="@+id/edt_posologia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:hint="Posologia"
+                    android:textSize="25sp"
+                    android:inputType="textCapCharacters"
+                    android:textAlignment="center" />
 
 
                 <EditText

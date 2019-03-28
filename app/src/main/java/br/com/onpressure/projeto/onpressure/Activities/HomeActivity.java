@@ -21,6 +21,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -53,6 +54,7 @@ public class HomeActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         FloatingActionButton fab = findViewById(R.id.fab);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -104,11 +106,6 @@ public class HomeActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -127,9 +124,6 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_pressao) {
             Intent intent = new Intent(HomeActivity.this, PressaoArterialActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_medicamentos) {
-            Intent intent = new Intent(HomeActivity.this, MedicamentosIndicadosActivity.class);
-            startActivity(intent);
         } else if (id == R.id.nav_alimentos) {
             Intent intent = new Intent(HomeActivity.this, AlimentosActivity.class);
             startActivity(intent);
@@ -145,6 +139,9 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_menu_historico) {
             Intent it = new Intent(HomeActivity.this, HistoricoActivity.class);
             startActivity(it);
+        } else if (id == R.id.nav_fale_conosco) {
+            Intent it = new Intent(HomeActivity.this, FaleConoscoActivity.class);
+            startActivity(it);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -153,7 +150,8 @@ public class HomeActivity extends AppCompatActivity
     }
 
     public void listarDicas() {
-        String[] dicas = {"A Sociedade Brasileira de Cardiologia recomenda o máximo de 5g de Sal por dia!",
+        String[] dicas = {
+                "A Sociedade Brasileira de Cardiologia recomenda o máximo de 5g de Sal por dia!",
                 "1g Sal: 400mg de Sódio ou seja, o máximo de sódio por dia é 2.000mg",
                 "Pratique 30 minutos de qualquer exercício, 3X na semana! Sua saúde agradece!",
                 "Observe as porções de alimentos, prato colorido sempre é mais saudável!",
@@ -164,11 +162,11 @@ public class HomeActivity extends AppCompatActivity
                 "Mantenha sua pressão normal! Cuide a dieta e a medicação!",
                 "Anote no aplicativo os valores da pressão e mostre ao seu médico ou farmacêutico!",
                 "Não existe Sal bom, sal tem sódio! Leia o rótulo!",
-                "Cuide o sódio dos alimentos doces!",
+                "Cuidado com o sódio dos alimentos doces!",
                 "Pressão alta pode lhe adoecer! Cuide da sua!",
                 "Beba água! Sua pressão agradece!",
                 "Pernas inchadas podem indicar alterações na pressão! Verifique a mesma e procure seu médico!",
-                "Dor de cabeça pode indicar pressão alta há 2 semanas! Não espere doer pra tratar!",
+                "Dor de cabeça por mais de duas semanas pode indicar pressão alta! Não espere doer pra tratar!",
                 "Urinando pouco? Verifique sua pressão!",
                 "Tomou seu medicamento hoje? Lembre-se de usar todo dia, no horário recomendado!",
                 "Não use medicamentos sem receita! Procure seu farmacêutico ou médico!",

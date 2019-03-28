@@ -1,0 +1,30 @@
+package br.com.onpressure.projeto.onpressure.Activities;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
+
+import br.com.onpressure.projeto.onpressure.R;
+
+public class FaleConoscoActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_fale_conosco);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+}

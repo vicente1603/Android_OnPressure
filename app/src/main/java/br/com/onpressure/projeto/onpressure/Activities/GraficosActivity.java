@@ -79,11 +79,9 @@ public class GraficosActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        BarDataSet barDataSet = new BarDataSet(barEntries,"Dates");
+        BarDataSet barDataSet = new BarDataSet(barEntries,"Datas");
         BarData barData = new BarData(dates,barDataSet);
         barChart.setData(barData);
-        barChart.setDescription("My First Bar Graph!");
-
     }
 
     public ArrayList<String> getList(Calendar startDate, Calendar endDate){

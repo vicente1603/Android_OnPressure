@@ -30,32 +30,25 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.PerfilActivity"
-            android:label="@string/app_name" />
+            android:label="Seu Perfil" />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.CalculoImcActivity"
-            android:label="@string/app_name" />
+            android:label="Calcular IMC" />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.PressaoArterialActivity"
-            android:label="@string/app_name" />
+            android:label="Registrar Pressão Arterial" />
         />
-        <activity
-            android:name="br.com.onpressure.projeto.onpressure.Activities.MedicamentosIndicadosActivity"
-            android:label="@string/app_name" />
-<![CDATA[
-        />
-        />
-        ]]>
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.LembretesActivity"
-            android:label="@string/app_name" />
+            android:label="Lembretes" />
         />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.SintomasActivity"
-            android:label="@string/app_name" />
+            android:label="Sintomas" />
         />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.AlimentosActivity"
-            android:label="@string/app_name" />
+            android:label="Alimentação" />
         />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.AberturaActivity"
@@ -70,13 +63,11 @@
         />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.GraficosActivity"
-            android:label="@string/app_name" />
+            android:label="Gráficos" />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity"
-            android:label="@string/app_name" />
-<![CDATA[/>/>]]>        <activity android:name="br.com.onpressure.projeto.onpressure.Activities.TabelaSodioActivity" />
-
-        <receiver android:name="br.com.onpressure.projeto.onpressure.Componentes.AlarmReceiver" />
+            android:label="Histórico" />
+<![CDATA[/>/>]]>        <receiver android:name="br.com.onpressure.projeto.onpressure.Componentes.AlarmReceiver" />
 
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.FaleConoscoActivity"

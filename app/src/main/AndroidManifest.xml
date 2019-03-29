@@ -22,32 +22,25 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activities.PerfilActivity"
-            android:label="@string/app_name" />
+            android:label="Seu Perfil" />
         <activity
             android:name=".Activities.CalculoImcActivity"
-            android:label="@string/app_name" />
+            android:label="Calcular IMC" />
         <activity
             android:name=".Activities.PressaoArterialActivity"
-            android:label="@string/app_name" />
+            android:label="Registrar Pressão Arterial" />
         />
-        <activity
-            android:name=".Activities.MedicamentosIndicadosActivity"
-            android:label="@string/app_name" />
-        <![CDATA[
-        />
-        />
-        ]]>
         <activity
             android:name=".Activities.LembretesActivity"
-            android:label="@string/app_name" />
+            android:label="Lembretes" />
         />
         <activity
             android:name=".Activities.SintomasActivity"
-            android:label="@string/app_name" />
+            android:label="Sintomas" />
         />
         <activity
             android:name=".Activities.AlimentosActivity"
-            android:label="@string/app_name" />
+            android:label="Alimentação" />
         />
         <activity
             android:name=".Activities.AberturaActivity"
@@ -62,11 +55,11 @@
         />
         <activity
             android:name=".Activities.GraficosActivity"
-            android:label="@string/app_name" />
+            android:label="Gráficos" />
         <activity
             android:name=".Activities.HistoricoActivity"
-            android:label="@string/app_name" />
-        <![CDATA[/>/>]]>        <activity android:name=".Activities.TabelaSodioActivity" />
+            android:label="Histórico" />
+        <![CDATA[/>/>]]>
 
         <receiver android:name=".Componentes.AlarmReceiver"></receiver>
 

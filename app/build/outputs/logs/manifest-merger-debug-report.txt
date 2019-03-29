@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
 MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\mflibrary-1.0.0.aar\f6f706faa7b332e4df6b45f4492a249c\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:27.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\4bec299e571cf3092aa3397cb7e1e40a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\ef58e3c04e98001a11ea37486c42efb3\AndroidManifest.xml:17:1-22:12
@@ -23,20 +23,20 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\vjscoliveira\.gradle
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\434098c1b878454f4bd5981691b976ae\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\75747d2dda6d7bd0000ebb8c5f7c9073\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\d5f8c0dac71036a7e88034c17aeaf66a\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
 	package
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:3:5-51
 		INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
 		INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:1-71:12
 		INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:2:11-69
@@ -49,7 +49,7 @@ ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:6:22-65
 application
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:8:5-76:19
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:8:5-69:19
 MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\mflibrary-1.0.0.aar\f6f706faa7b332e4df6b45f4492a249c\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\mflibrary-1.0.0.aar\f6f706faa7b332e4df6b45f4492a249c\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\966b6de19b7324b3db8c26a6fc1c5a40\AndroidManifest.xml:9:5-20
@@ -85,91 +85,81 @@ ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:20:13-52
 activity#br.com.onpressure.projeto.onpressure.Activities.PerfilActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:23:9-25:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:23:9-25:42
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:25:13-39
 	android:name
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:24:13-54
 activity#br.com.onpressure.projeto.onpressure.Activities.CalculoImcActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:26:9-28:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:26:9-28:44
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:28:13-41
 	android:name
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:27:13-58
 activity#br.com.onpressure.projeto.onpressure.Activities.PressaoArterialActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:29:9-31:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:29:9-31:58
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:31:13-55
 	android:name
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:30:13-63
-activity#br.com.onpressure.projeto.onpressure.Activities.MedicamentosIndicadosActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:33:9-35:48
-	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:35:13-45
-	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:34:13-69
 activity#br.com.onpressure.projeto.onpressure.Activities.LembretesActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:40:9-42:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:33:9-35:41
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:42:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:35:13-38
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:41:13-57
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:34:13-57
 activity#br.com.onpressure.projeto.onpressure.Activities.SintomasActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:44:9-46:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:46:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:38:13-56
 activity#br.com.onpressure.projeto.onpressure.Activities.AlimentosActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:48:9-50:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:41:9-43:43
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:50:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:43:13-40
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:49:13-57
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:42:13-57
 activity#br.com.onpressure.projeto.onpressure.Activities.AberturaActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:52:9-61:20
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:45:9-54:20
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:54:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:47:13-45
 	android:theme
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:55:13-55
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:48:13-55
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:53:13-56
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:46:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:56:13-60:29
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:57:17-69
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:57:25-66
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:59:17-77
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:59:27-74
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:52:27-74
 activity#br.com.onpressure.projeto.onpressure.Activities.GraficosActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:63:9-65:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:65:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:64:13-56
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:57:13-56
 activity#br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:66:9-68:48
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:59:9-61:41
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:68:13-45
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:61:13-38
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:67:13-57
-activity#br.com.onpressure.projeto.onpressure.Activities.TabelaSodioActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:69:33-92
-	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:69:43-89
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:60:13-57
 receiver#br.com.onpressure.projeto.onpressure.Componentes.AlarmReceiver
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:71:9-72
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:64:9-72
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:71:19-60
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:64:19-60
 activity#br.com.onpressure.projeto.onpressure.Activities.FaleConoscoActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:73:9-75:76
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:66:9-68:76
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:75:13-64
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:68:13-64
 	android:name
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:74:13-59
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:67:13-59
 uses-sdk
 INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml

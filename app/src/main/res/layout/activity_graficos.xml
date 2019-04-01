@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,8 +10,93 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Activities.GraficosActivity">
 
+    <LinearLayout
+        android:id="@+id/layout_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Informe o intervalo de tempo que deseja visualizar:"
+            android:textColor="@color/preto"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De: "
+                android:textColor="@color/preto"
+                android:textSize="20sp" />
+
+            <br.com.onpressure.projeto.onpressure.Componentes.MaskedEditText
+                android:id="@+id/txtDataInicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:hint="Data Início"
+                android:inputType="date"
+                android:textColor="@color/preto"
+                app:mask="##/##/####" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Até: "
+                android:textColor="@color/preto"
+                android:textSize="20sp" />
+
+            <br.com.onpressure.projeto.onpressure.Componentes.MaskedEditText
+                android:id="@+id/txtDataFim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Data Fim"
+                android:inputType="date"
+                android:textColor="@color/preto"
+                app:mask="##/##/####" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pesquisar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Pesquisar" />
+
+            <Button
+                android:id="@+id/btn_limpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Limpar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
     <com.github.mikephil.charting.charts.BarChart
+
+        android:id="@+id/bargraph"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/bargraph"></com.github.mikephil.charting.charts.BarChart>
+        android:layout_below="@+id/layout_input"
+        android:visibility="gone">
+
+    </com.github.mikephil.charting.charts.BarChart>
 </RelativeLayout>

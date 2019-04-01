@@ -15,35 +15,44 @@
         <activity
             android:name=".Activities.CadastroActivity"
             android:label="SobPressão"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Activities.HomeActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activities.PerfilActivity"
+            android:screenOrientation="portrait"
             android:label="Seu Perfil" />
         <activity
             android:name=".Activities.CalculoImcActivity"
+            android:screenOrientation="portrait"
             android:label="Calcular IMC" />
         <activity
             android:name=".Activities.PressaoArterialActivity"
+            android:screenOrientation="portrait"
             android:label="Registrar Pressão Arterial" />
         />
         <activity
             android:name=".Activities.LembretesActivity"
+            android:screenOrientation="portrait"
             android:label="Lembretes" />
         />
         <activity
             android:name=".Activities.SintomasActivity"
+            android:screenOrientation="portrait"
             android:label="Sintomas" />
         />
         <activity
             android:name=".Activities.AlimentosActivity"
+            android:screenOrientation="portrait"
             android:label="Alimentação" />
         />
         <activity
             android:name=".Activities.AberturaActivity"
+            android:screenOrientation="portrait"
             android:label="@string/app_name"
             android:theme="@style/AppCompat.TelaCheia">
             <intent-filter>
@@ -55,9 +64,11 @@
         />
         <activity
             android:name=".Activities.GraficosActivity"
+            android:screenOrientation="portrait"
             android:label="Gráficos" />
         <activity
             android:name=".Activities.HistoricoActivity"
+            android:screenOrientation="portrait"
             android:label="Histórico" />
         <![CDATA[/>/>]]>
 
@@ -65,6 +76,7 @@
 
         <activity
             android:name=".Activities.FaleConoscoActivity"
+            android:screenOrientation="portrait"
             android:label="Fale Conosco"></activity>
     </application>
 

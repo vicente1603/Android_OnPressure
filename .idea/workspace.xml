@@ -23,33 +23,113 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/transition/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/transition/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/br/com/onpressure/projeto/onpressure/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/br/com/onpressure/projeto/onpressure/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/github/rtoshiro/mflibrary/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/github/rtoshiro/mflibrary/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1553867639911/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1553867741773/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1553867788760/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1553867863744/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1553876473722/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1553876567684/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1554123325197/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1554123839922/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1554123925369/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1554127503987/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/br/com/onpressure/projeto/onpressure/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/github/rtoshiro/mflibrary/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/github/rtoshiro/mflibrary/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/com/onpressure/projeto/onpressure/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/github/rtoshiro/mflibrary/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/github/rtoshiro/mflibrary/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
@@ -63,7 +143,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/Oce280NgV6hukDtCfqGAIqMpK2s=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/Oce280NgV6hukDtCfqGAIqMpK2s=" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/k9ZfdkAbORgrjtwkdTkljBBYn2Y=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/k9ZfdkAbORgrjtwkdTkljBBYn2Y=" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" />
@@ -74,13 +153,11 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_calculo_imc.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_calculo_imc.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_lembretes.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_lembretes.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_pressao_arterial.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_pressao_arterial.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_imc.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_imc.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_pressao_arterial.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_pressao_arterial.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/dep/dependencies.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_graficos.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_graficos.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
@@ -88,54 +165,395 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/28.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/28.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/28.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/arch/lifecycle/livedata/core/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/compat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$animator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/design/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/fragment/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/android/support/mediacompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35/android/arch/lifecycle/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/coreutils/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v4/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/android/support/v7/appcompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/Model/IMC/IMC.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/Model/IMC/IMCDAO.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$animator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$array.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$menu.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$mipmap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/br/com/onpressure/projeto/onpressure/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/36/com/github/rtoshiro/mflibrary/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/graphics/drawable/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/android/support/transition/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/AberturaActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/AberturaActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity$ViewPagerAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/FaleConoscoActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/HomeActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/HomeActivity$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/HomeActivity$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/MedicamentosIndicadosActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/AlarmReceiver.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/DbGateway.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/DbHelper.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/MaskedEditText$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/MaskedEditText$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/MaskedEditText.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/Range.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Componentes/RawText.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Model/Usuario/Usuario.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/br/com/onpressure/projeto/onpressure/Model/Usuario/UsuarioDAO.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/37/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/android/arch/core/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/38/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/android/arch/lifecycle/viewmodel/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/39/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/40/br/com/onpressure/projeto/onpressure/Model/PressaoArterial/PressaoArterial.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/40/br/com/onpressure/projeto/onpressure/Model/PressaoArterial/PressaoArterialDAO.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/40/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/coreui/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/android/support/v7/recyclerview/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/41/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/android/support/graphics/drawable/animated/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/ExpandableListDataPump.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabLayout$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabLayout$InternalViewPagerListener.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabLayout$TabClickListener.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabLayout$TabColorizer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabLayout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabStrip$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabStrip$SimpleTabColorizer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/br/com/onpressure/projeto/onpressure/Helper/SlidingTabStrip.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/de/hdodenhof/circleimageview/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/de/hdodenhof/circleimageview/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/42/de/hdodenhof/circleimageview/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/android/support/constraint/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/43/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/10/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/11/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/com/onpressure/projeto/onpressure/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/github/rtoshiro/mflibrary/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/github/rtoshiro/mflibrary/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/1/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/1/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity$override.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/1/com/android/tools/ir/runtime/AppPatchesLoaderImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/1/com/android/tools/ir/runtime/AppPatchesLoaderImpl.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/br/com/onpressure/projeto/onpressure/Componentes/PressaoArterial/PressaoArterialHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/br/com/onpressure/projeto/onpressure/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/com/github/rtoshiro/mflibrary/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/com/github/rtoshiro/mflibrary/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/HistoricoActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/HomeActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/PerfilActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Consumir_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/OneFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/Ricos_Potassio_Frag.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/br/com/onpressure/projeto/onpressure/Fragmentos/SecondFragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/5/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/5/br/com/onpressure/projeto/onpressure/Componentes/Usuario/UsuarioHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/v7/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/br/com/onpressure/projeto/onpressure/Componentes/IMC/IMCHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/br/com/onpressure/projeto/onpressure/Helper/CustomExpandableListAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/android/support/constraint/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/CalculoImcActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_calculo_imc.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_calculo_imc.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lembretes.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lembretes.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pressao_arterial.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pressao_arterial.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_imc.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_imc.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_pressao_arterial.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_pressao_arterial.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_graficos.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_graficos.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -161,9 +579,15 @@
       <file leaf-file-name="GraficosActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="537">
+              <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+              <folding>
+                <element signature="e#2007#2379#0" expanded="true" />
+                <element signature="e#2378#2379#0" expanded="true" />
+                <element signature="e#2421#2675#0" expanded="true" />
+                <element signature="e#2674#2675#0" expanded="true" />
+                <element signature="e#3984#3992#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,6 +610,7 @@
       <find>horarioEscolhido</find>
       <find>materiaAgendada</find>
       <find>dica 5</find>
+      <find>Desc</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
@@ -2247,7 +2672,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_historico.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_usuario.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_graficos.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Componentes/AlarmReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Helper/ExpandableListDataPump.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/LembretesActivity.java" />
@@ -2265,6 +2689,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/PressaoArterialActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_lembretes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_graficos.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.java" />
       </list>
     </option>
@@ -2335,6 +2760,12 @@
               <item name="SobPressao" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="SobPressao" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -2574,7 +3005,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2584,9 +3014,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3347548" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3411996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3411996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24188791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24188791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2613,18 +3043,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-26/android.jar!/android/content/Context.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2730,14 +3153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2942,25 +3357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_graficos.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_historico.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2996,17 +3392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cadastro.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_imc.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3014,14 +3399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="161" column="24" lean-forward="false" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="141" column="61" lean-forward="false" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -3056,17 +3433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pressao_arterial.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3078,11 +3444,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="82" column="11" lean-forward="true" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+          <folding>
+            <element signature="e#416#434#0" expanded="false" />
+            <element signature="e#870#888#0" expanded="false" />
+            <element signature="e#2205#2223#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/CadastroActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="165" column="50" lean-forward="false" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cadastro.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/SintomasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/AlimentosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_graficos.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="76" column="50" lean-forward="false" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="50" />
+          <folding>
+            <element signature="e#328#361#0" expanded="false" />
+            <element signature="e#386#421#0" expanded="false" />
+            <element signature="e#447#482#0" expanded="false" />
+            <element signature="e#506#539#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Fragmentos/Alimentos_Evitar_Frag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/onpressure/projeto/onpressure/Activities/GraficosActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="537">
+          <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+          <folding>
+            <element signature="e#2007#2379#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+            <element signature="e#2421#2675#0" expanded="true" />
+            <element signature="e#2674#2675#0" expanded="true" />
+            <element signature="e#3984#3992#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

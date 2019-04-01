@@ -9,7 +9,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="120dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_weight="1"
@@ -38,6 +38,15 @@
                 android:text="Resultado"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPeso"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                android:text="kg/m²" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -63,6 +72,15 @@
                 android:text="Peso"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPeso"
+                android:layout_gravity="center"
+                android:textColor="@color/preto"
+                android:gravity="center"
+                android:text="kg" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -87,6 +105,15 @@
                 android:text="Altura"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPeso"
+                android:layout_gravity="center"
+                android:textColor="@color/preto"
+                android:gravity="center"
+                android:text="m" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -107,6 +134,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Data"
+                android:layout_gravity="center_horizontal"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
                 app:layout_constraintLeft_toRightOf="@+id/txtPressaoDiastolica"
                 app:layout_constraintTop_toTopOf="parent" />

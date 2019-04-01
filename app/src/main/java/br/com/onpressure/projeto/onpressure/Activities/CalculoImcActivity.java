@@ -56,36 +56,44 @@ public class CalculoImcActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                double pesoImc = Double.parseDouble(txtPeso.getText().toString());
-                double alturaImc = Double.parseDouble(txtAltura.getText().toString());
+                // double pesoImc = 0;
+                // pesoImc = Double.parseDouble(txtPeso.getText().toString());
+                double pesoImc = Double.parseDouble(txtPeso.getText().toString().replace(",", "."));
+                double alturaImc = Double.parseDouble(txtAltura.getText().toString().replace(",", "."));
                 double res = (pesoImc / (alturaImc * alturaImc));
 
                 String informacao = "Sem informação";
                 String dica = "";
 
                 if (res < 15) {
-                    informacao = "Abaixo do Peso I";
-                    dica = "Dica 1";
+                    informacao = "Abaixo do Peso I.";
+                    dica = "Alimentos ricos em proteína são grandes aliados: " +
+                            "dê preferência às carnes magras (alcatra, filé mignon, maminha, fraldinha) " +
+                            ", frango e principalmente peixes e ovos, além de leite e queijos brancos como ricota e minas.";
                 }
                 if ((res >= 15) && (res < 18.5)) {
-                    informacao = "Abaixo do Peso";
-                    dica = "Dica 2";
+                    informacao = "Abaixo do Peso.";
+                    dica = "Aumente o consumo de pães, bolos, massas, mandioca, batata, milho e cereais " +
+                            "(arroz, farinha de trigo, fubá, aveia), lembrando sempre de optar pelas versões integrais";
                 }
                 if ((res >= 18.6) && (res < 24.9)) {
                     informacao = "Peso Normal";
-                    dica = "Dica 3";
+                    dica = "Não existe alimento 100% bom ou 100% ruim. Varie ao máximo o seu cardápio " +
+                            "e não elimine completamente nenhum tipo de alimento. O equilíbrio entre a quantidade e a freqüência com a" +
+                            " qual você consome refeições mais calóricas é a garantia do seu sucesso.";
                 }
                 if ((res >= 25) && (res < 29.4)) {
-                    informacao = "Acima do Peso";
-                    dica = "Dica 4";
+                    informacao = "Acima do Peso.";
+                    dica = "Manter hábitos alimentares saudáveis e praticar atividades físicas são bons aliados contra o excesso de peso.";
                 }
                 if ((res >= 30) && (res < 39.4)) {
-                    informacao = "Obesidade I";
-                    dica = "Dica 5";
+                    informacao = "Obesidade I.";
+                    dica = "Procure tratamento através de dieta apropriada com avaliação médica em conjunto " +
+                            "com a prática de exercícios, desde que o paciente seja avaliado e liberado pelo médico.";
                 }
                 if (res >= 40) {
-                    informacao = "Obesidade II";
-                    dica = "Dica 6";
+                    informacao = "Obesidade II.";
+                    dica = "Em alguns casos avaliados pelo médico, pode-se fazer o uso de remédios para emagrecer para ajudar no controle do peso.";
                 }
 
                 BigDecimal bd = new BigDecimal(res).setScale(2, RoundingMode.CEILING.HALF_EVEN);
@@ -95,14 +103,14 @@ public class CalculoImcActivity extends AppCompatActivity {
 
                 SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");//formating according to my need
 
-                if (TextUtils.isEmpty(txtPeso.getText())){
+                if (TextUtils.isEmpty(txtPeso.getText())) {
                     txtPeso.setError("Campo Obrigatório");
-                }else if(TextUtils.isEmpty(txtAltura.getText())){
+                } else if (TextUtils.isEmpty(txtAltura.getText())) {
                     txtAltura.setError("Campo obrigatório");
-                }else{
+                } else {
 
-                    float peso = Float.parseFloat(txtPeso.getText().toString());
-                    float altura = Float.parseFloat(txtAltura.getText().toString());
+                    float peso = Float.parseFloat(txtPeso.getText().toString().replace(",", "."));
+                    float altura = Float.parseFloat(txtAltura.getText().toString().replace(",", "."));
                     float resultado = Float.parseFloat(txtResultado.getText().toString());
                     String infoImc = informacao;
                     String data = formatter.format(Calendar.getInstance().getTime());
@@ -110,8 +118,7 @@ public class CalculoImcActivity extends AppCompatActivity {
                     IMCDAO dao = new IMCDAO(getBaseContext());
                     boolean sucesso = dao.salvar(peso, altura, resultado, infoImc, data);
 
-                    if (sucesso){
-
+                    if (sucesso) {
 
                         txtPeso.setText("");
                         txtAltura.setText("");

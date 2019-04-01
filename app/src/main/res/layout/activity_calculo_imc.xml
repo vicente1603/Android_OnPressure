@@ -47,6 +47,7 @@
                     android:ems="10"
                     android:hint="Peso:"
                     android:inputType="numberDecimal"
+                    android:digits="0123456789,"
                     android:textAlignment="center"
                     android:textSize="25sp" />
 
@@ -66,6 +67,7 @@
                     android:ems="10"
                     android:hint="Altura:"
                     android:inputType="numberDecimal"
+                    android:digits="0123456789,"
                     android:textAlignment="center"
                     android:textSize="25sp" />
 
@@ -74,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/txtAltura"
                     android:layout_gravity="center"
-                    android:text="cm" />
+                    android:text="m" />
 
                 <Button
                     android:id="@+id/btnCalcular"

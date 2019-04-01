@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="250dp"
     android:padding="10dp"
     tools:layout_editor_absoluteY="200dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="140dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_weight="1"
@@ -36,7 +36,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Frequencia"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPeso"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                android:text="bpm" />
 
         </LinearLayout>
 
@@ -61,8 +72,19 @@
                 android:id="@+id/txtPressaoDiastolica"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="Diastólica"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPeso"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                android:text="mmHg" />
 
         </LinearLayout>
 
@@ -86,7 +108,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sistólica"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPeso"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                android:text="mmHg" />
 
         </LinearLayout>
 
@@ -106,6 +139,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Data"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
                 app:layout_constraintLeft_toRightOf="@+id/txtPressaoDiastolica"
                 app:layout_constraintTop_toTopOf="parent" />

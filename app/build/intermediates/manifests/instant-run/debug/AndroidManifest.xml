@@ -71,7 +71,7 @@
 
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.FaleConoscoActivity"
-            android:label="@string/title_activity_fale_conosco" />
+            android:label="Fale Conosco" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

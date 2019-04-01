@@ -70,8 +70,8 @@ public class GraficosActivity extends AppCompatActivity {
             float value = 0f;
             random = new Random();
             for(int j = 0; j< dates.size();j++){
-                max = 100f;
-                value = random.nextFloat()*max;
+                max = 5f;
+                value = random.nextFloat() * max;
                 barEntries.add(new BarEntry(value,j));
             }
 

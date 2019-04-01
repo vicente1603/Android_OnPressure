@@ -57,7 +57,9 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
         btnRegistrar.setOnClickListener(this);
 
-    };
+    }
+
+    ;
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -73,35 +75,35 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
         try {
 
-            double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString());
-            double pas = Double.parseDouble(txtPressaoSistolica.getText().toString());
+            double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString().replace(",", "."));
+            double pas = Double.parseDouble(txtPressaoSistolica.getText().toString().replace(",", "."));
             String informacao = "Sem informação";
             String dica = "";
 
 
-            if ( pas < 120 && pad < 80){
+            if (pas < 120 && pad < 80) {
                 informacao = "Sua classificação de risco é: Ótima.";
-                dica = "Dica 1";
+                dica = "Verifique a pressão arterial mensalmente.";
             }
-            if ( (pas >= 120 && pas <= 129) && (pad >= 80 && pad <= 84)){
+            if ((pas >= 120 && pas <= 129) && (pad >= 80 && pad <= 84)) {
                 informacao = "Sua classificação de risco é: Normal.";
-                dica = "Dica 2";
+                dica = "Evite o excesso de peso.";
             }
-            if ( (pas >= 130 && pas <= 139) && (pad >= 85 && pad <= 89)){
+            if ((pas >= 130 && pas <= 139) && (pad >= 85 && pad <= 89)) {
                 informacao = "Sua classificação de risco é: Normal-Alta.";
-                dica = "Dica 2";
+                dica = "Mantenha uma alimentação saudável.";
             }
-            if ((pas >= 140 && pas <= 159) && (pad >= 90 && pad <= 99)){
+            if ((pas >= 140 && pas <= 159) && (pad >= 90 && pad <= 99)) {
                 informacao = "Sua classificação de risco é: Estágio 1";
-                dica = "Dica 3";
+                dica = "Reduza o consumo de bebidas alcoólicas.";
             }
-            if ((pas >= 160 && pas <= 179) && (pad >= 100 && pad <= 109)){
+            if ((pas >= 160 && pas <= 179) && (pad >= 100 && pad <= 109)) {
                 informacao = "Sua classificação de risco é: Estágio 2";
-                dica = "Dica 4";
+                dica = "Não tome medicamentos sem prescrição médica.";
             }
-            if ((pas >= 180) && (pad >= 110)){
+            if ((pas >= 180) && (pad >= 110)) {
                 informacao = "Sua classificação de risco é: Estágio 3";
-                dica = "Dica 5";
+                dica = "Hora de mexer o corpo!";
             }
 
             txtInfoPressao.setText(String.valueOf(informacao));
@@ -116,11 +118,11 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
                 txtPressaoSistolica.setError("Campo obrigatório");
             } else if (TextUtils.isEmpty((txtInfoPressao.getText()))) {
                 txtInfoPressao.setError("Campo Obrigatório");
-            }else {
+            } else {
 
-                float pressaoDiastolica = Float.parseFloat(txtPressaoDiastolica.getText().toString());
-                float pressaoSistolica = Float.parseFloat(txtPressaoSistolica.getText().toString());
-                float frequenciaCardiaca = Float.parseFloat(txtFrequenciaCardiaca.getText().toString());
+                float pressaoDiastolica = Float.parseFloat(txtPressaoDiastolica.getText().toString().replace(",", "."));
+                float pressaoSistolica = Float.parseFloat(txtPressaoSistolica.getText().toString().replace(",", "."));
+                float frequenciaCardiaca = Float.parseFloat(txtFrequenciaCardiaca.getText().toString().replace(",", "."));
                 String infoPressao = informacao;
                 String data = formatter.format(Calendar.getInstance().getTime());
 

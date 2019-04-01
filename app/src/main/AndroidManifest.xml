@@ -65,7 +65,7 @@
 
         <activity
             android:name=".Activities.FaleConoscoActivity"
-            android:label="@string/title_activity_fale_conosco"></activity>
+            android:label="Fale Conosco"></activity>
     </application>
 
 </manifest>

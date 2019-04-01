@@ -147,7 +147,7 @@ public class CadastroActivity extends AppCompatActivity {
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(CadastroActivity.this, "Cancelou!!!!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CadastroActivity.this, "Saindo..", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });
@@ -213,8 +213,8 @@ public class CadastroActivity extends AppCompatActivity {
                                 txtTelefoneContato.setText("");
                                 radioTratamento.setSelected(false);
 
-                                Toast.makeText(CadastroActivity.this, "Salvou!!!!!", Toast.LENGTH_SHORT).show();
-                                Snackbar.make(view, "Salvou!", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                                Toast.makeText(CadastroActivity.this, "Cadastro realizado!", Toast.LENGTH_SHORT).show();
+                                Snackbar.make(view, "Cadastro realizado!", Snackbar.LENGTH_LONG).setAction("Action", null).show();
                                 Intent it = new Intent(CadastroActivity.this, PerfilActivity.class);
                                 startActivity(it);
 

@@ -155,9 +155,9 @@ ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:64:19-60
 activity#br.com.onpressure.projeto.onpressure.Activities.FaleConoscoActivity
-ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:66:9-68:76
+ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:66:9-68:53
 	android:label
-		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:68:13-64
+		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:68:13-41
 	android:name
 		ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:67:13-59
 uses-sdk

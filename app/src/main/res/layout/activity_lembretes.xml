@@ -50,9 +50,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
-                    android:hint="Medicamento"
                     android:textSize="25sp"
-                    android:inputType="textCapCharacters"
+                    android:hint="Medicamento"
                     android:textAlignment="center" />
                 <EditText
                     android:id="@+id/edt_posologia"
@@ -60,9 +59,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
-                    android:hint="Posologia"
                     android:textSize="25sp"
-                    android:inputType="textCapCharacters"
+                    android:hint="Posologia"
                     android:textAlignment="center" />
 
 

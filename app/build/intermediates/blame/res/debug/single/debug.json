@@ -8,24 +8,24 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_grafico_pressao_arterial.xml.flat",
-        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\grafico_pressao_arterial.xml"
-    },
-    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_grafico_pressao_arterial.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\grafico_pressao_arterial.xml"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
@@ -88,6 +88,10 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_sobpressao_round.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_sobpressao_round.png"
+    },
+    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
@@ -102,6 +106,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\4bec299e571cf3092aa3397cb7e1e40a\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_sobpressao.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_sobpressao.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
@@ -140,12 +148,12 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_slideshow.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -156,16 +164,16 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\4bec299e571cf3092aa3397cb7e1e40a\\res\\drawable-v21\\design_password_eye.xml"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\27f29606d3ff0effafa18ad5c5a013d3\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\4bec299e571cf3092aa3397cb7e1e40a\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
@@ -240,16 +248,16 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\27f29606d3ff0effafa18ad5c5a013d3\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_black_24dp.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_black_24dp.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_black_24dp.png"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\27f29606d3ff0effafa18ad5c5a013d3\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
@@ -266,6 +274,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cadastro.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\activity_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_sobpressao_round.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_sobpressao_round.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
@@ -300,16 +312,16 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fale_conosco.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\activity_fale_conosco.xml"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fale_conosco.xml.flat",
-        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\activity_fale_conosco.xml"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -376,12 +388,12 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_alimentos.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\activity_alimentos.xml"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
@@ -396,16 +408,16 @@
         "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\27f29606d3ff0effafa18ad5c5a013d3\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_calculo_imc.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\activity_calculo_imc.xml"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\27f29606d3ff0effafa18ad5c5a013d3\\res\\drawable\\notification_bg.xml"
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -440,12 +452,12 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
-        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -512,6 +524,10 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_sobpressao_round.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_sobpressao_round.xml"
+    },
+    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
@@ -560,6 +576,10 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_sobpressao_round.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_sobpressao_round.png"
+    },
+    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -582,6 +602,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ufs.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\drawable\\ufs.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -730,6 +754,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_sobpressao.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_sobpressao.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -974,6 +1002,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_sobpressao.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_sobpressao.xml"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1240,6 +1272,10 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_sobpressao.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_sobpressao.png"
+    },
+    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -1326,6 +1362,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_sobpressao_round.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_sobpressao_round.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1492,6 +1532,10 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_sobpressao_round.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_sobpressao_round.png"
+    },
+    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -1530,6 +1574,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_sobpressao.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_sobpressao.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_manage.xml.flat",
@@ -1906,6 +1954,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_android_button.png.flat",
         "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\drawable\\android_button.png"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_sobpressao.png.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_sobpressao.png"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",

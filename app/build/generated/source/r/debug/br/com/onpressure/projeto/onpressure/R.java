@@ -3590,6 +3590,7 @@ public final class R {
     public static final int sintomas=0x7f080081;
     public static final int tooltip_frame_dark=0x7f080082;
     public static final int tooltip_frame_light=0x7f080083;
+    public static final int ufs=0x7f080084;
   }
   public static final class id {
     public static final int ALT=0x7f090000;
@@ -3974,6 +3975,8 @@ public final class R {
   public static final class mipmap {
     public static final int ic_launcher=0x7f0d0000;
     public static final int ic_launcher_round=0x7f0d0001;
+    public static final int ic_launcher_sobpressao=0x7f0d0002;
+    public static final int ic_launcher_sobpressao_round=0x7f0d0003;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0e0000;

@@ -23,8 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="156" />
-                                                <entry key="trimmed" value="true" />
+                                                <entry key="scalingPercent" value="65" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -37,6 +36,7 @@
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
                                       <entry key="foregroundImage" value="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\res\drawable\home.png" />
                                       <entry key="foregroundLayerName" value="ic_launcher" />
+                                      <entry key="legacyIconShape" value="NONE" />
                                       <entry key="outputName" value="ic_launcher_sobpressao" />
                                     </map>
                                   </option>

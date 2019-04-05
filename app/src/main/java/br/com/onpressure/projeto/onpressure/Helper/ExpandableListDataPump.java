@@ -43,7 +43,7 @@ public class ExpandableListDataPump {
         sintoma_6.add("Os sintomas podem incluir dor na perna, especialmente ao caminhar.");
         sintoma_6.add("Dores locais: nádegas.");
         sintoma_6.add("Dores circunstanciais: na perna durante atividade física ou na perna, mas melhora durante o repouso.");
-        sintoma_6.add("SintNa pele: afinamento da pele nas pernas, pele fria, perda de pelos nas pernas ou úlcerasomas.");
+        sintoma_6.add("Na pele: afinamento da pele nas pernas, pele fria, perda de pelos nas pernas ou úlcerasomas.");
 
         List<String> sintoma_7 = new ArrayList<String>();
         sintoma_7.add("Os sintomas de acidente vascular cerebral incluem dificuldade para andar, falar e compreender, bem como paralisia ou dormência da face, do braço ou da perna.");

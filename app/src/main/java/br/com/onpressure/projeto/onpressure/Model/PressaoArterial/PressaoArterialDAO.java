@@ -63,4 +63,8 @@ public class PressaoArterialDAO {
 
         return null;
     }
+
+    public boolean excluir(int id){
+        return gw.getDatabase().delete(TABLE_PRESSAO_ARTERIAL, "ID=?", new String[]{ id + "" }) > 0;
+    }
 }

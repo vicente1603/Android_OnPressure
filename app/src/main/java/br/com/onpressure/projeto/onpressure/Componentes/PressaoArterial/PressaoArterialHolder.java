@@ -21,6 +21,7 @@ public class PressaoArterialHolder extends RecyclerView.ViewHolder{
     public TextView txtFrequenciaCardiaca;
     public TextView txtInfoPressao;
     public TextView txtData;
+    public ImageButton btnExcluir;
 
 
 
@@ -31,5 +32,6 @@ public class PressaoArterialHolder extends RecyclerView.ViewHolder{
         txtFrequenciaCardiaca = itemView.findViewById(R.id.txtFrequenciaCardiaca);
         txtInfoPressao = itemView.findViewById(R.id.txtInfoPressao);
         txtData = itemView.findViewById(R.id.data);
+        btnExcluir = itemView.findViewById(R.id.btnExcluir);
     }
 }

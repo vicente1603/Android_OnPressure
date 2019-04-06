@@ -47,4 +47,8 @@ public class IMCDAO {
         return imcs;
     }
 
+    public boolean excluir(int id){
+        return gw.getDatabase().delete(TABLE_IMC, "ID=?", new String[]{ id + "" }) > 0;
+    }
+
 }

@@ -1,15 +1,21 @@
 package br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import java.util.List;
 
+import br.com.onpressure.projeto.onpressure.Componentes.Usuario.UsuarioHolder;
 import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterial;
+import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterialDAO;
 import br.com.onpressure.projeto.onpressure.R;
 
-public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterialHolder>{
+public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterialHolder> {
 
     private final List<PressaoArterial> pressoesArterial;
 
@@ -17,7 +23,7 @@ public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterial
         this.pressoesArterial = pressoesArterial;
     }
 
-    public void adicionarPressaoArterial(PressaoArterial pressaoArterial){
+    public void adicionarPressaoArterial(PressaoArterial pressaoArterial) {
         pressoesArterial.add(pressaoArterial);
         notifyItemInserted(getItemCount());
     }
@@ -29,12 +35,49 @@ public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterial
     }
 
     @Override
-    public void onBindViewHolder(PressaoArterialHolder holder, int position) {
+    public void onBindViewHolder(PressaoArterialHolder holder, final int position) {
+
         holder.txtPressaoDiastolica.setText(String.valueOf(pressoesArterial.get(position).getPressaoDiastolica()));
         holder.txtPressaoSistolica.setText(String.valueOf(pressoesArterial.get(position).getPressaoSistolica()));
         holder.txtFrequenciaCardiaca.setText(String.valueOf(pressoesArterial.get(position).getFrequenciaCardiaca()));
         holder.txtInfoPressao.setText(pressoesArterial.get(position).getInfoPressao());
         holder.txtData.setText(pressoesArterial.get(position).getData());
+
+        final PressaoArterial pressaoArterial = pressoesArterial.get(position);
+
+        holder.btnExcluir.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final View view = v;
+                AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
+                builder.setTitle("Confirmação")
+                        .setMessage("Tem certeza que deseja excluir este registro de pressão arterial?")
+                        .setPositiveButton("Excluir", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                PressaoArterial pressaoArterial1 = pressoesArterial.get(position);
+                                PressaoArterialDAO dao = new PressaoArterialDAO(view.getContext());
+                                boolean sucesso = dao.excluir(pressaoArterial1.getId());
+                                if (sucesso) {
+                                    removerPA(pressaoArterial1);
+
+                                } else {
+
+                                }
+                            }
+                        })
+                        .setNegativeButton("Cancelar", null)
+                        .create()
+                        .show();
+            }
+        });
+
+    }
+
+    public void removerPA(PressaoArterial pressaoArterial) {
+        int position = pressoesArterial.indexOf(pressaoArterial);
+        pressoesArterial.remove(position);
+        notifyItemRemoved(position);
     }
 
     @Override

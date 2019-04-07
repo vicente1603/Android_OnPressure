@@ -3,6 +3,7 @@ package br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.support.v7.widget.RecyclerView;
+import android.support.design.widget.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,9 +61,10 @@ public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterial
                                 boolean sucesso = dao.excluir(pressaoArterial1.getId());
                                 if (sucesso) {
                                     removerPA(pressaoArterial1);
+                                    Snackbar.make(view, "Item removido com sucesso!", Snackbar.LENGTH_LONG).setAction("Action", null).show();
 
                                 } else {
-
+                                    Snackbar.make(view, "Erro ao remover o item", Snackbar.LENGTH_LONG).setAction("Action", null).show();
                                 }
                             }
                         })

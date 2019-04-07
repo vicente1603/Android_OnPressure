@@ -106,6 +106,11 @@ public class HomeActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        if (id == R.id.sair){
+
+            finish();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

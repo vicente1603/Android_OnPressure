@@ -3,13 +3,17 @@ package br.com.onpressure.projeto.onpressure.Componentes.IMC;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.support.v7.widget.RecyclerView;
+import android.support.design.widget.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.List;
 
+import br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity;
+import br.com.onpressure.projeto.onpressure.Activities.HomeActivity;
 import br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial.PressaoArterialHolder;
 import br.com.onpressure.projeto.onpressure.Model.IMC.IMC;
 import br.com.onpressure.projeto.onpressure.Model.IMC.IMCDAO;
@@ -62,9 +66,9 @@ public class IMCAdapter extends RecyclerView.Adapter<IMCHolder>{
                                 boolean sucesso = dao.excluir(imc.getId());
                                 if (sucesso) {
                                     removerIMC(imc);
-
+                                    Snackbar.make(view, "Item removido com sucesso!", Snackbar.LENGTH_LONG).setAction("Action", null).show();
                                 } else {
-
+                                    Snackbar.make(view, "Erro ao remover o item", Snackbar.LENGTH_LONG).setAction("Action", null).show();
                                 }
                             }
                         })

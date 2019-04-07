@@ -3,9 +3,6 @@ package br.com.onpressure.projeto.onpressure.Model.IMC;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.support.v4.app.NavUtils;
-import android.widget.ListView;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -55,7 +55,7 @@
                 android:textColor="@color/preto"
                 android:textAlignment="center"
                 android:textSize="30sp"
-                android:text="Como está se sentindo hoje?" />
+                android:text="Como você se sente hoje?" />
 
         </LinearLayout>
 

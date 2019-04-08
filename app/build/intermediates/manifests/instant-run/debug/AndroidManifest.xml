@@ -26,6 +26,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
+            android:name="br.com.onpressure.projeto.onpressure.Activities.FeedbackActivity"
+            android:label="SobPressão"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.HomeActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"

@@ -74,17 +74,24 @@
 
             <Button
                 android:id="@+id/btn_pesquisar"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Pesquisar" />
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/btn_primary_effect"
+                android:layout_marginRight="20dp"
+                android:text="Pesquisar"
+                android:textColor="@drawable/text_color_primary_pressed"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btn_limpar"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Limpar" />
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/btn_primary_effect"
+                android:text="Limpar"
+                android:textColor="@drawable/text_color_primary_pressed"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

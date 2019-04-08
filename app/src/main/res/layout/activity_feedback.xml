@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:gravity="center_horizontal"
             android:text="Como você se sente hoje?"
             android:textColor="@color/preto"
@@ -28,7 +28,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/title"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -145,12 +145,34 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
 
-            <Button
+            <TextView
+                android:id="@+id/txtStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Confirmar" />
+                android:textColor="@drawable/text_color_primary_pressed"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_confirmar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/linearLayoutBodyLogin"
+                android:background="@drawable/btn_primary_effect"
+                android:text="Confirmar"
+                android:textColor="@drawable/text_color_primary_pressed"
+                android:textStyle="bold" />
+
         </LinearLayout>
 
     </LinearLayout>

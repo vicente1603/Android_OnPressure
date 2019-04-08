@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/id_buttons"
         android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
         android:paddingLeft="@dimen/margin.button.footer.filtro"
         android:paddingRight="@dimen/margin.button.footer.filtro"
         tools:layout_editor_absoluteX="0dp"
@@ -22,17 +24,24 @@
             android:id="@+id/btnPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin.button.footer.filtro"
             android:layout_weight="1"
-            android:text="PA" />
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_primary_effect"
+            android:text="PA"
+            android:textColor="@drawable/text_color_primary_pressed"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnIMC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin.button.footer.filtro"
             android:layout_weight="1"
-            android:text="IMC" />
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_primary_effect"
+            android:text="IMC"
+            android:textColor="@drawable/text_color_primary_pressed"
+            android:textStyle="bold" />
     </LinearLayout>
 
 

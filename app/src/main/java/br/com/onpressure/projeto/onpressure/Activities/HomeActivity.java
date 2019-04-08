@@ -4,8 +4,10 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,6 +23,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Random;
@@ -31,9 +35,14 @@ import br.com.onpressure.projeto.onpressure.R;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private TextView txtComoSeSente;
+    private TextView txtResposta;
+    private RecyclerView recyclerView;
+    private PressaoArterialAdapter adapter;
+    private LinearLayout layoutComoEsta;
+    private LinearLayout layoutResposta;
+    private static final String PREFERENCE = "Preferencia";
 
-    RecyclerView recyclerView;
-    PressaoArterialAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +52,37 @@ public class HomeActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         listarDicas();
+
+
+        txtComoSeSente = findViewById(R.id.txtComoSeSente);
+        txtResposta = findViewById(R.id.txtResposta);
+        layoutComoEsta = findViewById(R.id.layoutComoEsta);
+        layoutResposta = findViewById(R.id.layoutResposta);
+
+        Bundle extra = getIntent().getExtras();
+
+        if (extra != null) {
+
+            layoutComoEsta.setVisibility(View.GONE);
+            layoutResposta.setVisibility(View.VISIBLE);
+            String textoPassado = extra.getString("txtEscolhido");
+            txtResposta.setText(textoPassado);
+
+            SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCE, 0);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            String txtEscolhido = txtResposta.getText().toString();
+            editor.putString("txtEscolhido", txtEscolhido);
+            editor.commit();
+
+        }
+
+        SharedPreferences sharedPreferences =  getSharedPreferences(PREFERENCE, 0);
+        if (sharedPreferences.contains("txtEscolhido")){
+            String txtRecuperado = sharedPreferences.getString("txtEscolhido", "Default");
+            txtResposta.setText(txtRecuperado);
+            layoutComoEsta.setVisibility(View.GONE);
+            layoutResposta.setVisibility(View.VISIBLE);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -81,6 +121,11 @@ public class HomeActivity extends AppCompatActivity
 
     }
 
+    public void onClick(View v) {
+        Intent it = new Intent(HomeActivity.this, FeedbackActivity.class);
+        startActivity(it);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -106,7 +151,7 @@ public class HomeActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        if (id == R.id.sair){
+        if (id == R.id.sair) {
 
             finish();
         }

@@ -65,13 +65,7 @@ public class CalculoImcActivity extends AppCompatActivity {
                 String informacao = "Sem informação";
                 String dica = "";
 
-                if (res < 15) {
-                    informacao = "Abaixo do Peso I.";
-                    dica = "Alimentos ricos em proteína são grandes aliados: " +
-                            "dê preferência às carnes magras (alcatra, filé mignon, maminha, fraldinha) " +
-                            ", frango e principalmente peixes e ovos, além de leite e queijos brancos como ricota e minas.";
-                }
-                if ((res >= 15) && (res < 18.5)) {
+                if ((res < 15) && (res < 18.5)) {
                     informacao = "Abaixo do Peso.";
                     dica = "Aumente o consumo de pães, bolos, massas, mandioca, batata, milho e cereais " +
                             "(arroz, farinha de trigo, fubá, aveia), lembrando sempre de optar pelas versões integrais";
@@ -83,17 +77,13 @@ public class CalculoImcActivity extends AppCompatActivity {
                             " qual você consome refeições mais calóricas é a garantia do seu sucesso.";
                 }
                 if ((res >= 25) && (res < 29.4)) {
-                    informacao = "Acima do Peso.";
+                    informacao = "Sobrepeso.";
                     dica = "Manter hábitos alimentares saudáveis e praticar atividades físicas são bons aliados contra o excesso de peso.";
                 }
-                if ((res >= 30) && (res < 39.4)) {
-                    informacao = "Obesidade I.";
+                if ((res >= 30) && (res >= 40)) {
+                    informacao = "Obeso.";
                     dica = "Procure tratamento através de dieta apropriada com avaliação médica em conjunto " +
                             "com a prática de exercícios, desde que o paciente seja avaliado e liberado pelo médico.";
-                }
-                if (res >= 40) {
-                    informacao = "Obesidade II.";
-                    dica = "Em alguns casos avaliados pelo médico, pode-se fazer o uso de remédios para emagrecer para ajudar no controle do peso.";
                 }
 
                 BigDecimal bd = new BigDecimal(res).setScale(2, RoundingMode.CEILING.HALF_EVEN);

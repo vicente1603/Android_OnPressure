@@ -112,7 +112,7 @@
                 android:layout_gravity="center"
                 android:textColor="@color/preto"
                 android:gravity="center"
-                android:text="m" />
+                android:text="cm" />
 
         </LinearLayout>
 

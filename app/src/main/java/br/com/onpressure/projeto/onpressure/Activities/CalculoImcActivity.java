@@ -59,7 +59,8 @@ public class CalculoImcActivity extends AppCompatActivity {
                 // double pesoImc = 0;
                 // pesoImc = Double.parseDouble(txtPeso.getText().toString());
                 double pesoImc = Double.parseDouble(txtPeso.getText().toString().replace(",", "."));
-                double alturaImc = Double.parseDouble(txtAltura.getText().toString().replace(",", "."));
+                double alturaImc = Double.parseDouble(txtAltura.getText().toString());
+                alturaImc = alturaImc / 100;
                 double res = (pesoImc / (alturaImc * alturaImc));
 
                 String informacao = "Sem informação";

@@ -46,7 +46,7 @@
 
                 <EditText
                     android:id="@+id/edt_medicamentos"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
@@ -55,18 +55,18 @@
                     android:textAlignment="center" />
                 <EditText
                     android:id="@+id/edt_posologia"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
                     android:textSize="25sp"
-                    android:hint="Posologia"
+                    android:hint="Dosagem / Quantidade"
                     android:textAlignment="center" />
 
 
                 <EditText
                     android:id="@+id/edt_dataEscolhida"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/edt_medicamentos"
                     android:layout_gravity="center"
@@ -90,7 +90,7 @@
                     <!--android:textAlignment="center" />-->
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:orientation="vertical">
@@ -109,7 +109,7 @@
 
                     <Button
                         android:id="@+id/btn_agendarNotificacao"
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/btn_calendárioDatePicker"
                         android:layout_marginTop="30dp"

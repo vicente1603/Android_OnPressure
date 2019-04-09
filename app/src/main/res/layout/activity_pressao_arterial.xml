@@ -43,7 +43,7 @@
 
                 <EditText
                     android:id="@+id/txtPressaoSistolica"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
@@ -64,7 +64,7 @@
 
                 <EditText
                     android:id="@+id/txtPressaoDiastolica"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
@@ -84,7 +84,7 @@
 
                 <EditText
                     android:id="@+id/txtFrequenciaCardiaca"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:ems="10"
@@ -103,7 +103,7 @@
 
                 <Button
                     android:id="@+id/btnRegistrar"
-                    android:layout_width="200dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="Registrar"

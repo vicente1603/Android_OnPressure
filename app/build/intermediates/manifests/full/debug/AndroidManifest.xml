@@ -78,8 +78,7 @@
         />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.GraficosActivity"
-            android:label="Gráficos"
-            android:screenOrientation="landscape" />
+            android:label="Gráficos" />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity"
             android:label="Histórico"

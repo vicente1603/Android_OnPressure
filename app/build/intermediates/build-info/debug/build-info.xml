@@ -1,72 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="23"
-    build-mode="FULL"
-    density="xhdpi"
+    build-mode="HOT_WARM"
+    density="420dpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1554832257995"
+    timestamp="1554843824270"
     token="-2514809840753581690"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="398" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="100" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="56" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
     <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1554832257995"
+        timestamp="1554836844249"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
@@ -74,32 +59,225 @@
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1554842810368"
+        verifier="METHOD_ADDED" >
         <artifact
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554842843625"
+        verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554842843625\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554842935253"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554842935253\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554842964924"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554842964924\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843047142"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843047142\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843110327"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843110327\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843149469"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843149469\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843201533"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843201533\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843285601"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843285601\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843318775"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843318775\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843341960"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843341960\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843377585"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843377585\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843396937"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843396937\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843411869"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843411869\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843432050"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843432050\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843445394"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843445394\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843469889"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843469889\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843481885"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843481885\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843504697"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843504697\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843517960"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843517960\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843527928"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843527928\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843540127"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843540127\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843673993"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843673993\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843758448"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843758448\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843790863"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\builds\debug\1554843790863\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1554843824270"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

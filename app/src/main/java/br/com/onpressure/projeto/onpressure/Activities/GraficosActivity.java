@@ -3,6 +3,8 @@ package br.com.onpressure.projeto.onpressure.Activities;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
+import android.graphics.DashPathEffect;
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
@@ -21,6 +23,8 @@ import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
 import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.helper.DateAsXAxisLabelFormatter;
+import com.jjoe64.graphview.series.BarGraphSeries;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
@@ -40,20 +44,9 @@ import br.com.onpressure.projeto.onpressure.R;
 
 public class GraficosActivity extends AppCompatActivity {
 
-    BarChart barChart;
-    ArrayList<String> dates;
-    Random random;
-    ArrayList<BarEntry> barEntries;
-    EditText txtDataFim;
-    EditText txtDataInicio;
-    Button btn_pesquisar;
-    Button btn_limpar;
-    ListView listViewItens;
     GraphView graph;
-    LineGraphSeries<DataPoint> series;
     DbHelper myHelper;
     SQLiteDatabase sqLiteDatabase;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,114 +54,93 @@ public class GraficosActivity extends AppCompatActivity {
         setContentView(R.layout.activity_graficos);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        graph = findViewById(R.id.graph);
-
         myHelper = new DbHelper(this);
         sqLiteDatabase = myHelper.getWritableDatabase();
 
-
-        //        barChart = (BarChart) findViewById(R.id.bargraph);
-//        txtDataInicio = findViewById(R.id.txtDataInicio);
-//        txtDataFim = findViewById(R.id.txtDataFim);
-//        btn_pesquisar = findViewById(R.id.btn_pesquisar);
-//        btn_limpar = findViewById(R.id.btn_limpar);
-//        listViewItens = findViewById(R.id.listViewGraph);
-//
-//
-//        btn_pesquisar.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                String dataInicio = txtDataInicio.getText().toString();
-//                String dataFim = txtDataFim.getText().toString();
-//
-//                createRandomBarGraph(dataInicio, dataFim);
-//                barChart.setVisibility(View.VISIBLE);
-//            }
-//        });
-//
-//        btn_limpar.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                txtDataFim.setText("");
-//                txtDataInicio.setText("");
-//                barChart.setVisibility(View.GONE);
-//
-//            }
-//        });
-
-        exqButton();
-        //loadList();
-
+        desenharChart();
 
     }
 
-    private void exqButton() {
+    private void desenharChart() {
 
+        LineGraphSeries<DataPoint> series = new LineGraphSeries<>(carregarDados());
 
-        series = new LineGraphSeries<DataPoint>(loadList());
+        series.setThickness(10);
+        series.setDrawDataPoints(true);
+        series.setDataPointsRadius(15);
+
+        graph = findViewById(R.id.graph);
+        graph.setTitle("teste");
+
+        // set manual X bounds
+        graph.getViewport().setYAxisBoundsManual(true);
+        graph.getViewport().setMinY(0);
+        graph.getViewport().setMaxY(100);
+
+        graph.getViewport().setXAxisBoundsManual(true);
+        graph.getViewport().setMinX(0);
+        graph.getViewport().setMaxX(20);
+
+        // enable scaling and scrolling
+        graph.getViewport().setScalable(true);
+        graph.getViewport().setScalableY(true);
+       // graph.getGridLabelRenderer().setNumHorizontalLabels(9);
+
+//        graph.getViewport().setScrollable(true); // enables horizontal scrolling
+//        graph.getViewport().setScrollableY(true); // enables vertical scrolling
+//        graph.getViewport().setScalable(true); // enables horizontal zooming and scrolling
+//        graph.getViewport().setScalableY(true); // enables vertical zooming and scrolling
+
         graph.addSeries(series);
 
+//        BarGraphSeries<DataPoint> series2 = new BarGraphSeries<>(carregarDados());
+//
+//        graph.addSeries(series2);
+
     }
 
-//    public void createRandomBarGraph(String Date1, String Date2) {
-//
-//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-//
-//        try {
-//            Date date1 = simpleDateFormat.parse(Date1);
-//            Date date2 = simpleDateFormat.parse(Date2);
-//
-//            Calendar mDate1 = Calendar.getInstance();
-//            Calendar mDate2 = Calendar.getInstance();
-//            mDate1.clear();
-//            mDate2.clear();
-//
-//            mDate1.setTime(date1);
-//            mDate2.setTime(date2);
-//
-//            dates = new ArrayList<>();
-//            dates = getList(mDate1, mDate2);
-//
-//            barEntries = new ArrayList<>();
-//            float max;
-//            float value;
-//            random = new Random();
-//            for (int j = 0; j < dates.size(); j++) {
-//                max = 5f;
-//                value = random.nextFloat() * max;
-//                barEntries.add(new BarEntry(value, j));
-//            }
-//
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-//
-//        BarDataSet barDataSet = new BarDataSet(barEntries, "Datas");
-//        BarData barData = new BarData(dates, barDataSet);
-//        barChart.setData(barData);
-//    }
+    private void desenharChartDate() {
 
-//    public ArrayList<String> getList(Calendar startDate, Calendar endDate) {
-//        ArrayList<String> list = new ArrayList<String>();
-//        while (startDate.compareTo(endDate) <= 0) {
-//            list.add(getDate(startDate));
-//            startDate.add(Calendar.DAY_OF_MONTH, 1);
-//        }
-//        return list;
-//    }
+        Calendar calendar = Calendar.getInstance();
+        Date d1 = calendar.getTime();
 
-//    public String getDate(Calendar cld) {
-//        String curDate = cld.get(Calendar.DAY_OF_MONTH) + "/" + (cld.get(Calendar.MONTH) + 1) + "/"
-//                + cld.get(Calendar.YEAR);
-//        try {
-//            Date date = new SimpleDateFormat("dd/MM/yyyy").parse(curDate);
-//            curDate = new SimpleDateFormat("dd/MM/yyyy").format(date);
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-//        return curDate;
-//    }
+        GraphView graph = (GraphView) findViewById(R.id.graph);
+
+// you can directly pass Date objects to DataPoint-Constructor
+// this will convert the Date to double via Date#getTime()
+        LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[]{
+                new DataPoint(d1, 5),
+        });
+
+        graph.addSeries(series);
+
+        graph.getGridLabelRenderer().setLabelFormatter(new DateAsXAxisLabelFormatter(this));
+        graph.getGridLabelRenderer().setNumHorizontalLabels(2); // only 4 because of the space
+
+// set manual x bounds to have nice steps
+        graph.getViewport().setMinX(d1.getTime());
+        graph.getViewport().setXAxisBoundsManual(true);
+
+// as we use dates as labels, the human rounding to nice readable numbers
+// is not necessary
+        graph.getGridLabelRenderer().setHumanRounding(false);
+
+    }
+
+    private DataPoint[] carregarDados() {
+
+        Cursor result = myHelper.loadData();
+
+        DataPoint[] dp = new DataPoint[result.getCount()];
+
+        for (int i = 0; i < result.getCount(); i++) {
+
+            result.moveToNext();
+
+            dp[i] = new DataPoint(result.getInt(0), result.getInt(2)); //  _x_ e |y|
+        }
+        return dp;
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -177,32 +149,6 @@ public class GraficosActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    private DataPoint[] loadList() {
-        //ArrayList<String> array = new ArrayList<>();
-
-        //String[] columns = {"PressaoDiastolica", "PressaoSistolica"};
-//        Cursor cursor = sqLiteDatabase.query("PressoesArterial", columns, null, null, null, null, null);
-
-        Cursor result = myHelper.loadData();
-
-        DataPoint[] dp = new DataPoint[result.getCount()];
-
-
-        for (int i = 0; i < result.getCount(); i++) {
-
-            result.moveToNext();
-
-            dp[i] = new DataPoint(result.getInt(1), result.getInt(2));
-
-//            array.add(result.getString(1));
-//            array.add(result.getString(2));
-//            array.add(result.getString(5));
-//            ListAdapter listAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, array);
-//            listViewItens.setAdapter(listAdapter);
-        }
-        return dp;
     }
 
 }

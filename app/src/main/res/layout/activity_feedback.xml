@@ -159,15 +159,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/btn_confirmar"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_alignParentBottom="true"
-                android:layout_below="@+id/linearLayoutBodyLogin"
                 android:background="@drawable/btn_primary_effect"
                 android:text="Confirmar"
                 android:textColor="@drawable/text_color_primary_pressed"

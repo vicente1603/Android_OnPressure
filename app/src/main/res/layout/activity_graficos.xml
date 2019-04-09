@@ -4,106 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Activities.GraficosActivity">
 
-    <LinearLayout
-        android:id="@+id/layout_input"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal"
-            android:text="Informe o intervalo de tempo que deseja visualizar:"
-            android:textColor="@color/preto"
-            android:textSize="20sp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="De: "
-                android:textColor="@color/preto"
-                android:textSize="20sp" />
-
-            <br.com.onpressure.projeto.onpressure.Componentes.MaskedEditText
-                android:id="@+id/txtDataInicio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:hint="Data Início"
-                android:inputType="date"
-                android:textColor="@color/preto"
-                app:mask="##/##/####" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Até: "
-                android:textColor="@color/preto"
-                android:textSize="20sp" />
-
-            <br.com.onpressure.projeto.onpressure.Componentes.MaskedEditText
-                android:id="@+id/txtDataFim"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Data Fim"
-                android:inputType="date"
-                android:textColor="@color/preto"
-                app:mask="##/##/####" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btn_pesquisar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:background="@drawable/btn_primary_effect"
-                android:layout_marginRight="20dp"
-                android:text="Pesquisar"
-                android:textColor="@drawable/text_color_primary_pressed"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btn_limpar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:background="@drawable/btn_primary_effect"
-                android:text="Limpar"
-                android:textColor="@drawable/text_color_primary_pressed"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <com.github.mikephil.charting.charts.BarChart
-
-        android:id="@+id/bargraph"
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/layout_input"
-        android:visibility="gone">
+        android:layout_alignParentBottom="true" />
 
-    </com.github.mikephil.charting.charts.BarChart>
 </RelativeLayout>

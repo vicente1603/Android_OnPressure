@@ -1,6 +1,7 @@
 package br.com.onpressure.projeto.onpressure.Componentes;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -49,5 +50,21 @@ public class DbHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
+    }
+
+    public Cursor loadData(){
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        String Select = "SELECT * FROM PressoesArterial;";
+
+        try {
+
+            Cursor c = db.rawQuery(Select, null);
+            return c;
+
+        }catch (Exception e){
+            System.out.println(e);
+            return null;
+        }
     }
 }

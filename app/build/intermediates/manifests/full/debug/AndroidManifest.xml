@@ -79,7 +79,7 @@
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.GraficosActivity"
             android:label="Gráficos"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="landscape" />
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity"
             android:label="Histórico"

@@ -17,7 +17,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:gravity="center_horizontal"
-            android:text="Como você se sente hoje?"
+            android:text="Como você está se sentindo?"
             android:textColor="@color/preto"
             android:textSize="25sp" />
 

@@ -6,12 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".Activities.GraficosActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_buttons"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:paddingLeft="@dimen/margin.button.footer.filtro"
+        android:paddingRight="@dimen/margin.button.footer.filtro"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <com.jjoe64.graphview.GraphView
-        android:id="@+id/graph"
+        <Button
+            android:id="@+id/btnPAS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_primary_effect"
+            android:text="PAS"
+            android:textColor="@drawable/text_color_primary_pressed"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_primary_effect"
+            android:text="PAD"
+            android:textColor="@drawable/text_color_primary_pressed"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_graph1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        />
+        android:layout_below="@id/id_buttons"
+        android:visibility="gone">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_graph2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_buttons"
+        android:visibility="gone">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
 
 </RelativeLayout>

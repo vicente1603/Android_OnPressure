@@ -51,6 +51,11 @@
             android:label="Sintomas" />
         />
         <activity
+            android:name=".Activities.ActivityListaLembrete"
+            android:screenOrientation="portrait"
+            android:label="Lembretes Cadastrados" />
+        />
+        <activity
             android:name=".Activities.AlimentosActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden"

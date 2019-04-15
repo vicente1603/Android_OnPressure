@@ -181,7 +181,7 @@ public class HomeActivity extends AppCompatActivity
             Intent intent = new Intent(HomeActivity.this, SintomasActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_lembretes) {
-            Intent intent = new Intent(HomeActivity.this, LembretesActivity.class);
+            Intent intent = new Intent(HomeActivity.this, ActivityListaLembrete.class);
             startActivity(intent);
         } else if (id == R.id.nav_grafico) {
             Intent intent = new Intent(HomeActivity.this, GraficosActivity.class);

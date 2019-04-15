@@ -59,6 +59,11 @@
             android:screenOrientation="portrait" />
         />
         <activity
+            android:name="br.com.onpressure.projeto.onpressure.Activities.ActivityListaLembrete"
+            android:label="Lembretes Cadastrados"
+            android:screenOrientation="portrait" />
+        />
+        <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.AlimentosActivity"
             android:label="Alimentação"
             android:screenOrientation="portrait"

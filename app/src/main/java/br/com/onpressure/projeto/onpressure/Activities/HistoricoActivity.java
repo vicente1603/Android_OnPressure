@@ -14,6 +14,7 @@ import br.com.onpressure.projeto.onpressure.R;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 public class HistoricoActivity extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class HistoricoActivity extends AppCompatActivity {
     IMCAdapter adapterImc;
     PressaoArterialAdapter adapterPa;
     RecyclerView recyclerView, PA, IMC;
+    LinearLayout layoutNaoCadastradoPA,layoutNaoCadastradoIMC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +38,17 @@ public class HistoricoActivity extends AppCompatActivity {
         PA = findViewById(R.id.recyclerViewPressao);
 
         IMC = findViewById(R.id.recyclerViewImc);
+        layoutNaoCadastradoIMC = findViewById(R.id.layoutNaoCadastradoIMC);
+        layoutNaoCadastradoPA = findViewById(R.id.layoutNaoCadastradoPA);
+
+        configurarRecyclerPA();
 
         btnIMC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                IMC.setVisibility(View.VISIBLE);
+                layoutNaoCadastradoIMC.setVisibility(View.VISIBLE);
+                layoutNaoCadastradoPA.setVisibility(View.GONE);
+                IMC.setVisibility(View.GONE);
                 PA.setVisibility(View.GONE);
                 configurarRecyclerImc();
             }
@@ -49,7 +57,9 @@ public class HistoricoActivity extends AppCompatActivity {
         btnPA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                PA.setVisibility(View.VISIBLE);
+                layoutNaoCadastradoPA.setVisibility(View.VISIBLE);
+                layoutNaoCadastradoIMC.setVisibility(View.GONE);
+                PA.setVisibility(View.GONE);
                 IMC.setVisibility(View.GONE);
                 configurarRecyclerPA();
             }
@@ -76,6 +86,11 @@ public class HistoricoActivity extends AppCompatActivity {
         adapterImc = new IMCAdapter(dao.retornarTodos());
         recyclerView.setAdapter(adapterImc);
         recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+
+        if (dao.retornarTodos().size() > 0){
+            IMC.setVisibility(View.VISIBLE);
+            layoutNaoCadastradoIMC.setVisibility(View.GONE);
+        }
     }
 
     private void configurarRecyclerPA(){
@@ -87,5 +102,10 @@ public class HistoricoActivity extends AppCompatActivity {
         adapterPa = new PressaoArterialAdapter(dao.retornarTodas());
         recyclerView.setAdapter(adapterPa);
         recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+
+        if (dao.retornarTodas().size() > 0){
+            PA.setVisibility(View.VISIBLE);
+            layoutNaoCadastradoPA.setVisibility(View.GONE);
+        }
     }
 }

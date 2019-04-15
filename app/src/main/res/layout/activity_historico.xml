@@ -9,11 +9,11 @@
     tools:context="br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity">
 
     <LinearLayout
+        android:id="@+id/id_buttons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/id_buttons"
-        android:orientation="horizontal"
         android:layout_marginTop="5dp"
+        android:orientation="horizontal"
         android:padding="5dp"
         android:paddingLeft="@dimen/margin.button.footer.filtro"
         android:paddingRight="@dimen/margin.button.footer.filtro"
@@ -24,9 +24,9 @@
             android:id="@+id/btnPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp"
             android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
             android:background="@drawable/btn_primary_effect"
             android:text="PA"
             android:textColor="@drawable/text_color_primary_pressed"
@@ -36,12 +36,46 @@
             android:id="@+id/btnIMC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_alignParentBottom="true"
+            android:layout_weight="1"
             android:background="@drawable/btn_primary_effect"
             android:text="IMC"
             android:textColor="@drawable/text_color_primary_pressed"
             android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNaoCadastradoPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Não há nenhum registro de pressão arterial cadastrado."
+            android:textColor="@color/preto"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNaoCadastradoIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Não há nenhum registro de imc cadastrado."
+            android:textColor="@color/preto"
+            android:textSize="25dp" />
     </LinearLayout>
 
 
@@ -51,13 +85,13 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.763"
-        tools:listitem="@layout/item_imc"
-        android:visibility="gone"/>
+        tools:listitem="@layout/item_imc" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerViewPressao"
@@ -65,15 +99,13 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.763"
-        tools:listitem="@layout/item_pressao_arterial"
-        android:visibility="gone"/>
-
-
+        tools:listitem="@layout/item_pressao_arterial" />
 
 
 </LinearLayout>

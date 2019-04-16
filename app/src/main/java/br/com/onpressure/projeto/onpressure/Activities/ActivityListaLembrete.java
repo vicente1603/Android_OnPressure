@@ -7,22 +7,39 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import br.com.onpressure.projeto.onpressure.Componentes.Lembrete.LembreteAdapter;
+import br.com.onpressure.projeto.onpressure.Model.Lembrete.Lembrete;
+import br.com.onpressure.projeto.onpressure.Model.Lembrete.LembreteDAO;
 import br.com.onpressure.projeto.onpressure.R;
 
 public class ActivityListaLembrete extends AppCompatActivity {
+
+    LembreteAdapter adapterLembrete;
+    LinearLayout layoutNaoCadastrado;
+    RecyclerView recyclerView, lembrete;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_lembretes);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        layoutNaoCadastrado = findViewById(R.id.layoutNaoCadastrado);
+        lembrete = findViewById(R.id.recyclerViewLembrete);
+        //lembrete.setVisibility(View.VISIBLE);
+
+        configurarRecyclerLembretes();
 
         FloatingActionButton fab = findViewById(R.id.fab_lembrete);
 
@@ -31,8 +48,24 @@ public class ActivityListaLembrete extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(ActivityListaLembrete.this, LembretesActivity.class));
             }
-        });;
+        });
 
+    }
+
+    private void configurarRecyclerLembretes() {
+        recyclerView = findViewById(R.id.recyclerViewLembrete);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+
+        LembreteDAO dao = new LembreteDAO(this);
+        adapterLembrete = new LembreteAdapter(dao.retornarTodos());
+        recyclerView.setAdapter(adapterLembrete);
+        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+
+        if (dao.retornarTodos().size() > 0){
+            lembrete.setVisibility(View.VISIBLE);
+            layoutNaoCadastrado.setVisibility(View.GONE);
+        }
     }
 
     @Override

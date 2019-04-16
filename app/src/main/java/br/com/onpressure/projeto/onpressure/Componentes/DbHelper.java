@@ -36,6 +36,11 @@ public class DbHelper extends SQLiteOpenHelper {
             " InfoImc TEXT NOT NULL," +
             " Data TEXT NOT NULL);";
 
+    private final String CREATE_TABLE_LEMBRETE = "CREATE TABLE Lembretes (ID INTEGER PRIMARY KEY AUTOINCREMENT, " +
+            " Medicamento TEXT NOT NULL," +
+            " Posologia TEXT NOT NULL," +
+            " DataHora TEXT NOT NULL);";
+
     public DbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -45,6 +50,7 @@ public class DbHelper extends SQLiteOpenHelper {
         db.execSQL(CREATE_TABLE_USUARIOS);
         db.execSQL(CREATE_TABLE_PRESSAO_ARTERIAL);
         db.execSQL(CREATE_TABLE_IMC);
+        db.execSQL(CREATE_TABLE_LEMBRETE);
     }
 
     @Override

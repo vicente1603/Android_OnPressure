@@ -36,8 +36,8 @@ public class HistoricoActivity extends AppCompatActivity {
         btnIMC = findViewById(R.id.btnIMC);
 
         PA = findViewById(R.id.recyclerViewPressao);
-
         IMC = findViewById(R.id.recyclerViewImc);
+
         layoutNaoCadastradoIMC = findViewById(R.id.layoutNaoCadastradoIMC);
         layoutNaoCadastradoPA = findViewById(R.id.layoutNaoCadastradoPA);
 

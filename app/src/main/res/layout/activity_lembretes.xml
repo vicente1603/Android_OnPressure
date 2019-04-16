@@ -45,7 +45,7 @@
                 android:padding="10dp">
 
                 <EditText
-                    android:id="@+id/edt_medicamentos"
+                    android:id="@+id/txtMedicamento"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -54,7 +54,7 @@
                     android:hint="Medicamento"
                     android:textAlignment="center" />
                 <EditText
-                    android:id="@+id/edt_posologia"
+                    android:id="@+id/txtPosologia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -65,7 +65,7 @@
 
 
                 <EditText
-                    android:id="@+id/edt_dataEscolhida"
+                    android:id="@+id/txtDataHora"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/edt_medicamentos"

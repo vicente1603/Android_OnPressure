@@ -29,12 +29,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Posologia/Quantidade:"
+                android:layout_gravity="center_horizontal"
                 android:textColor="@color/preto" />
 
             <TextView
                 android:id="@+id/txtPosologia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Posologia"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
@@ -45,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
+            android:layout_gravity="center_horizontal"
             android:orientation="vertical"
             app:layout_constraintLeft_toRightOf="@+id/layout_diastolica"
             app:layout_constraintTop_toTopOf="parent">
@@ -52,6 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Medicamento:"
                 android:textColor="@color/preto" />
 
@@ -59,6 +63,7 @@
                 android:id="@+id/txtMedicamento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Medicamento"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
@@ -69,16 +74,19 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:textAlignment="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Data do lembrete:"
+                android:textAlignment="center"
                 android:textColor="@color/preto" />
 
             <TextView
-                android:id="@+id/data"
+                android:id="@+id/txtDataHora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

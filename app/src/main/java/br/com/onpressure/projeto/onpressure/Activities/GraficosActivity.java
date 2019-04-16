@@ -204,7 +204,7 @@ public class GraficosActivity extends AppCompatActivity {
 
             result.moveToNext();
 
-            id = result.getInt(0) + 5;
+            id = result.getInt(0) + 10;
             pas = result.getInt(2) + 5;
 
             dp[i] = new DataPoint(result.getInt(0), result.getInt(2)); //  _x_ e |y|
@@ -222,7 +222,7 @@ public class GraficosActivity extends AppCompatActivity {
 
             result.moveToNext();
 
-            id = result.getInt(0) + 5;
+            id = result.getInt(0) + 10;
             pas = result.getInt(2) + 5;
 
             dp[i] = new DataPoint(result.getInt(0), result.getInt(1)); //  _x_ e |y|

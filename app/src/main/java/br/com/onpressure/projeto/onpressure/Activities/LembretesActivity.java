@@ -1,12 +1,15 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
+import android.annotation.TargetApi;
 import android.app.AlarmManager;
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -29,6 +32,8 @@ import java.util.Date;
 import java.util.Locale;
 
 import br.com.onpressure.projeto.onpressure.Componentes.AlarmReceiver;
+import br.com.onpressure.projeto.onpressure.Model.IMC.IMCDAO;
+import br.com.onpressure.projeto.onpressure.Model.Lembrete.LembreteDAO;
 import br.com.onpressure.projeto.onpressure.R;
 
 public class LembretesActivity extends AppCompatActivity {
@@ -49,9 +54,9 @@ public class LembretesActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        dataEscolhida = findViewById(R.id.edt_dataEscolhida);
-        medicamento = findViewById(R.id.edt_medicamentos);
-        posologia = findViewById(R.id.edt_posologia);
+        dataEscolhida = findViewById(R.id.txtDataHora);
+        medicamento = findViewById(R.id.txtMedicamento);
+        posologia = findViewById(R.id.txtPosologia);
         botaoAgendar = findViewById(R.id.btn_agendarNotificacao);
         calendarioData = findViewById(R.id.btn_calendárioDatePicker);
 
@@ -64,6 +69,22 @@ public class LembretesActivity extends AppCompatActivity {
                 String posologiaAgendada = posologia.getText().toString();
                 agendarNotificacao(getNotification(medicamentoAgendado, posologiaAgendada), formatarData.parse(dataAgendada, new ParsePosition(0)));
 
+                LembreteDAO dao = new LembreteDAO(getBaseContext());
+                boolean sucesso = dao.salvar(medicamentoAgendado, posologiaAgendada, dataAgendada);
+
+                if (sucesso) {
+
+                    medicamento.setText("");
+                    posologia.setText("");
+                    dataEscolhida.setText("");
+
+                    //Intent it = new Intent(CalculoImcActivity.this, HomeActivity.class);
+                    //startActivity(it);
+                }
+
+                Intent i = new Intent(LembretesActivity.this, ActivityListaLembrete.class);
+                startActivity(i);
+
 
             }
         });
@@ -74,6 +95,7 @@ public class LembretesActivity extends AppCompatActivity {
                 atualizarData();
             }
         });
+
     }
 
     private void exibeDataNoCampo() {
@@ -134,6 +156,7 @@ public class LembretesActivity extends AppCompatActivity {
                 pendingIntent);
     }
 
+@TargetApi(16)
     private Notification getNotification(String medicamento, String posologia) {
         Notification.Builder builder = new Notification.Builder(this);
         builder.setContentTitle("Lembrete: Tomar o medicamento");
@@ -145,6 +168,7 @@ public class LembretesActivity extends AppCompatActivity {
         return builder.build();
 
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

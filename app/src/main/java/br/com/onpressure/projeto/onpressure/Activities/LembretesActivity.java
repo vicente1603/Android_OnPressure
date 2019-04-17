@@ -14,6 +14,8 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.content.Context;
+import android.provider.Settings;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
@@ -43,6 +45,8 @@ public class LembretesActivity extends AppCompatActivity {
     private EditText posologia;
     private ImageButton calendarioData;
     private Button botaoAgendar;
+    public static final String NOTIFICATION_CHANNEL_ID = "10001";
+    private NotificationManager mNotificationManager;
 
     SimpleDateFormat formatarData = new SimpleDateFormat("dd/MM/yyyy HH:mm");
     Calendar calendar = Calendar.getInstance();
@@ -78,8 +82,6 @@ public class LembretesActivity extends AppCompatActivity {
                     posologia.setText("");
                     dataEscolhida.setText("");
 
-                    //Intent it = new Intent(CalculoImcActivity.this, HomeActivity.class);
-                    //startActivity(it);
                 }
 
                 Intent i = new Intent(LembretesActivity.this, ActivityListaLembrete.class);
@@ -156,19 +158,32 @@ public class LembretesActivity extends AppCompatActivity {
                 pendingIntent);
     }
 
-@TargetApi(16)
+    @TargetApi(16)
     private Notification getNotification(String medicamento, String posologia) {
-        Notification.Builder builder = new Notification.Builder(this);
-        builder.setContentTitle("Lembrete: Tomar o medicamento");
-        builder.setContentText(medicamento + " - " +posologia);
-        builder.setSmallIcon(R.mipmap.ic_launcher);
+
+        Notification.Builder mBuilder = new Notification.Builder(this);
+        mBuilder.setSmallIcon(R.mipmap.ic_launcher);
+        mBuilder.setContentTitle("Lembrete: Tomar o medicamento");
+        mBuilder.setContentText(medicamento + " - " + posologia);
 
         Toast.makeText(LembretesActivity.this, "Medicamento " + medicamento + " adicionado!", Toast.LENGTH_LONG).show();
 
-        return builder.build();
+        mNotificationManager = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
 
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            int importance = NotificationManager.IMPORTANCE_HIGH;
+            NotificationChannel notificationChannel = new NotificationChannel(NOTIFICATION_CHANNEL_ID, "NOTIFICATION_CHANNEL_NAME", importance);
+            notificationChannel.enableLights(true);
+            notificationChannel.setLightColor(Color.RED);
+            notificationChannel.enableVibration(true);
+            notificationChannel.setVibrationPattern(new long[]{100, 200, 300, 400, 500, 400, 300, 200, 400});
+            assert mNotificationManager != null;
+            mBuilder.setChannelId(NOTIFICATION_CHANNEL_ID);
+            mNotificationManager.createNotificationChannel(notificationChannel);
+        }
+
+        return mBuilder.build();
     }
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

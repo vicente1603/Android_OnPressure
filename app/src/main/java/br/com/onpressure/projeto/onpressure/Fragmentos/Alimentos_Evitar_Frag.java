@@ -82,7 +82,7 @@ public class Alimentos_Evitar_Frag extends Fragment {
                 "Mexerica - 3,2 mg",
                 "Goiaba - 2,76 mg",
                 "Margarina com sal (1 col.Sopa) - 151 mg",
-                " Sopa em pacote (1 xic.Chá) - 710 mg",
+                "Sopa em pacote (1 xic.Chá) - 710 mg",
                 "Azeitona (5 unidades) - 505 mg",
                 "Vegetais conserva (Meia xic) - 340 mg",
                 "Sopa molho soja (1 col) - 780 mg",

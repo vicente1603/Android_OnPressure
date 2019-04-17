@@ -42,20 +42,6 @@
                 android:textColor="@color/branco"
                 android:textSize="12sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="5dp"
-                android:padding="10sp"
-                android:layout_alignParentLeft="true"
-                android:layout_centerVertical="true"
-                android:text="O POTÁSSIO AUXILIA NO CONTROLE DA PRESSÃO ARTERIAL"
-                android:textAlignment="center"
-                android:background="@drawable/rounded_button_amarelo"
-                android:textColor="@color/branco"
-                android:textSize="12sp" />
-
         </LinearLayout>
 
         <LinearLayout

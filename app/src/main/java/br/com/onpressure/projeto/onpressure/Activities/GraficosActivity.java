@@ -107,8 +107,8 @@ public class GraficosActivity extends AppCompatActivity {
             }
         });
 
-        graph.setTitle("Nível de Pressão Sistólica");
-        graph.setTitleTextSize(50);
+//        graph.setTitle("Nível de Pressão Sistólica");
+//        graph.setTitleTextSize(50);
         GridLabelRenderer gridLabel = graph.getGridLabelRenderer();
         gridLabel.setHorizontalAxisTitle("Nº Registro");
         gridLabel.setVerticalAxisTitle("Pressão Sistólica");
@@ -156,8 +156,8 @@ public class GraficosActivity extends AppCompatActivity {
             }
         });
 
-        graph2.setTitle("Nível de Pressão Diastólica");
-        graph2.setTitleTextSize(50);
+//        graph2.setTitle("Nível de Pressão Diastólica");
+//        graph2.setTitleTextSize(50);
         GridLabelRenderer gridLabel = graph2.getGridLabelRenderer();
         gridLabel.setHorizontalAxisTitle("Nº Registro");
         gridLabel.setVerticalAxisTitle("Pressão Diastólica");

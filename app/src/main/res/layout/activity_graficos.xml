@@ -47,7 +47,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/id_buttons"
+        android:orientation="vertical"
         android:visibility="gone">
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/preto"
+            android:textSize="20sp"
+            android:text="Nível de Pressão Sistólica"/>
 
         <com.jjoe64.graphview.GraphView
             android:id="@+id/graph"
@@ -61,7 +71,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/id_buttons"
+        android:orientation="vertical"
         android:visibility="gone">
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/preto"
+            android:textSize="20sp"
+            android:text="Nível de Pressão Diastólica"/>
 
         <com.jjoe64.graphview.GraphView
             android:id="@+id/graph2"

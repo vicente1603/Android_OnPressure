@@ -3,6 +3,7 @@ package br.com.onpressure.projeto.onpressure.Activities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -158,11 +159,6 @@ public class CadastroActivity extends AppCompatActivity {
 
                 try {
 
-
-                        Snackbar.make(view, "Salvando...", Snackbar.LENGTH_LONG)
-                                .setAction("Action", null).show();
-
-
                         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");//formating according to my need
 
                         if (TextUtils.isEmpty(txtNome.getText())) {
@@ -175,8 +171,17 @@ public class CadastroActivity extends AppCompatActivity {
                             txtOcupacao.setError("Campo ocupação é obrigatório");
                         } else if (TextUtils.isEmpty(txtDataNascimento.getText())) {
                             txtDataNascimento.setError("Campo data de nascimento é obrigatório");
+                        } else if (spnGrauHipertensao.getSelectedItem().toString().equals("Selecione")) {
+                            TextView errorText = (TextView)spnGrauHipertensao.getSelectedView();
+                            errorText.setError("");
+                            errorText.setTextColor(Color.RED);
+                            errorText.setText("Campo obrigatório");
+                        } else if (spnTipoSanguineo.getSelectedItem().toString().equals("Selecione")) {
+                            TextView errorText = (TextView)spnTipoSanguineo.getSelectedView();
+                            errorText.setError("");
+                            errorText.setTextColor(Color.RED);
+                            errorText.setText("Campo obrigatório");
                         } else {
-
 
                             String email = txtEmail.getText().toString();
                             String nome = txtNome.getText().toString();
@@ -212,6 +217,10 @@ public class CadastroActivity extends AppCompatActivity {
                                 txtNomeContato.setText("");
                                 txtTelefoneContato.setText("");
                                 radioTratamento.setSelected(false);
+
+                                Snackbar.make(view, "Salvando...", Snackbar.LENGTH_LONG)
+                                        .setAction("Action", null).show();
+
 
                                 Toast.makeText(CadastroActivity.this, "Cadastro realizado!", Toast.LENGTH_SHORT).show();
                                 Snackbar.make(view, "Cadastro realizado!", Snackbar.LENGTH_LONG).setAction("Action", null).show();

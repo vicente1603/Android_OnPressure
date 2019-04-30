@@ -44,8 +44,6 @@ public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterial
         holder.txtInfoPressao.setText(pressoesArterial.get(position).getInfoPressao());
         holder.txtData.setText(pressoesArterial.get(position).getData());
 
-        final PressaoArterial pressaoArterial = pressoesArterial.get(position);
-
         holder.btnExcluir.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,11 +54,11 @@ public class PressaoArterialAdapter extends RecyclerView.Adapter<PressaoArterial
                         .setPositiveButton("Excluir", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                PressaoArterial pressaoArterial1 = pressoesArterial.get(position);
+                                PressaoArterial pressaoArterial = pressoesArterial.get(position);
                                 PressaoArterialDAO dao = new PressaoArterialDAO(view.getContext());
-                                boolean sucesso = dao.excluir(pressaoArterial1.getId());
+                                boolean sucesso = dao.excluir(pressaoArterial.getId());
                                 if (sucesso) {
-                                    removerPA(pressaoArterial1);
+                                    removerPA(pressaoArterial);
                                     Snackbar.make(view, "Item removido com sucesso!", Snackbar.LENGTH_LONG).setAction("Action", null).show();
 
                                 } else {

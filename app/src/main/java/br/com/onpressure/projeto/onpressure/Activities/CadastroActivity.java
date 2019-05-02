@@ -169,7 +169,7 @@ public class CadastroActivity extends AppCompatActivity {
                             txtTelefone.setError("Campo telefone é obrigatório");
                         } else if (TextUtils.isEmpty(txtOcupacao.getText())) {
                             txtOcupacao.setError("Campo ocupação é obrigatório");
-                        } else if (TextUtils.isEmpty(txtDataNascimento.getText())) {
+                        } else if (txtDataNascimento.getText().toString() == null) {
                             txtDataNascimento.setError("Campo data de nascimento é obrigatório");
                         } else if (spnGrauHipertensao.getSelectedItem().toString().equals("Selecione")) {
                             TextView errorText = (TextView)spnGrauHipertensao.getSelectedView();

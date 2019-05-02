@@ -2,13 +2,13 @@
 <instant-run
     abi="x86"
     api-level="27"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1556657018412"
+    timestamp="1556825518941"
     token="-2514809840753581690"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,13 +23,50 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1556654986924"
+        timestamp="1556825518941"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
@@ -55,6 +92,9 @@
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
@@ -67,27 +107,5 @@
             location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1556655646329"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1556655759331"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1556657018412"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

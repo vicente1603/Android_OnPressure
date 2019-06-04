@@ -26,6 +26,7 @@ import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.GridLabelRenderer;
+import com.jjoe64.graphview.LegendRenderer;
 import com.jjoe64.graphview.helper.DateAsXAxisLabelFormatter;
 import com.jjoe64.graphview.series.BarGraphSeries;
 import com.jjoe64.graphview.series.DataPoint;
@@ -56,10 +57,10 @@ public class GraficosActivity extends AppCompatActivity {
     GraphView graph;
     GraphView graph2;
     DbHelper myHelper;
-    LinearLayout layout_graph1, layout_graph2;
+    LinearLayout layout_graphPAS, layout_graphPAD, layout_graphPADePAD;
     SQLiteDatabase sqLiteDatabase;
     int id, pas;
-    Button btnPAS, btnPAD;
+    Button btnPAS, btnPAD, btnPADePAD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,10 +68,12 @@ public class GraficosActivity extends AppCompatActivity {
         setContentView(R.layout.activity_graficos);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        layout_graph1 = findViewById(R.id.layout_graph1);
-        layout_graph2 = findViewById(R.id.layout_graph2);
+        layout_graphPAS = findViewById(R.id.layout_graphPAS);
+        layout_graphPAD = findViewById(R.id.layout_graphPAD);
+        layout_graphPADePAD = findViewById(R.id.layout_graphPADePAD);
         btnPAS = findViewById(R.id.btnPAS);
         btnPAD = findViewById(R.id.btnPAD);
+        btnPADePAD = findViewById(R.id.btnPADePAD);
 
         myHelper = new DbHelper(this);
         sqLiteDatabase = myHelper.getWritableDatabase();
@@ -78,26 +81,101 @@ public class GraficosActivity extends AppCompatActivity {
         btnPAD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                layout_graph2.setVisibility(View.VISIBLE);
-                layout_graph1.setVisibility(View.GONE);
+                layout_graphPAD.setVisibility(View.VISIBLE);
+                layout_graphPAS.setVisibility(View.GONE);
+                layout_graphPADePAD.setVisibility(View.GONE);
             }
         });
 
         btnPAS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                layout_graph1.setVisibility(View.VISIBLE);
-                layout_graph2.setVisibility(View.GONE);
+                layout_graphPAS.setVisibility(View.VISIBLE);
+                layout_graphPAD.setVisibility(View.GONE);
+                layout_graphPADePAD.setVisibility(View.GONE);
+            }
+        });
+
+        btnPADePAD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                layout_graphPADePAD.setVisibility(View.VISIBLE);
+                layout_graphPAS.setVisibility(View.GONE);
+                layout_graphPAD.setVisibility(View.GONE);
             }
         });
 
         desenharChatPointPAS();
         desenharChatPointPAD();
+        desenharChatPointPASePAD();
+
+    }
+
+    private void desenharChatPointPASePAD() {
+
+        graph = findViewById(R.id.graphPASePAD);
+        PointsGraphSeries<DataPoint> seriesPAS = new PointsGraphSeries<>(carregarDadosPAS());
+        PointsGraphSeries<DataPoint> seriesPAD = new PointsGraphSeries<>(carregarDadosPAD());
+
+        seriesPAS.setOnDataPointTapListener(new OnDataPointTapListener() {
+            @Override
+            public void onTap(Series series, DataPointInterface dataPoint) {
+                Toast.makeText(GraficosActivity.this, ""+dataPoint, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        seriesPAD.setOnDataPointTapListener(new OnDataPointTapListener() {
+            @Override
+            public void onTap(Series series, DataPointInterface dataPoint) {
+                Toast.makeText(GraficosActivity.this, ""+dataPoint, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        GridLabelRenderer gridLabel = graph.getGridLabelRenderer();
+        gridLabel.setHorizontalAxisTitle("Nº Registro");
+        gridLabel.setVerticalAxisTitle("Pressão Sistólica e Diastólica");
+
+        graph.getViewport().setYAxisBoundsManual(true);
+        graph.getViewport().setMaxY(200);
+
+        graph.getViewport().setXAxisBoundsManual(true);
+        graph.getViewport().setMaxX(10);
+
+        graph.getViewport().setScalable(true);
+        graph.getViewport().setScalableY(true);
+
+        graph.addSeries(seriesPAS);
+        graph.addSeries(seriesPAD);
+        seriesPAS.setShape(PointsGraphSeries.Shape.POINT);
+        seriesPAS.setColor(Color.MAGENTA);
+        seriesPAS.setTitle("PAS");
+        seriesPAD.setShape(PointsGraphSeries.Shape.POINT);
+        seriesPAD.setColor(Color.BLUE);
+        seriesPAD.setTitle("PAD");
+
+        graph.getLegendRenderer().setVisible(true);
+        graph.getLegendRenderer().setAlign(LegendRenderer.LegendAlign.TOP);
+
+//        LineGraphSeries<DataPoint> series2 = new LineGraphSeries<>(new DataPoint[] {
+//                new DataPoint(0, 140),
+//                new DataPoint(id, 140),
+//        });
+//        series2.setColor(Color.RED);
+//        series2.setThickness(10);
+//        graph.addSeries(series2);
+//
+//        LineGraphSeries<DataPoint> series3 = new LineGraphSeries<>(new DataPoint[] {
+//                new DataPoint(0, 120),
+//                new DataPoint(id, 120),
+//        });
+//        series3.setColor(Color.GREEN);
+//        series3.setThickness(10);
+//        graph.addSeries(series3);
 
     }
 
     private void desenharChatPointPAS (){
-        graph = findViewById(R.id.graph);
+        graph = findViewById(R.id.graphPAS);
         PointsGraphSeries<DataPoint> series = new PointsGraphSeries<>(carregarDadosPAS());
 
         series.setOnDataPointTapListener(new OnDataPointTapListener() {
@@ -146,7 +224,7 @@ public class GraficosActivity extends AppCompatActivity {
     }
 
     private void desenharChatPointPAD (){
-        graph2 = findViewById(R.id.graph2);
+        graph2 = findViewById(R.id.graphPAD);
         PointsGraphSeries<DataPoint> series = new PointsGraphSeries<>(carregarDadosPAD());
 
         series.setOnDataPointTapListener(new OnDataPointTapListener() {

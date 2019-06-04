@@ -19,6 +19,19 @@
         tools:layout_editor_absoluteY="0dp">
 
         <Button
+            android:id="@+id/btnPADePAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_primary_effect"
+            android:text="PAD e PAD"
+            android:textColor="@drawable/text_color_primary_pressed"
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/btnPAS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,7 +56,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout_graph1"
+        android:id="@+id/layout_graphPAS"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/id_buttons"
@@ -60,14 +73,14 @@
             android:text="Nível de Pressão Sistólica"/>
 
         <com.jjoe64.graphview.GraphView
-            android:id="@+id/graph"
+            android:id="@+id/graphPAS"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentBottom="true" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout_graph2"
+        android:id="@+id/layout_graphPAD"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/id_buttons"
@@ -84,7 +97,31 @@
             android:text="Nível de Pressão Diastólica"/>
 
         <com.jjoe64.graphview.GraphView
-            android:id="@+id/graph2"
+            android:id="@+id/graphPAD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_graphPADePAD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_buttons"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/preto"
+            android:textSize="20sp"
+            android:text="Nível de Pressão Arterial"/>
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphPASePAD"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentBottom="true" />

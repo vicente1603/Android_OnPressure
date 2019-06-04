@@ -77,8 +77,8 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
             double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString().replace(",", "."));
             double pas = Double.parseDouble(txtPressaoSistolica.getText().toString().replace(",", "."));
-            String informacao = "Sem informação";
-            String dica = "";
+            String informacao = "-";
+            String dica = "Continue monitorando sua pressão arterial.";
 
 
             if (pas < 120 && pad < 80) {
@@ -138,16 +138,29 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
                     Toast.makeText(PressaoArterialActivity.this, "Dados Salvos com sucesso!", Toast.LENGTH_LONG).show();
 
-                    AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
-                    alertDialog.setTitle("Informação:");
-                    alertDialog.setMessage(informacao + " - " + dica);
-                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.dismiss();
-                                }
-                            });
-                    alertDialog.show();
+                    if(informacao.equals("-")){
+                        AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
+                        alertDialog.setTitle("Dados coletados com sucesso.");
+                        alertDialog.setMessage(dica);
+                        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.dismiss();
+                                    }
+                                });
+                        alertDialog.show();
+                    }else {
+                        AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
+                        alertDialog.setTitle("Dados coletados com sucesso.");
+                        alertDialog.setMessage(informacao + " - " + dica);
+                        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.dismiss();
+                                    }
+                                });
+                        alertDialog.show();
+                    }
 
 //                    Intent it = new Intent(PressaoArterialActivity.this, HomeActivity.class);
 //                    startActivity(it);

@@ -1384,6 +1384,10 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\color-v23\\abc_tint_default.xml"
     },
     {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aferimento_aparelho.jpeg.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\drawable\\aferimento_aparelho.jpeg"
+    },
+    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_bottom_navigation_item_background.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\4bec299e571cf3092aa3397cb7e1e40a\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
@@ -1784,6 +1788,10 @@
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_frag_ajuda.xml.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\layout\\dialog_frag_ajuda.xml"
+    },
+    {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -1894,6 +1902,10 @@
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
         "source": "C:\\Users\\vjscoliveira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ef58e3c04e98001a11ea37486c42efb3\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aferimento_manual.jpeg.flat",
+        "source": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\src\\main\\res\\drawable\\aferimento_manual.jpeg"
     },
     {
         "merged": "C:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",

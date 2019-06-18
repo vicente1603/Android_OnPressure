@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="Manual"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"
+                    android:src="@drawable/aferimento_manual" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="Com Aparelho"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="380dp"
+                    android:src="@drawable/aferimento_aparelho" />
+
+                <Button
+                    android:id="@+id/btn_fechar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Fechar"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/btn_primary_effect"
+                    android:textColor="@drawable/text_color_primary_pressed"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

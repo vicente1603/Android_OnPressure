@@ -2,8 +2,10 @@ package br.com.onpressure.projeto.onpressure.Activities;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
+import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
@@ -25,6 +27,7 @@ import java.util.Date;
 import java.util.Locale;
 
 import br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial.PressaoArterialAdapter;
+import br.com.onpressure.projeto.onpressure.Fragmentos.Ajuda_Frag;
 import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterial;
 import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterialDAO;
 import br.com.onpressure.projeto.onpressure.R;
@@ -35,6 +38,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
     private EditText txtPressaoSistolica;
     private EditText txtFrequenciaCardiaca;
     private TextView txtInfoPressao;
+    private FloatingActionButton fab_ajuda;
 
     RecyclerView recyclerView;
     PressaoArterialAdapter adapter;
@@ -54,8 +58,20 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
         txtPressaoDiastolica = findViewById(R.id.txtPressaoDiastolica);
         txtPressaoSistolica = findViewById(R.id.txtPressaoSistolica);
         txtInfoPressao = findViewById(R.id.txtInfoPressao);
+        fab_ajuda = findViewById(R.id.fab_ajuda);
 
         btnRegistrar.setOnClickListener(this);
+
+        fab_ajuda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                FragmentManager fm = getFragmentManager();
+                Ajuda_Frag dialogFragment = new Ajuda_Frag ();
+                dialogFragment.show(fm, "Sample Fragment");
+
+            }
+        });
 
     }
 
@@ -82,28 +98,24 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
 
             if (pas < 120 && pad < 80) {
-                informacao = "Sua classificação de risco é: Ótima.";
+                informacao = "Sua classificação de risco é: Normal.";
                 dica = "Verifique a pressão arterial mensalmente.";
             }
-            if ((pas >= 120 && pas <= 129) && (pad >= 80 && pad <= 84)) {
-                informacao = "Sua classificação de risco é: Normal.";
+            if ((pas >= 120 && pas <= 129) && (pad < 80)) {
+                informacao = "Sua classificação de risco é: Elevada.";
                 dica = "Evite o excesso de peso.";
             }
-            if ((pas >= 130 && pas <= 139) && (pad >= 85 && pad <= 89)) {
-                informacao = "Sua classificação de risco é: Normal-Alta.";
+            if ((pas >= 130 && pas <= 139) || (pad >= 80 && pad <= 89)) {
+                informacao = "Sua classificação de risco é: Hipertensão Estágio 1.";
                 dica = "Mantenha uma alimentação saudável.";
             }
-            if ((pas >= 140 && pas <= 159) && (pad >= 90 && pad <= 99)) {
-                informacao = "Sua classificação de risco é: Estágio 1";
+            if ((pas >= 140) || (pad >= 90)) {
+                informacao = "Sua classificação de risco é: Hipertensão Estágio 2.";
                 dica = "Reduza o consumo de bebidas alcoólicas.";
             }
-            if ((pas >= 160 && pas <= 179) && (pad >= 100 && pad <= 109)) {
-                informacao = "Sua classificação de risco é: Estágio 2";
-                dica = "Não tome medicamentos sem prescrição médica.";
-            }
-            if ((pas >= 180) && (pad >= 110)) {
-                informacao = "Sua classificação de risco é: Estágio 3";
-                dica = "Hora de mexer o corpo!";
+            if ((pas > 180) || (pad > 120)) {
+                informacao = "Sua classificação de risco é: Urgência hipertensiva!";
+                dica = " Verifique novamente em farmácia ou ambulatório, caso persista há necessidade de atendimento médico!";
             }
 
             txtInfoPressao.setText(String.valueOf(informacao));

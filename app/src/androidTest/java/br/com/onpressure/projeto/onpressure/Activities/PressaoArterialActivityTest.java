@@ -31,6 +31,7 @@ import static android.support.test.espresso.action.ViewActions.replaceText;
 import static android.support.test.espresso.action.ViewActions.scrollTo;
 import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.matcher.ViewMatchers.hasErrorText;
 import static android.support.test.espresso.matcher.ViewMatchers.isChecked;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.isNotChecked;
@@ -74,13 +75,16 @@ public class PressaoArterialActivityTest {
         onView(withId(R.id.btnRegistrar)).perform(click());
     }
 
-    @Test
-    public void naoPermitirCamposVazios(){
-//        onView(withId(R.id.txtPressaoSistolica)).check(matches(not(withText(""))));
-//        onView(withId(R.id.txtPressaoDiastolica)).check(matches(not(withText(""))));
-//        onView(withId(R.id.txtFrequenciaCardiaca)).check(matches(not(withText(""))));
 
-    }
+//    @Test
+//    public void checarVazio(){
+//        onView(withId(R.id.txtPressaoSistolica)).check(matches(hasErrorText(("Não pode ser vazio"))));
+//        onView(withId(R.id.txtPressaoDiastolica)).check(matches(hasErrorText(("Não pode ser vazio"))));
+//        onView(withId(R.id.txtFrequenciaCardiaca)).check(matches(hasErrorText(("Não pode ser vazio"))));
+//
+//        onView(withId(R.id.btnRegistrar)).perform(click());
+//
+//    }
 }
 
 

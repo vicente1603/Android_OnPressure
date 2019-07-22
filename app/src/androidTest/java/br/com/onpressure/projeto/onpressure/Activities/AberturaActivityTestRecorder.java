@@ -46,13 +46,7 @@ public class AberturaActivityTestRecorder {
         // Added a sleep statement to match the app's execution delay.
         // The recommended way to handle such scenarios is to use Espresso idling resources:
         // https://google.github.io/android-testing-support-library/docs/espresso/idling-resource/index.html
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
-        pressBack();
 
         ViewInteraction appCompatEditText = onView(
                 allOf(withId(R.id.txtEmail),
@@ -85,9 +79,44 @@ public class AberturaActivityTestRecorder {
         appCompatEditText3.perform(replaceText("Vicente"), closeSoftKeyboard());
 
         ViewInteraction maskedEditText15 = onView(
-                allOf(withId(R.id.txtDataNascimento), withText("16/03/1995 "),
+                allOf(withId(R.id.txtDataNascimento), withText("1"),
                         isDisplayed()));
         maskedEditText15.perform(closeSoftKeyboard());
+
+        ViewInteraction maskedEditText16 = onView(
+                allOf(withId(R.id.txtDataNascimento), withText("16"),
+                        isDisplayed()));
+        maskedEditText16.perform(closeSoftKeyboard());
+
+        ViewInteraction maskedEditText17 = onView(
+                allOf(withId(R.id.txtDataNascimento), withText("16/0"),
+                        isDisplayed()));
+        maskedEditText17.perform(closeSoftKeyboard());
+
+        ViewInteraction maskedEditText18 = onView(
+                allOf(withId(R.id.txtDataNascimento), withText("16/03"),
+                        isDisplayed()));
+        maskedEditText18.perform(closeSoftKeyboard());
+
+        ViewInteraction maskedEditText19 = onView(
+                allOf(withId(R.id.txtDataNascimento), withText("16/03/1"),
+                        isDisplayed()));
+        maskedEditText19.perform(closeSoftKeyboard());
+
+        ViewInteraction maskedEditText20 = onView(
+                allOf(withId(R.id.txtDataNascimento), withText("16/03/19"),
+                        isDisplayed()));
+        maskedEditText20.perform(closeSoftKeyboard());
+
+        ViewInteraction maskedEditTex21 = onView(
+                allOf(withId(R.id.txtDataNascimento), withText("16/03/199"),
+                        isDisplayed()));
+        maskedEditTex21.perform(closeSoftKeyboard());
+
+        ViewInteraction maskedEditText22 = onView(
+                allOf(withId(R.id.txtDataNascimento), withText("16/03/1995"),
+                        isDisplayed()));
+        maskedEditText22.perform(closeSoftKeyboard());
 
         ViewInteraction appCompatEditText4 = onView(
                 allOf(withId(R.id.txtOcupacao),

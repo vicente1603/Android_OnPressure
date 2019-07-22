@@ -1,9 +1,11 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
 
+import android.content.Intent;
 import android.support.test.espresso.DataInteraction;
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.ViewInteraction;
+import android.support.test.espresso.intent.Intents;
 import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.espresso.proto.action.ViewActions;
 import android.support.test.rule.ActivityTestRule;
@@ -31,6 +33,8 @@ import static android.support.test.espresso.action.ViewActions.replaceText;
 import static android.support.test.espresso.action.ViewActions.scrollTo;
 import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.intent.Intents.intended;
+import static android.support.test.espresso.intent.matcher.IntentMatchers.hasComponent;
 import static android.support.test.espresso.matcher.ViewMatchers.isChecked;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.isNotChecked;
@@ -95,9 +99,50 @@ public class AberturaActivityTest {
         onView(withId(R.id.radioSim)).check(matches(isChecked()));
         onView(withId(R.id.radioNão)).check(matches(isNotChecked()));
 
-        Espresso.onView(withId(R.id.txtNomeContato)).perform( scrollTo(), typeText("Fatima"), closeSoftKeyboard());;
+        Espresso.onView(withId(R.id.txtNomeContato)).perform(scrollTo(), typeText("Fatima"), closeSoftKeyboard());
+        ;
         Espresso.onView(withId(R.id.txtTelefoneContato)).perform(typeText("799999"), closeSoftKeyboard());
 
         onView(withId(R.id.btnEntrar)).perform(click());
+    }
+
+    @Test
+    public void testeIntentCorreta() {
+
+        Intents.init();
+
+        Espresso.onView(withId(R.id.txtEmail)).perform(typeText("vicente@ufs.br"), closeSoftKeyboard());
+        Espresso.onView(withId(R.id.txtNomeCompleto)).perform(typeText("Vicente Santiago"), closeSoftKeyboard());
+        Espresso.onView(withId(R.id.txtDataNascimento)).perform(typeText("16/03/1995"), closeSoftKeyboard());
+        Espresso.onView(withId(R.id.txtOcupacao)).perform(typeText("Programador"), closeSoftKeyboard());
+
+        Espresso.onView(withId(R.id.spnTipoSanguineo)).perform(click());
+        onData(allOf(is(instanceOf(String.class)))).atPosition(1).perform(click());
+
+        Espresso.onView(withId(R.id.spnGrauHipertensao)).perform(click());
+        onData(allOf(is(instanceOf(String.class)))).atPosition(1).perform(click());
+
+        Espresso.onView(withId(R.id.txtNumeroTelefone)).perform(typeText("7999999"), closeSoftKeyboard());
+
+        onView(withId(R.id.radioMale)).perform(click());
+        onView(withId(R.id.radioMale)).check(matches(isChecked()));
+        onView(withId(R.id.radioFemale)).check(matches(isNotChecked()));
+
+        onView(withId(R.id.radioSim)).perform(click());
+        onView(withId(R.id.radioSim)).check(matches(isChecked()));
+        onView(withId(R.id.radioNão)).check(matches(isNotChecked()));
+
+        Espresso.onView(withId(R.id.txtNomeContato)).perform(scrollTo(), typeText("Fatima"), closeSoftKeyboard());
+        Espresso.onView(withId(R.id.txtTelefoneContato)).perform(typeText("799999"), closeSoftKeyboard());
+
+
+        //        Matcher<Intent> matcher = hasComponent(PressaoArterialActivity.class.getName());
+        Matcher<Intent> matcher = hasComponent(HomeActivity.class.getName());
+
+        onView(withId(R.id.btnEntrar)).perform(click());
+
+        intended(matcher);
+
+        Intents.release();
     }
 }

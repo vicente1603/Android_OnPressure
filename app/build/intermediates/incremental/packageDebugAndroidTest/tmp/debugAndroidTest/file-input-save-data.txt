@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jul 21 13:30:29 BRT 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Documents\\Desenvolvimento\\AndroidStudioProjects\\SobPressao\\SobPressaoTest\\SobPressao\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

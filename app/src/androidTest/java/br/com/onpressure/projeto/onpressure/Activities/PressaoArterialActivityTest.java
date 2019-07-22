@@ -72,7 +72,6 @@ public class PressaoArterialActivityTest {
         Espresso.onView(withId(R.id.txtFrequenciaCardiaca)).perform(typeText("80"), closeSoftKeyboard());
 
         onView(withId(R.id.btnRegistrar)).perform(click());
-
     }
 
     @Test

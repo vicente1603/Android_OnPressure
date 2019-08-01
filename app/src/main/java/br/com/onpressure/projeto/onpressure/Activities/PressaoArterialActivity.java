@@ -38,7 +38,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
     private EditText txtPressaoSistolica;
     private EditText txtFrequenciaCardiaca;
     private TextView txtInfoPressao;
-    private FloatingActionButton fab_ajuda;
+    private Button btn_ajuda;
 
     RecyclerView recyclerView;
     PressaoArterialAdapter adapter;
@@ -58,11 +58,11 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
         txtPressaoDiastolica = findViewById(R.id.txtPressaoDiastolica);
         txtPressaoSistolica = findViewById(R.id.txtPressaoSistolica);
         txtInfoPressao = findViewById(R.id.txtInfoPressao);
-        fab_ajuda = findViewById(R.id.fab_ajuda);
+        btn_ajuda = findViewById(R.id.btn_ajuda);
 
         btnRegistrar.setOnClickListener(this);
 
-        fab_ajuda.setOnClickListener(new View.OnClickListener() {
+        btn_ajuda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

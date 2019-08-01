@@ -96,8 +96,8 @@ public final class R {
         public static final int async = 0x7f09001e;
         public static final int blocking = 0x7f090022;
         public static final int bottom = 0x7f090023;
-        public static final int chronometer = 0x7f09003a;
-        public static final int end = 0x7f090050;
+        public static final int chronometer = 0x7f09003b;
+        public static final int end = 0x7f090051;
         public static final int forever = 0x7f090062;
         public static final int icon = 0x7f09006a;
         public static final int icon_group = 0x7f09006b;

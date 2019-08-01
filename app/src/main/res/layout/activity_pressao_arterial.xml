@@ -131,37 +131,20 @@
     </ScrollView>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_gravity="bottom|end|right"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="130dp"
         android:orientation="vertical">
 
-        <FrameLayout
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/btn_ajuda"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right">
-
-            <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab_ajuda"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
-                android:layout_margin="@dimen/fab_margin"
-                android:src="@android:color/transparent"
-                app:backgroundTint="@color/vermelho" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:elevation="10dp"
-                android:text="?"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
-        </FrameLayout>
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/branco"
+            android:textSize="18sp"
+            android:text="Como Medir?"/>
 
     </LinearLayout>
 

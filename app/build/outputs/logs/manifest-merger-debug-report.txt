@@ -7,7 +7,7 @@ INJECTED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\A
 MERGED from [com.android.support:design:27.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\4bec299e571cf3092aa3397cb7e1e40a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\mflibrary-1.0.0.aar\f6f706faa7b332e4df6b45f4492a249c\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\ef58e3c04e98001a11ea37486c42efb3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a0d47319b16775eacc11cf2d1b4ac67\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9f31b34611f2e13222591668ba6725b8\AndroidManifest.xml:2:1-11:12
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\55927db25e8657dbe4920595399f2ca6\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5f9112a43e843c099aacdfb05a2c7e6b\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\f2f2c52678e2d7bebd7ee1ccb22abfce\AndroidManifest.xml:2:1-11:12
@@ -53,8 +53,8 @@ application
 ADDED from C:\Users\vjscoliveira\Desktop\SobPressao\SobPressao\app\src\main\AndroidManifest.xml:8:5-91:19
 MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\mflibrary-1.0.0.aar\f6f706faa7b332e4df6b45f4492a249c\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\mflibrary-1.0.0.aar\f6f706faa7b332e4df6b45f4492a249c\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a0d47319b16775eacc11cf2d1b4ac67\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a0d47319b16775eacc11cf2d1b4ac67\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9f31b34611f2e13222591668ba6725b8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9f31b34611f2e13222591668ba6725b8\AndroidManifest.xml:9:5-20
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\55927db25e8657dbe4920595399f2ca6\AndroidManifest.xml:11:5-12:19
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\55927db25e8657dbe4920595399f2ca6\AndroidManifest.xml:11:5-12:19
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\f2f2c52678e2d7bebd7ee1ccb22abfce\AndroidManifest.xml:9:5-20
@@ -215,8 +215,8 @@ MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveir
 MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\mflibrary-1.0.0.aar\f6f706faa7b332e4df6b45f4492a249c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\ef58e3c04e98001a11ea37486c42efb3\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\ef58e3c04e98001a11ea37486c42efb3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a0d47319b16775eacc11cf2d1b4ac67\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a0d47319b16775eacc11cf2d1b4ac67\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9f31b34611f2e13222591668ba6725b8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9f31b34611f2e13222591668ba6725b8\AndroidManifest.xml:5:5-7:41
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\55927db25e8657dbe4920595399f2ca6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\55927db25e8657dbe4920595399f2ca6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\vjscoliveira\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5f9112a43e843c099aacdfb05a2c7e6b\AndroidManifest.xml:20:5-44

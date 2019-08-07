@@ -89,7 +89,7 @@ public class AberturaActivityTest {
         Espresso.onView(withId(R.id.spnGrauHipertensao)).perform(click());
         onData(allOf(is(instanceOf(String.class)))).atPosition(1).perform(click());
 
-        Espresso.onView(withId(R.id.txtNumeroTelefone)).perform(typeText("7999999"), closeSoftKeyboard());
+        Espresso.onView(withId(R.id.txtNumeroTelefone)).perform(typeText("7999999"), closeSoftKeyboard()); //ex
 
         onView(withId(R.id.radioMale)).perform(click());
         onView(withId(R.id.radioMale)).check(matches(isChecked()));

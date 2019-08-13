@@ -100,7 +100,6 @@ public class AberturaActivityTest {
         onView(withId(R.id.radioNão)).check(matches(isNotChecked()));
 
         Espresso.onView(withId(R.id.txtNomeContato)).perform(scrollTo(), typeText("Fatima"), closeSoftKeyboard());
-        ;
         Espresso.onView(withId(R.id.txtTelefoneContato)).perform(typeText("799999"), closeSoftKeyboard());
 
         onView(withId(R.id.btnEntrar)).perform(click());

@@ -39,11 +39,10 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
     private EditText txtFrequenciaCardiaca;
     private TextView txtInfoPressao;
     private Button btn_ajuda;
+    private Button btnRegistrar;
 
     RecyclerView recyclerView;
     PressaoArterialAdapter adapter;
-
-    private Button btnRegistrar;
 
 
     @Override
@@ -75,8 +74,6 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
     }
 
-    ;
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
@@ -93,6 +90,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
             double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString().replace(",", "."));
             double pas = Double.parseDouble(txtPressaoSistolica.getText().toString().replace(",", "."));
+
             String informacao = "-";
             String dica = "Continue monitorando sua pressão arterial.";
 
@@ -120,7 +118,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
 
             txtInfoPressao.setText(String.valueOf(informacao));
 
-            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");//formating according to my need
+            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
 
             if (TextUtils.isEmpty(txtFrequenciaCardiaca.getText())) {
                 txtFrequenciaCardiaca.setError("Campo obrigatório");
@@ -173,9 +171,6 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
                                 });
                         alertDialog.show();
                     }
-
-//                    Intent it = new Intent(PressaoArterialActivity.this, HomeActivity.class);
-//                    startActivity(it);
                 }
             }
 
@@ -183,6 +178,10 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
             e.printStackTrace();
 
         }
+    }
+
+    public void classificarPressaoArterial(float pas, float pad){
+
     }
 
     @Override

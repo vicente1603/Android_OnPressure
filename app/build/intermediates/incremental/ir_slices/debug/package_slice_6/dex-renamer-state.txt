@@ -1,4 +1,4 @@
-#Thu Jul 25 13:52:38 GFT 2019
-base.0=C\:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+#Tue Aug 13 13:40:39 GFT 2019
+base.0=C\:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
 path.0=classes.dex
 renamed.0=classes.dex

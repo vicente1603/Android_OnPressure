@@ -1,6 +1,5 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -14,8 +13,6 @@ import br.com.onpressure.projeto.onpressure.Fragmentos.Alimentos_Evitar_Frag;
 import br.com.onpressure.projeto.onpressure.Fragmentos.Ricos_Potassio_Frag;
 import br.com.onpressure.projeto.onpressure.R;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toolbar;
 
 import java.util.ArrayList;

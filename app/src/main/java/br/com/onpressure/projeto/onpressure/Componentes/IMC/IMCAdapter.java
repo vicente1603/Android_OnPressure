@@ -8,17 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.util.List;
 
-import br.com.onpressure.projeto.onpressure.Activities.HistoricoActivity;
-import br.com.onpressure.projeto.onpressure.Activities.HomeActivity;
-import br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial.PressaoArterialHolder;
 import br.com.onpressure.projeto.onpressure.Model.IMC.IMC;
 import br.com.onpressure.projeto.onpressure.Model.IMC.IMCDAO;
-import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterial;
-import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterialDAO;
 import br.com.onpressure.projeto.onpressure.R;
 
 public class IMCAdapter extends RecyclerView.Adapter<IMCHolder>{

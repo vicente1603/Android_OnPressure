@@ -1,16 +1,12 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
-import android.widget.EditText;
 import android.widget.TextView;
-
-import java.util.Calendar;
 
 import br.com.onpressure.projeto.onpressure.Componentes.Usuario.UsuarioAdapter;
 import br.com.onpressure.projeto.onpressure.Model.Usuario.Usuario;

@@ -2,22 +2,17 @@ package br.com.onpressure.projeto.onpressure.Activities;
 
 import android.annotation.TargetApi;
 import android.app.AlarmManager;
-import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.content.Context;
-import android.provider.Settings;
-import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -31,10 +26,8 @@ import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 import br.com.onpressure.projeto.onpressure.Componentes.AlarmReceiver;
-import br.com.onpressure.projeto.onpressure.Model.IMC.IMCDAO;
 import br.com.onpressure.projeto.onpressure.Model.Lembrete.LembreteDAO;
 import br.com.onpressure.projeto.onpressure.R;
 

@@ -1,34 +1,24 @@
 package br.com.onpressure.projeto.onpressure.Activities;
 
 import android.app.AlertDialog;
-import android.app.DatePickerDialog;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
 
-import br.com.onpressure.projeto.onpressure.Componentes.PressaoArterial.PressaoArterialAdapter;
 import br.com.onpressure.projeto.onpressure.Fragmentos.Ajuda_Frag;
-import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterial;
 import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterialDAO;
 import br.com.onpressure.projeto.onpressure.R;
 
@@ -52,7 +42,6 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
         txtFrequenciaCardiaca = findViewById(R.id.txtFrequenciaCardiaca);
         txtPressaoDiastolica = findViewById(R.id.txtPressaoDiastolica);
         txtPressaoSistolica = findViewById(R.id.txtPressaoSistolica);
-        txtInfoPressao = findViewById(R.id.txtInfoPressao);
         btn_ajuda = findViewById(R.id.btn_ajuda);
 
         btnRegistrar.setOnClickListener(this);
@@ -73,14 +62,17 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
     @Override
     public void onClick(View v) {
 
-        double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString().replace(",", "."));
-        double pas = Double.parseDouble(txtPressaoSistolica.getText().toString().replace(",", "."));
+        if (validarCampos() == true) {
+            double pas = Double.parseDouble(txtPressaoSistolica.getText().toString().replace(",", "."));
+            double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString().replace(",", "."));
+            classificarPressaoArterial(pas, pad);
+        }else{
+            Snackbar.make(v, "Verifique os campos obrigatórios", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+        }
 
-        classificarPressaoArterial(pad, pas);
     }
 
     public void classificarPressaoArterial(double pas, double pad) {
-
 
         String informacao = "-";
         String dica = "Continue monitorando sua pressão arterial.";
@@ -106,11 +98,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
             dica = " Verifique novamente em farmácia ou ambulatório, caso persista há necessidade de atendimento médico!";
         }
 
-        txtInfoPressao.setText(String.valueOf(informacao));
-
-        if (validarCampos() == true) {
-            salvarPressaoArterial(informacao, dica);
-        }
+        salvarPressaoArterial(informacao, dica);
     }
 
     public boolean validarCampos() {
@@ -125,9 +113,6 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
             valido = false;
         } else if (TextUtils.isEmpty(txtPressaoSistolica.getText())) {
             txtPressaoSistolica.setError("Campo obrigatório");
-            valido = false;
-        } else if (TextUtils.isEmpty((txtInfoPressao.getText()))) {
-            txtInfoPressao.setError("Campo Obrigatório");
             valido = false;
         } else {
             valido = true;
@@ -154,7 +139,6 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
             txtFrequenciaCardiaca.setText("");
             txtPressaoSistolica.setText("");
             txtPressaoDiastolica.setText("");
-            txtInfoPressao.setText("");
 
             Toast.makeText(PressaoArterialActivity.this, "Dados Salvos com sucesso!", Toast.LENGTH_LONG).show();
 

@@ -68,15 +68,6 @@ public class HistoricoActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     private void configurarRecyclerImc(){
         recyclerView = (RecyclerView)findViewById(R.id.recyclerViewImc);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -107,5 +98,14 @@ public class HistoricoActivity extends AppCompatActivity {
             PA.setVisibility(View.VISIBLE);
             layoutNaoCadastradoPA.setVisibility(View.GONE);
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

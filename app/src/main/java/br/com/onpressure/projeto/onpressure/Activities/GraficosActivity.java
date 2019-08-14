@@ -308,7 +308,6 @@ public class GraficosActivity extends AppCompatActivity {
         return dp;
     }
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {

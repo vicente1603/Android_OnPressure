@@ -41,10 +41,6 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
     private Button btn_ajuda;
     private Button btnRegistrar;
 
-    RecyclerView recyclerView;
-    PressaoArterialAdapter adapter;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,12 +62,126 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
             public void onClick(View v) {
 
                 FragmentManager fm = getFragmentManager();
-                Ajuda_Frag dialogFragment = new Ajuda_Frag ();
+                Ajuda_Frag dialogFragment = new Ajuda_Frag();
                 dialogFragment.show(fm, "Sample Fragment");
 
             }
         });
 
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString().replace(",", "."));
+        double pas = Double.parseDouble(txtPressaoSistolica.getText().toString().replace(",", "."));
+
+        classificarPressaoArterial(pad, pas);
+    }
+
+    public void classificarPressaoArterial(double pas, double pad) {
+
+
+        String informacao = "-";
+        String dica = "Continue monitorando sua pressão arterial.";
+
+        if (pas < 120 && pad < 80) {
+            informacao = "Sua classificação de risco é: Normal.";
+            dica = "Verifique a pressão arterial mensalmente.";
+        }
+        if ((pas >= 120 && pas <= 129) && (pad < 80)) {
+            informacao = "Sua classificação de risco é: Elevada.";
+            dica = "Evite o excesso de peso.";
+        }
+        if ((pas >= 130 && pas <= 139) || (pad >= 80 && pad <= 89)) {
+            informacao = "Sua classificação de risco é: Hipertensão Estágio 1.";
+            dica = "Mantenha uma alimentação saudável.";
+        }
+        if ((pas >= 140) || (pad >= 90)) {
+            informacao = "Sua classificação de risco é: Hipertensão Estágio 2.";
+            dica = "Reduza o consumo de bebidas alcoólicas.";
+        }
+        if ((pas > 180) || (pad > 120)) {
+            informacao = "Sua classificação de risco é: Urgência hipertensiva!";
+            dica = " Verifique novamente em farmácia ou ambulatório, caso persista há necessidade de atendimento médico!";
+        }
+
+        txtInfoPressao.setText(String.valueOf(informacao));
+
+        if (validarCampos() == true) {
+            salvarPressaoArterial(informacao, dica);
+        }
+    }
+
+    public boolean validarCampos() {
+
+        boolean valido = false;
+
+        if (TextUtils.isEmpty(txtFrequenciaCardiaca.getText())) {
+            txtFrequenciaCardiaca.setError("Campo obrigatório");
+            valido = false;
+        } else if (TextUtils.isEmpty(txtPressaoDiastolica.getText())) {
+            txtPressaoDiastolica.setError("Campo obrigatório");
+            valido = false;
+        } else if (TextUtils.isEmpty(txtPressaoSistolica.getText())) {
+            txtPressaoSistolica.setError("Campo obrigatório");
+            valido = false;
+        } else if (TextUtils.isEmpty((txtInfoPressao.getText()))) {
+            txtInfoPressao.setError("Campo Obrigatório");
+            valido = false;
+        } else {
+            valido = true;
+        }
+
+        return valido;
+    }
+
+    public void salvarPressaoArterial(String informacao, String dica) {
+
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+
+        float pressaoDiastolica = Float.parseFloat(txtPressaoDiastolica.getText().toString().replace(",", "."));
+        float pressaoSistolica = Float.parseFloat(txtPressaoSistolica.getText().toString().replace(",", "."));
+        float frequenciaCardiaca = Float.parseFloat(txtFrequenciaCardiaca.getText().toString().replace(",", "."));
+        String infoPressao = informacao;
+        String data = formatter.format(Calendar.getInstance().getTime());
+
+        PressaoArterialDAO dao = new PressaoArterialDAO(getBaseContext());
+        boolean sucesso = dao.salvar(pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, infoPressao, data);
+
+        if (sucesso) {
+
+            txtFrequenciaCardiaca.setText("");
+            txtPressaoSistolica.setText("");
+            txtPressaoDiastolica.setText("");
+            txtInfoPressao.setText("");
+
+            Toast.makeText(PressaoArterialActivity.this, "Dados Salvos com sucesso!", Toast.LENGTH_LONG).show();
+
+            if (informacao.equals("-")) {
+                AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
+                alertDialog.setTitle("Dados coletados com sucesso.");
+                alertDialog.setMessage(dica);
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.show();
+            } else {
+                AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
+                alertDialog.setTitle("Dados coletados com sucesso.");
+                alertDialog.setMessage(informacao + " - " + dica);
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.show();
+            }
+        }
     }
 
     @Override
@@ -81,107 +191,6 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void onClick(View v) {
-
-        try {
-
-            double pad = Double.parseDouble(txtPressaoDiastolica.getText().toString().replace(",", "."));
-            double pas = Double.parseDouble(txtPressaoSistolica.getText().toString().replace(",", "."));
-
-            String informacao = "-";
-            String dica = "Continue monitorando sua pressão arterial.";
-
-
-            if (pas < 120 && pad < 80) {
-                informacao = "Sua classificação de risco é: Normal.";
-                dica = "Verifique a pressão arterial mensalmente.";
-            }
-            if ((pas >= 120 && pas <= 129) && (pad < 80)) {
-                informacao = "Sua classificação de risco é: Elevada.";
-                dica = "Evite o excesso de peso.";
-            }
-            if ((pas >= 130 && pas <= 139) || (pad >= 80 && pad <= 89)) {
-                informacao = "Sua classificação de risco é: Hipertensão Estágio 1.";
-                dica = "Mantenha uma alimentação saudável.";
-            }
-            if ((pas >= 140) || (pad >= 90)) {
-                informacao = "Sua classificação de risco é: Hipertensão Estágio 2.";
-                dica = "Reduza o consumo de bebidas alcoólicas.";
-            }
-            if ((pas > 180) || (pad > 120)) {
-                informacao = "Sua classificação de risco é: Urgência hipertensiva!";
-                dica = " Verifique novamente em farmácia ou ambulatório, caso persista há necessidade de atendimento médico!";
-            }
-
-            txtInfoPressao.setText(String.valueOf(informacao));
-
-            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-
-            if (TextUtils.isEmpty(txtFrequenciaCardiaca.getText())) {
-                txtFrequenciaCardiaca.setError("Campo obrigatório");
-            } else if (TextUtils.isEmpty(txtPressaoDiastolica.getText())) {
-                txtPressaoDiastolica.setError("Campo obrigatório");
-            } else if (TextUtils.isEmpty(txtPressaoSistolica.getText())) {
-                txtPressaoSistolica.setError("Campo obrigatório");
-            } else if (TextUtils.isEmpty((txtInfoPressao.getText()))) {
-                txtInfoPressao.setError("Campo Obrigatório");
-            } else {
-
-                float pressaoDiastolica = Float.parseFloat(txtPressaoDiastolica.getText().toString().replace(",", "."));
-                float pressaoSistolica = Float.parseFloat(txtPressaoSistolica.getText().toString().replace(",", "."));
-                float frequenciaCardiaca = Float.parseFloat(txtFrequenciaCardiaca.getText().toString().replace(",", "."));
-                String infoPressao = informacao;
-                String data = formatter.format(Calendar.getInstance().getTime());
-
-                PressaoArterialDAO dao = new PressaoArterialDAO(getBaseContext());
-                boolean sucesso = dao.salvar(pressaoDiastolica, pressaoSistolica, frequenciaCardiaca, infoPressao, data);
-
-                if (sucesso) {
-
-                    txtFrequenciaCardiaca.setText("");
-                    txtPressaoSistolica.setText("");
-                    txtPressaoDiastolica.setText("");
-                    txtInfoPressao.setText("");
-
-                    Toast.makeText(PressaoArterialActivity.this, "Dados Salvos com sucesso!", Toast.LENGTH_LONG).show();
-
-                    if(informacao.equals("-")){
-                        AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
-                        alertDialog.setTitle("Dados coletados com sucesso.");
-                        alertDialog.setMessage(dica);
-                        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                                new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        dialog.dismiss();
-                                    }
-                                });
-                        alertDialog.show();
-                    }else {
-                        AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
-                        alertDialog.setTitle("Dados coletados com sucesso.");
-                        alertDialog.setMessage(informacao + " - " + dica);
-                        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                                new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        dialog.dismiss();
-                                    }
-                                });
-                        alertDialog.show();
-                    }
-                }
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-
-        }
-    }
-
-    public void classificarPressaoArterial(float pas, float pad){
-
     }
 
     @Override

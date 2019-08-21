@@ -12,7 +12,6 @@ public class PressaoArterial implements Serializable {
     private String data;
 
     public PressaoArterial(int id, float pressaoDiastolica, float pressaoSistolica, float frequenciaCardiaca, String infoPressao, String data){
-        this.id = id;
         this.pressaoDiastolica = pressaoDiastolica;
         this.pressaoSistolica = pressaoSistolica;
         this.frequenciaCardiaca = frequenciaCardiaca;

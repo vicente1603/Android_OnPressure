@@ -34,9 +34,8 @@ public class CalculoImcActivityTest {
     @Test
     public void preencherECalcularImcComSucesso() {
 
-        Espresso.onView(withId(R.id.txtPeso)).perform(typeText("80"), closeSoftKeyboard());
-        Espresso.onView(withId(R.id.txtAltura)).perform(typeText("180"), closeSoftKeyboard());
+        onView(withId(R.id.txtPeso)).perform(typeText("800"), closeSoftKeyboard());
+        onView(withId(R.id.txtAltura)).perform(typeText("180"), closeSoftKeyboard());
         onView(withId(R.id.btnCalcular)).perform(click());
     }
-
 }

@@ -32,7 +32,7 @@ public class GraficosActivity extends AppCompatActivity {
     LinearLayout layout_graphPAS, layout_graphPAD, layout_graphPADePAD;
     SQLiteDatabase sqLiteDatabase;
     int id, pas;
-    Button btnPAS, btnPAD, btnPADePAD;
+    Button btnPAS, btnPAD, btnPASePAD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class GraficosActivity extends AppCompatActivity {
         layout_graphPADePAD = findViewById(R.id.layout_graphPADePAD);
         btnPAS = findViewById(R.id.btnPAS);
         btnPAD = findViewById(R.id.btnPAD);
-        btnPADePAD = findViewById(R.id.btnPADePAD);
+        btnPASePAD = findViewById(R.id.btnPASePAD);
 
         myHelper = new DbHelper(this);
         sqLiteDatabase = myHelper.getWritableDatabase();
@@ -68,7 +68,7 @@ public class GraficosActivity extends AppCompatActivity {
             }
         });
 
-        btnPADePAD.setOnClickListener(new View.OnClickListener() {
+        btnPASePAD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 layout_graphPADePAD.setVisibility(View.VISIBLE);

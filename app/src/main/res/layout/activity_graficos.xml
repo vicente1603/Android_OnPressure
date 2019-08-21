@@ -19,7 +19,7 @@
         tools:layout_editor_absoluteY="0dp">
 
         <Button
-            android:id="@+id/btnPADePAD"
+            android:id="@+id/btnPASePAD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -27,7 +27,7 @@
 
             android:layout_alignParentBottom="true"
             android:background="@drawable/btn_primary_effect"
-            android:text="PAD e PAD"
+            android:text="PAS e PAD"
             android:textColor="@drawable/text_color_primary_pressed"
             android:textStyle="bold" />
 

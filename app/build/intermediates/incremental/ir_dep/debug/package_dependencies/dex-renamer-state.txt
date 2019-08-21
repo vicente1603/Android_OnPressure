@@ -1,4 +1,4 @@
-#Sun Aug 18 11:46:40 BRT 2019
-base.0=D\:\\Documents\\Desenvolvimento\\AndroidStudioProjects\\SobPressao\\SobPressao\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Wed Aug 21 16:30:18 GFT 2019
+base.0=C\:\\Users\\vjscoliveira\\Desktop\\SobPressao\\SobPressao\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
 path.0=classes.dex
 renamed.0=classes.dex

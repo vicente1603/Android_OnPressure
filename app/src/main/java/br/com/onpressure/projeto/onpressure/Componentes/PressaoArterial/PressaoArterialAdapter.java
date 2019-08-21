@@ -11,7 +11,6 @@ import android.widget.Button;
 
 import java.util.List;
 
-import br.com.onpressure.projeto.onpressure.Componentes.Usuario.UsuarioHolder;
 import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterial;
 import br.com.onpressure.projeto.onpressure.Model.PressaoArterial.PressaoArterialDAO;
 import br.com.onpressure.projeto.onpressure.R;

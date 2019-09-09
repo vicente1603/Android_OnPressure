@@ -150,7 +150,7 @@ public class HomeActivity extends AppCompatActivity
 
         if (id == R.id.sair) {
 
-            finish();
+            finishAffinity();
         }
 
         return super.onOptionsItemSelected(item);

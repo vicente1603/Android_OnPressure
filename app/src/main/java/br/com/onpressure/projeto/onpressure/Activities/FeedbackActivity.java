@@ -19,8 +19,8 @@ public class FeedbackActivity extends AppCompatActivity {
     ImageButton mal;
     TextView txtStatus;
     Button btnConfirmar;
+    int unicode = 0x1F60A;
 //    private static final String PREFERENCE = "Preferencia";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,28 +38,28 @@ public class FeedbackActivity extends AppCompatActivity {
         feliz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtStatus.setText("Muito bem");
+                txtStatus.setText("Muito bem :)");
             }
         });
 
         regular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtStatus.setText("Regular");
+                txtStatus.setText("Regular :|");
             }
         });
 
         naotaobem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtStatus.setText("Não tão bem");
+                txtStatus.setText("Não tão bem :/");
             }
         });
 
         mal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtStatus.setText("Mal");
+                txtStatus.setText("Mal :(");
             }
         });
 

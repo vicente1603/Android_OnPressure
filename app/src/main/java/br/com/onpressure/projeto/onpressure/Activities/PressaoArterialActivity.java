@@ -156,7 +156,7 @@ public class PressaoArterialActivity extends AppCompatActivity implements View.O
             } else {
                 AlertDialog alertDialog = new AlertDialog.Builder(PressaoArterialActivity.this).create();
                 alertDialog.setTitle("Dados coletados com sucesso.");
-                alertDialog.setMessage(informacao + " - " + dica);
+                alertDialog.setMessage(informacao);
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {

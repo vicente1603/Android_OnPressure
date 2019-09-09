@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Aug 18 11:46:45 BRT 2019
+#Mon Sep 09 11:33:54 BRT 2019
 1.base=D\:\\Documents\\Desenvolvimento\\AndroidStudioProjects\\SobPressao\\SobPressao\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 2.path=classes.dex
 0.baseType=DIRECTORY

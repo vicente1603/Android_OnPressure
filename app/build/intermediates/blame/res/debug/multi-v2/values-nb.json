@@ -4,7 +4,7 @@
             "outputFile": "D:\\Documents\\Desenvolvimento\\AndroidStudioProjects\\SobPressao\\SobPressao\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\caad25bab3992a3f2012c21def40401a\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ceb7dfcb88da61c945deef21db828bc9\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\7a35a5db736317ac4d825ff75bc8dd2a\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\fsco1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1475a73b65c7a311622b978c80fee29e\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

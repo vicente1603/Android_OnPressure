@@ -92,7 +92,7 @@
 
         <activity
             android:name="br.com.onpressure.projeto.onpressure.Activities.FaleConoscoActivity"
-            android:label="Fale Conosco"
+            android:label="Créditos"
             android:screenOrientation="portrait" />
     </application>
 
